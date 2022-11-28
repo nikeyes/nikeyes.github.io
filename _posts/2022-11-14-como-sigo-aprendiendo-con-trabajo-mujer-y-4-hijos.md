@@ -47,7 +47,7 @@ He trabajado como Backend, SRE, Tech Lead, Engineering Manager y últimamente di
 
 El desarrollo de software es una profesión que aunque estés 2 años en un mismo rol y en una misma empresa, necesitas adquirir nuevos conocimientos, herramientas y habilidades.
 
-Nunca me había parado a pesar cómo me mantengo actualizado.
+Nunca me había parado a pensar cómo me mantengo actualizado.
 Pensarlo me ha hecho ser consciente de que sigo un proceso y he intentado estructurarlo para poder explicarlo.
 
 A lo mejor alguna cosa te sirve.
@@ -147,9 +147,9 @@ Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="
 
 - Es un proceso lento. Con otro contexto podrías hacerlo en una tarde, pero si no tienes una tarde, poco a poco puedes conseguir los mismos resultados.
 
-- La clave están en:
+- La clave está en:
   - Trocear mucho lo que quieres aprender.
-  - Ten siempre todo preparado suponiendo que solo vas a tener 30 minutos libres:
+  - Ten siempre todo preparado suponiendo que sólo vas a tener 30 minutos libres:
     - Si son libros, a la vista y marcados por dónde ibas.
     - Si es desarrollo, el IDE abierto y preparado.
     - La documentación, tutorial o video en el punto para empezar. 
@@ -170,7 +170,7 @@ Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="
 
 - Asume que **no puedes aprender todo lo que quieres** y no pasa absolutamente nada.
 
-- Elige un tema, **solo un tema** y durante un tiempo enfócate solo en ese tema.
+- Elige un tema, **sólo un tema** y durante un tiempo enfócate solo en ese tema.
 
 - <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/#para-mantenerme-actualizado-necesito-tener-fuentes-de-conocimiento" target="_blank">**Recopila información**</a> relacionada con el tema durante un tiempo: capítulos de libros, cursos, tutoriales, podcasts, lo que creas que te ayudará para empezar a aprender.
 
