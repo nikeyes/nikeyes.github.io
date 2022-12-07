@@ -160,6 +160,9 @@ Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="
 - Como dice [Tony Robbins](https://twitter.com/TonyRobbins)
 > - No importa lo mal o lento que vayan las cosas, sigues estando muy por delante de todos los que ni siquiera lo intentan.
 
+- Está forma de aprender hace que empiece algunos temas y entre parón y parón ya no tenga ganas de continuar con ellos.
+- Para mí eso significa que ese tema o no es tan importante como creía, o no lo necesito tanto como esperaba y no pasa nada, a lo mejor lo retomo en un futuro, o no.
+
 ## ¿Y si solo tengo 5 minutos libres?
 - Si solo tienes 5 minutos libres es que estás priorizando otras cosas por delante de tu aprendizaje. 
 - O cambias las prioridades o asumes que solo podrás leer alguna cosa de vez en cuando. 
