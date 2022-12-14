@@ -122,7 +122,7 @@ Actualmente mis fuentes de conocimiento son:
 	- Temas tech, desarrollo de software, ML, etc..
 	- Temas de productividad, management, mejora personal, etc..
 - Puedes <a href="https://medium.com/me/readinghistory" target="_blank">refinar las recomendaciones</a> y <a href="https://medium.com/me/following" target="_blank">cambiar los topics que sigues</a>.  
-![medium_refine_recommendations.png]({{ site.baseurl }}/images/2022-11-13-como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/medium_refine_recommendations.jpg)
+![medium_refine_recommendations.png]({{ site.baseurl }}/images/2022-11-13-como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/medium_refine_recommendations.png)
 
 
 - Muchos días solo leo el subject de los Daily Digest (suele ser el título del primer artículo). Si no me interesa ni lo abro.
