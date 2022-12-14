@@ -121,7 +121,10 @@ Actualmente mis fuentes de conocimiento son:
 - En cada cuenta recibo temas diferentes:
 	- Temas tech, desarrollo de software, ML, etc..
 	- Temas de productividad, management, mejora personal, etc..
-- Puedes <a href="https://medium.com/me/readinghistory" target="_blank">refinar las recomendaciones</a> y <a href="https://medium.com/me/following" target="_blank">cambiar los topics que sigues</a>.
+- Puedes <a href="https://medium.com/me/readinghistory" target="_blank">refinar las recomendaciones</a> y <a href="https://medium.com/me/following" target="_blank">cambiar los topics que sigues</a>.  
+![medium_refine_recommendations.jpg]({{ site.baseurl }}/images/2022-11-13-como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/medium_refine_recommendations.jpg)
+
+
 - Muchos días solo leo el subject de los Daily Digest (suele ser el título del primer artículo). Si no me interesa ni lo abro.
 - Si abro el mail, leo como máximo el título de los 3 primeros artículos del mail.
 - Es la forma de no recopilar información infinita, porque si miras hasta el final, siempre encuentras algo que te llama la atención.
