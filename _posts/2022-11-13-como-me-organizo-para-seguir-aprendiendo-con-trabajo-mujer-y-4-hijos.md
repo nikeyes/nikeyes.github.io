@@ -62,7 +62,7 @@ Además tengo una opinión bastante impopular:
   - Cada uno elegimos en qué las dedicamos. 
   - Menos respirar, y unas cuantas horas de sueño, el resto del tiempo decidimos de forma consciente en qué lo invertimos.
 
-Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="_blank">Twitter</a> y lo discutimos 😜
+Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="_blank">Twitter</a> o <a href="https://masto.es/@nikey_es" target="_blank">Mastodon</a> y lo discutimos 😜
 
 ## ¿Cómo me organizo?
 
