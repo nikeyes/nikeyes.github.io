@@ -68,7 +68,7 @@ Además tengo una opinión bastante impopular:
   - Cada uno elegimos en qué las dedicamos. 
   - Menos respirar, y unas cuantas horas de sueño, el resto del tiempo decidimos de forma consciente en qué lo invertimos.
 
-Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="_blank">Twitter</a> y lo discutimos 😜
+Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="_blank">Twitter</a> o <a href="https://masto.es/@nikey_es" target="_blank">Mastodon</a> y lo discutimos 😜
 
 ## ¿Cuándo leo cosas nuevas?
 - Si quieres entender cómo recopilo y uso mis fuentes de conocimiento puedes leerleerlo <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos" target="_blank">aquí</a> 
