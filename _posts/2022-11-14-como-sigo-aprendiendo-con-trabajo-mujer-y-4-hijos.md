@@ -166,7 +166,7 @@ Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="
 ## ¿Y si solo tengo 5 minutos libres?
 - Si solo tienes 5 minutos libres es que estás priorizando otras cosas por delante de tu aprendizaje. 
 - O cambias las prioridades o asumes que solo podrás leer alguna cosa de vez en cuando. 
-- Para solo leer sin tiempo de práctica, mejor usa esos 5 minutos para descansar y desconectar que te hace falta.
+- Para solo leer sin tiempo de práctica, mejor usa esos 5 minutos para descansar y desconectar, que te hace falta.
 
 ## Resumen 
 - Para aprender vas a necesitar motivación, pero la motivación se te va a acabar. Lo que de verdad necesitas es mucha **fuerza de voluntad y constancia**.
