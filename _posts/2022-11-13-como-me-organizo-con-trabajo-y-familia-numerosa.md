@@ -19,7 +19,7 @@ published: true
 
 Para aprender necesito recopilar, procesar y organizar información.
 
-Con una mezcla de configuración de mis redes sociales, Getting Things Done (GTD) y la creación de mi cerebro digital, he encontrado mi forma de seguir aprendiendo con un trabajo exigente, mujer y 4 hijos.
+Con una mezcla de configuración de mis redes sociales, Getting Things Done (GTD) y la creación de mi cerebro digital, he encontrado mi forma de seguir aprendiendo con un trabajo exigente, y familia numerosa.
 
 Si quieres saber cómo lo hago tendrás que seguir leyendo.
 
