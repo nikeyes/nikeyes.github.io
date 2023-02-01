@@ -38,7 +38,7 @@ Si quieres saber como llego a esa **práctica deliberada** con un trabajo exigen
 8. [¿Y si solo tengo 5 minutos libres?](#y-si-solo-tengo-5-minutos-libres)
 8. [Resumen](#resumen)
 
-Para aprender tengo que recopilar información y tenerla siempre disponible y a punto. Tengo mi forma de organizarme y de capturar información para aprender. Si te interesa el tema puedes leerlo <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos" target="_blank">aquí</a> 
+Para aprender tengo que recopilar información y tenerla siempre disponible y a punto. Tengo mi forma de organizarme y de capturar información para aprender. Si te interesa el tema puedes leerlo <a href="https://nikeyes.github.io/como-me-organizo-con-trabajo-y-familia-numerosa" target="_blank">aquí</a> 
 
 ## ¿Por qué sigo aprendiendo?
 
@@ -71,14 +71,14 @@ Además tengo una opinión bastante impopular:
 Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="_blank">Twitter</a> o <a href="https://masto.es/@nikey_es" target="_blank">Mastodon</a> y lo discutimos 😜
 
 ## ¿Cuándo leo cosas nuevas?
-- Si quieres entender cómo recopilo y uso mis fuentes de conocimiento puedes leerleerlo <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos" target="_blank">aquí</a> 
+- Si quieres entender cómo recopilo y uso mis fuentes de conocimiento puedes leerleerlo <a href="https://nikeyes.github.io/como-me-organizo-con-trabajo-y-familia-numerosa" target="_blank">aquí</a> 
 - Cada semana "me comprometo" a usar 2 fuentes de conocimiento ya sean artículos, capítulos de libros, videos. 
 - Ahora mismo tengo 2 grupos:
 	- Selecciono 1 fuente sobre Machine Learning. (Ahora estoy aprendiedo sobre modelos de difusión como Stable Diffusion. Si te interesa el tema, estas son <a href="https://nikeyes.github.io/recursos-para-usar-stable-diffusion/" target="_blank">mis notas de lo último que he aprendido</a>)
 	- Selecciono 1 fuente que me apetezca de las que tengo recopiladas, sea de lo que sea. Desde videojuegos, crianza, jardinería, magia, etc. Cualquier cosa no relacionada con la primera fuente. (A no ser que me apetezca leer más cosas sobre lo anterior 😅)
 
 ## ¿Y esto es suficiente? 
-- Pues no. Esto solo sirve para leer y <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/#qu%C3%A9-son-notas-at%C3%B3micas-altamente-enlazadas" target="_blank">tomar notas</a> de nuevas cosas o profundizar en lo que quiero aprender. 
+- Pues no. Esto solo sirve para leer y <a href="https://nikeyes.github.io/como-me-organizo-con-trabajo-y-familia-numerosa/#qu%C3%A9-son-notas-at%C3%B3micas-altamente-enlazadas" target="_blank">tomar notas</a> de nuevas cosas o profundizar en lo que quiero aprender. 
 
 - Leer y leer sin practicar a mí no me funciona.
 
@@ -98,7 +98,7 @@ Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="
 - Intento seguir el siguiente proceso:
 	- Me hago las siguientes preguntas: Si tengo que explicárselo a alguien que no sabe del tema ¿Qué le explicaría? ¿Cómo se lo explicaría? ¿Por dónde empezaría la explicación?
 	- Divido lo que quiero aprender en partes pequeñas y manejables.
-	- Recopilo <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/#para-mantenerme-actualizado-necesito-tener-fuentes-de-conocimiento" target="_blank">mis fuentes de información</a>
+	- Recopilo <a href="https://nikeyes.github.io/como-me-organizo-con-trabajo-y-familia-numerosa/#para-mantenerme-actualizado-necesito-tener-fuentes-de-conocimiento" target="_blank">mis fuentes de información</a>
 	- Busco la forma de recibir feedback lo más inmediato posible de cada una de las partes que he dividido. Por ejemplo, código funcionando, llevar una conversación con la técnica que quería aprender, etc.
 	- Y me planteo continuamente cómo podía haber aprendido mejor y más rápido.
 
@@ -137,7 +137,7 @@ Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="
 - Aprenderás lento, pero si eres constante puedes aprender igual.
 - Cuando voy a tener muy poca disponibilidad troceo mucho lo que quiero aprender y elijo cosas muy concretas para practicar.
 - Por ejemplo, si quiero aprender testing en legacy code:
-  - En mis primeros huecos disponibles recupero posts o capítulos de libros que <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/#para-mantenerme-actualizado-necesito-tener-fuentes-de-conocimiento" target="_blank">tengo guardados sobre el tema</a>. 
+  - En mis primeros huecos disponibles recupero posts o capítulos de libros que <a href="https://nikeyes.github.io/como-me-organizo-con-trabajo-y-familia-numerosa/#para-mantenerme-actualizado-necesito-tener-fuentes-de-conocimiento" target="_blank">tengo guardados sobre el tema</a>. 
   - Si creo que sigo necesitando más información, en los siguientes huecos busco nueva información sobre el tema.
   - Después voy leyendo/viendo, tomando notas y decidiendo qué tema concreto practicaré.
   - Por ejemplo, decido practicar "Approval Testing"
@@ -175,9 +175,9 @@ Cuando quieras me lo rebates por <a href="https://twitter.com/nikey_es" target="
 
 - Elige un tema, **sólo un tema** y durante un tiempo enfócate solo en ese tema.
 
-- <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/#para-mantenerme-actualizado-necesito-tener-fuentes-de-conocimiento" target="_blank">**Recopila información**</a> relacionada con el tema durante un tiempo: capítulos de libros, cursos, tutoriales, podcasts, lo que creas que te ayudará para empezar a aprender.
+- <a href="https://nikeyes.github.io/como-me-organizo-con-trabajo-y-familia-numerosa/#para-mantenerme-actualizado-necesito-tener-fuentes-de-conocimiento" target="_blank">**Recopila información**</a> relacionada con el tema durante un tiempo: capítulos de libros, cursos, tutoriales, podcasts, lo que creas que te ayudará para empezar a aprender.
 
-- <a href="https://nikeyes.github.io/como-me-organizo-para-seguir-aprendiendo-con-trabajo-mujer-y-4-hijos/" target="_blank">**Organízate la información**</a> para tenerla siempre accesible de forma rápida.
+- <a href="https://nikeyes.github.io/como-me-organizo-con-trabajo-y-familia-numerosa/" target="_blank">**Organízate la información**</a> para tenerla siempre accesible de forma rápida.
 
 - Elige algo práctico donde aplicar lo que vas a aprender y usa cada minuto que tengas para aprender usando **práctica deliberada**.
 
