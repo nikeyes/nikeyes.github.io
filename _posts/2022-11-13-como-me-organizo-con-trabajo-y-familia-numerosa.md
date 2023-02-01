@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Como me organizo para seguir aprendiendo con trabajo, mujer y 4 hijos
+title: Cómo me organizo con trabajo y familia numerosa
 categories:
   - buenas prácticas
   - conciliación
