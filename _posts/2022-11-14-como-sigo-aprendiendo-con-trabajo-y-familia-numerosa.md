@@ -23,7 +23,7 @@ Y no pasa absolutamente nada.
 
 Si quieres llevarte una sola idea, **aprende haciendo** (learning by doing) pero haciendo **práctica deliberada**.
 
-Si quieres saber como llego a esa **práctica deliberada** con un trabajo exigente, mujer y 4 hijos... Tendrás que seguir leyendo.
+Si quieres saber como llego a esa **práctica deliberada** con un trabajo exigente y familia numerosa... Tendrás que seguir leyendo.
 
 ## Índice
 1. [¿Por qué sigo aprendiendo?](#por-qué-sigo-aprendiendo)
