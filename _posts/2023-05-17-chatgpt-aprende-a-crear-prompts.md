@@ -8,7 +8,7 @@ tags:
   - ChatGPT
   - mejora continua
   - prompt engineering
-published: true
+published: false
 ---
 
 > “Las IAs no te van a reemplazar pero la gente que sepa usar las IAs sí.” ― Jorge Castro 
@@ -59,7 +59,7 @@ published: true
 
   ## Separa el contexto con carácteres especiales
   - Te ayudará a que el modelo funcione mejor
-  - Evitarás [Prompt Injection](https://learnprompting.org/docs/prompt_hacking/injection)
+  - Evitarás <a href="https://learnprompting.org/docs/prompt_hacking/injection" target="_blank">Prompt Injection</a>
   - Ejemplo de prompt con buenas práctica:
 	```
   Actúa como un periodista y resume el texto delimitado por las comillas triples en una sola frase. """Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"""
