@@ -8,7 +8,7 @@ tags:
   - ChatGPT
   - mejora continua
   - prompt engineering
-published: false
+published: true
 ---
 
 > “Las IAs no te van a reemplazar, pero la gente que sepa usar las IAs mejor que tú, sí.” ― Jorge Castro 
