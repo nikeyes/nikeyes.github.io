@@ -39,13 +39,13 @@ published: true
 
 ## 3. Utiliza verbos para indicar la acción que tiene que hacer
   - Hay infinitos, pero los típicos suelen ser:
-	- Escribe
-	- Resume (Usando bullet points de las ideas principales o elementos importantes)
-	- Crea (un script, un programa, etc.)
-	- Traduce (al castellano pirata)
-	- Define
-	- Explica
-  - etc... 
+	  - Escribe
+	  - Resume (Usando bullet points de las ideas principales o elementos importantes)
+	  - Crea (un script, un programa, etc.)
+	  - Traduce (al castellano pirata)
+	  - Define
+	  - Explica
+    - etc... 
 	
  
 > Explícame el siguiente código en python:  
@@ -59,7 +59,7 @@ published: true
 
 
 ## 4. Separa el contexto con carácteres especiales
-  - Te ayudará a que el modelo funcione mejor
+  - Te ayudará a que el modelo funcione mejor.
   - Evitarás <a href="https://learnprompting.org/docs/prompt_hacking/injection" target="_blank">Prompt Injection</a>
   - Ejemplo de prompt con buenas práctica:
 	 
@@ -81,12 +81,13 @@ published: true
 
   ![output-mermaid-playground.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/output-mermaid-playground.png)  
 
+
 # 7. Puedes usar el negativo en los prompts para ser más detallado
 - No escribas sobre X
 - Solo explícame X
 - Por ejemplo:
 
-> Actúa como un experto crítico de cine. Hazme un resumen de las 10 mejores películas estrenadas en 2019, pero no escribas sobre ninguna película de terror ni romance
+> Actúa como un experto crítico de cine. Hazme un resumen de las 5 mejores películas estrenadas en 2019, pero no escribas sobre ninguna película de terror ni romance
 
 ![pelis-2019-critico.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/pelis-2019-critico.png)  
 
@@ -95,37 +96,38 @@ published: true
 ![pelis-2019-adolescente.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/pelis-2019-adolescente.png)  
 
 
-## 8. Funciona mejor si le dejas pensar
+##  8. Funciona mejor si le dejas pensar
 Cuando quieras que razone o te explique algo usa prompts como:
 - Piensa paso a paso
 - En primer lugar, piensa paso a paso por qué X podría ser verdadero y luego explícame la respuesta de forma razonada.
 - Dame instrucciones paso a paso para XYZ
 - En primer lugar, elabora tu propia solución al problema y luego...
 
+
 ## 9. Indica el canal de comunicación
 - Si indicas el canal de comunicación el resultado es muy diferente.
 - Si le dices que es para un blog, para Twitter, para LinkedIn o un guión de YouTube lo hará específico para ese canal.
 
-## 10. Ten en cuenta el estilo y el tono
+
+## 10. Ten en cuenta el estilo y el tono
 Por ejemplo:
 - Usa un estilo de escritura informativo y periodístico
-- Usa un estilo de escritura y crítico y polémico
+- Usa un estilo de escritura crítico y polémico
 
-## 11. Ten en cuenta la Audiencia
+
+## 11. Ten en cuenta la audiencia
 No es lo mismo escribir un texto dirigido a un grupo de niños de preescolar que un texto para el grupo de decanos de tu universidad.
 
 Por ejemplo: 
 
-```
-Escribe una poesía corta. El público objetivo son desarrolladores con menos de 1 año de experiencia.
-```
+> Escribe una poesía corta. El público objetivo son desarrolladores con menos de 1 año de experiencia.
 
 ![crear-poesía-desarrolladores-junior.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/crear-poesía-desarrolladores-junior.png)  
 
 > Escribe una poesía corta. El público objetivo son desarrolladores con más de 20 años de experiencia.
 
-
 ![crear-poesía-desarrolladores-senior.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/crear-poesía-desarrolladores-senior.png)
+
 
 ## 12. Usa la creatividad de ChatGPT
 Usa esta frase como parte de tu prompt para buscar nuevos enfoques:
@@ -133,6 +135,9 @@ Usa esta frase como parte de tu prompt para buscar nuevos enfoques:
 > Genera ángulos o estrategias únicas y enfatiza las ideas innovadoras para el tema
 
 
-## 13. Incluso puedes usar un Prompt creador de prompts
+## 13. Incluso puedes usar un prompt creador de prompts
 
 Aquí tienes un link a un <a href="https://www.ordinarypeopleprompts.com/item-detail?recordId=recVbgybDLlYmsvuA" target="_blank">prompt creador de prompts</a> 
+
+
+Si encuentras nuevas ideas para crear tus prompts puedes contármelas en <a href="https://twitter.com/nikey_es" target="_blank">twitter</a>
