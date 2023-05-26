@@ -129,7 +129,7 @@ Por ejemplo:
 ![crear-poesía-desarrolladores-senior.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/crear-poesía-desarrolladores-senior.png)
 
 
-## 12. Usa la creatividad de ChatGPT
+## 12. Usa la creatividad de ChatGPT
 Usa esta frase como parte de tu prompt para buscar nuevos enfoques:
 
 > Genera ángulos o estrategias únicas y enfatiza las ideas innovadoras para el tema
