@@ -8,7 +8,7 @@ tags:
   - ChatGPT
   - mejora continua
   - prompt engineering
-published: false
+published: true
 ---
 
 > “Alguien con la mitad de tu coeficiente intelectual está ganando 10 veces más que tú porque no es lo suficientemente inteligente como para dudar de sí mismo” ― Ed Latimore  
