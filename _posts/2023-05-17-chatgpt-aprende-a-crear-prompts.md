@@ -29,15 +29,15 @@ published: true
 ![jesus-nazaret.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/jesus-nazaret.png)
 
 ## 2. Cuidado con el contexto del chat
-  - CharGPT utiliza como contexto todo lo que hay antes de tu pregunta. 
-  - Si en el acertijo anterior responde sandía, por mucho que cambies el prompt, seguirá diciendo sandiá.
+  - ChatGPT utiliza como contexto todo lo que hay antes de tu pregunta. 
+  - Si en el acertijo anterior responde sandía, por mucho que cambies el prompt, seguirá diciendo sandía.
   - Es muy difícil sacarlo de ese contexto:
 
   ![olvida-contexto.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/olvida-contexto.png)
 
   - La mejor forma de eliminar el contexto es empezar un nuevo chat.
 
-## 3. Utiliza verbos para indicar al acción que tiene que hacer
+## 3. Utiliza verbos para indicar la acción que tiene que hacer
   - Hay infinitos, pero los típicos suelen ser:
 	- Escribe
 	- Resume (Usando bullet points de las ideas principales o elementos importantes)
@@ -67,15 +67,15 @@ published: true
    
 
 ## 5. Cuidado con los símbolos y faltas de ortografía porque pueden cambiar el comportamiento
-- Poner solo un simbolo de interrogación en una pregunta en castellano o tener faltas de ortografía pueden hacer que la respuesta no sea la correcta y genere más alucionaciones de lo normal.
+- Poner solo un símbolo de interrogación en una pregunta en castellano o tener faltas de ortografía pueden hacer que la respuesta no sea la correcta y genere más alucinaciones de lo normal.
 
 
-## 6. Indica como quieres el formato de la respuesta
+## 6. Indica cómo quieres el formato de la respuesta
   - Dame solo la respuesta corta y la información adicional en un apartado separado llamado: "Información adicional"
   - Presenta la información en una Tabla, Lista, JSON, HTML.....
   - Añade emojis
   - Añade encabezados y subtítulos para que la estructura sea más legible. Por ejemplo: Quiero saber las ventajas y desventajas de un Open Space. Añade subtítulos para las ventajas y desventajas.
-  - Includo puedes pedirle que te devuelva diagramas <a href="https://mermaid.js.org/" target="_blank">Mermaid.js</a>  
+  - Incluso puedes pedirle que te devuelva diagramas <a href="https://mermaid.js.org/" target="_blank">Mermaid.js</a>  
 
   ![output-mermaid.png]({{ site.baseurl }}/images/2023-05-17-chatgpt-aprende-a-crear-prompts/output-mermaid.png)  
 
@@ -98,13 +98,13 @@ published: true
 ## 8. Funciona mejor si le dejas pensar
 Cuando quieras que razone o te explique algo usa prompts como:
 - Piensa paso a paso
-- En primer lugar, piensa paso a paso por qué X podría ser verdadero y luego explicame la respuesta de forma razonada.
+- En primer lugar, piensa paso a paso por qué X podría ser verdadero y luego explícame la respuesta de forma razonada.
 - Dame instrucciones paso a paso para XYZ
 - En primer lugar, elabora tu propia solución al problema y luego...
 
 ## 9. Indica el canal de comunicación
 - Si indicas el canal de comunicación el resultado es muy diferente.
-- Si le dices que es para un blog, para Twitter, para LinkedIn o un guión de YouTube lo hará expecífico para ese canal.
+- Si le dices que es para un blog, para Twitter, para LinkedIn o un guión de YouTube lo hará específico para ese canal.
 
 ## 10. Ten en cuenta el estilo y el tono
 Por ejemplo:
@@ -112,7 +112,7 @@ Por ejemplo:
 - Usa un estilo de escritura y crítico y polémico
 
 ## 11. Ten en cuenta la Audiencia
-No es lo mismo escribir un texto dirigido a un grupo de niños de prescolar que un texto para el grupo de decanos de tu universidad.
+No es lo mismo escribir un texto dirigido a un grupo de niños de preescolar que un texto para el grupo de decanos de tu universidad.
 
 Por ejemplo: 
 
