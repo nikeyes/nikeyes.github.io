@@ -140,4 +140,6 @@ Usa esta frase como parte de tu prompt para buscar nuevos enfoques:
 Aquí tienes un link a un <a href="https://www.ordinarypeopleprompts.com/item-detail?recordId=recVbgybDLlYmsvuA" target="_blank">prompt creador de prompts</a> 
 
 
+
+
 Si encuentras nuevas ideas para crear tus prompts puedes contármelas en <a href="https://twitter.com/nikey_es" target="_blank">twitter</a>
