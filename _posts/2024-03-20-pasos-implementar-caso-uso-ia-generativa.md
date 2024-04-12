@@ -23,7 +23,7 @@ Estos son los pasos que yo seguiría si quiero resolver un problema usando IA ge
 5. Usa [RAG Avanzado](https://miro.com/app/board/uXjVNvklNmc=/)
 	- Técnicas avanzadas de estructurar la información.
 	- Técnicas avanzadas para la recuperación y generación
-	- Usar mediación con el sistema RAG como [[Human in the loop]]
+	- Usar mediación con el sistema RAG como "Human in the loop" con parte automática y parte humana.
 6. Usa un modelo sobre el que has hecho Fine-tuning usando una API
 7. Usa un modelo sobre el que has hecho fine-tuning con técnicas avanzadas como [LoRa](https://arxiv.org/pdf/2106.09685v2.pdf), [PEFT - Parameter Efficient Fine-tuning](https://huggingface.co/blog/peft)
 
