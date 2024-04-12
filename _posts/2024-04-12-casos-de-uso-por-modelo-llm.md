@@ -11,7 +11,12 @@ tags:
 published: true
 ---
 
-> “La única constante en el mundo es el cambio" - Kent Beck
+> “La única constante en el mundo es el cambio” - Kent Beck
+
+## Ejemplos de Casos de Uso Prohibidos:
+  - Desarrollo de armas
+  - Decisiones de crédito
+  - Decisiones clínicas
 
 ## Casos de uso generales 
 
