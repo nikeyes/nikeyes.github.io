@@ -47,10 +47,15 @@ published: true
   - Preferencias humanas (RLHF, DPO)
 
 ## Tamaño:
-  - Número de parámetros del modelo
-  - Indicador aproximado de las capacidades del modelo
+  - Número de parámetros del modelo es un indicador aproximado de las capacidades del modelo:
+    - 1B -> Conocimiento básico del mundo y sabe buscar patrones. 
+      - Por ejemplo para crear un analizado de sentimientos.
+    - 10B -> Tiene gran conocimiento del mundo y puede seguir instrucciones básicas. 
+      - Por ejemplo para crear un chatbot para un restaurante.
+    - 100B+ -> Mucho más conocimiento del mundo y puede hacer razonamientos complejos. 
+      - Por ejemplo para crear un compañero para un Brainstorming
   - No es un indicador de rendimiento
-  - Los proveedores pueden indicar el tamaño relativo ("Mediano", "Grande", etc.)
+  - Los proveedores pueden indicar el tamaño relativo ("Pequeño", "Mediano", "Grande", etc.)
 
 ## Arquitectura:
   - Detalles del pre-entrenamiento
