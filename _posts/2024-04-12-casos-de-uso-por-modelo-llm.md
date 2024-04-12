@@ -13,67 +13,67 @@ published: true
 
 > “La única constante en el mundo es el cambio" - Kent Beck
 
-# Casos de uso generales 
+## Casos de uso generales 
 
-## Mejorar la experiencia del cliente:
+### Mejorar la experiencia del cliente:
 - Chatbots
 - Asistentes virtuales
 - Análisis de conversaciones
 - Personalización
 
-## Aumentar la productividad y creatividad de los empleados:
+### Aumentar la productividad y creatividad de los empleados:
 - Asistentes para empleados
 - Generación de código
 - Generación de informes
 
-## Optimizar los procesos empresariales:
+### Optimizar los procesos empresariales:
 - Procesamiento de documentos
 - Ciberseguridad
 - Optimización de procesos
 - Aumento de datos
 
-# Casos de uso  para diferentes áreas
+## Casos de uso  para diferentes áreas
 
-## Ventas
+### Ventas
 - Alcance personalizado
 - Guiones de ventas
 - Análisis competitivo
 - Ofertas personalizadas
 
-## Gestión
+### Gestión
 - Apoyo a la toma de decisiones
 - Planificación estratégica
 - Gestión de equipos
 - Gestión de proyectos
 
-## Mercadotecnia
+### Mercadotecnia
 - Creación de contenidos
 - Mercadotecnia personalizada
 - Diseño de identidad de marca
 - Optimización de SEO
 
-## Legal
+### Legal
 - Revisión de documentos
 - Análisis de contratos
 - Investigación legal
 - Redacción de documentos legales
 
-## Gestión de Productos
+### Gestión de Productos
 - Diseño de productos
 - Priorización de características
 - Investigación de mercado
 - Creación de personas de usuario
 
-## Recursos Humanos
+### Recursos Humanos
 - Descripciones y publicaciones de trabajo
 - Rutas de aprendizaje personalizadas
 - Generar encuestas
 - Planes de incorporación
 
 
-# Casos de uso recomendados por cada modelo LLM
+## Casos de uso recomendados por cada modelo LLM
 
-## AI21 Labs
+### AI21 Labs
 - Modelos: 
 	- Jurrassic-2 Ultra 
 	- Jurrassic-2 Mid
@@ -85,7 +85,7 @@ published: true
 	- Generación de texto
 	- Extract information
 
-## Meta AI
+### Meta AI
 - Modelos: 
 	- Llama 2 
 	- Llama 7B
@@ -98,7 +98,7 @@ published: true
 	- Análisis de sentimientos
 	- Generación de texto
 
-## Cohere
+### Cohere
 - Modelos: 
 	- Cohere
 	- Command XL
@@ -108,7 +108,7 @@ published: true
 	- Respuesta a preguntas
 	- Resumen
 
-## Hugging Face
+### Hugging Face
 - Modelos: 
 	- Falcon-7B
 	- Falcon-40B
@@ -126,7 +126,7 @@ published: true
 	- Respuestas a preguntas
 	- Resúmenes
 - 
-## stability.ai
+### stability.ai
 - Modelos: 
 	- Stable Diffusion XL 1.0
 	- 2.1 base
@@ -136,7 +136,7 @@ published: true
 	- Generación de fotos-realistas
 	- Mejora de calidad de imágenes generadas
 
-## LightOn
+### LightOn
 - Modelos: 
 	- Lyra-Fr
 	- 10B, Mini
@@ -148,7 +148,7 @@ published: true
 	- Análisis de sentimientos
 	- Clasificación
 
-## databricks
+### databricks
 - Modelos: 
 	- Dolly
 - Tareas: 
@@ -159,7 +159,7 @@ published: true
 	- Análisis de sentimientos
 	- Generación de textos
 
-## Alexa
+### Alexa
 - Modelos: 
 	- AlexaTM 20B
 - Tareas:
