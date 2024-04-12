@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Qué tener en cuenta para elegir un model de GenAI
+title: Factores a tener en cuenta para elegir un modelo de GenAI
 categories:
   - GenAI
   - LLMs
