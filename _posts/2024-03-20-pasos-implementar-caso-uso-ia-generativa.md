@@ -12,7 +12,7 @@ published: true
 
 > ”Las IAs actuales son increíblemente inteligentes y asombrosamente tontas” - ¿?
 
-Estos son los pasos que yo seguiría si quiero resolver un problema usando IA generativa:
+Estos son los pasos que seguiría, desde los más simples hasta los más complejos, si quiero resolver un problema utilizando IA generativa:
 
 1. Usa un producto de terceros que solucione tu problema.
 2. Usa un proveedor de IA generativa via API. (OpenAI, AWS Bedrock, HuggingFace)
