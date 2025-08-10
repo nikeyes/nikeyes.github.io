@@ -56,7 +56,7 @@ Ya no diseñas sistemas. Los describes a la IA y ella te da componentes.
 Has dejado de diseñar para convertirte en traductor de requerimientos de lenguaje Humano a lenguaje "Prompt"  
 
 ### Pérdida del placer por resolver problemas
-Quizás el síntoma más preocupante es la pérdida de esa satisfacción única que viene de resolver un problema difícil por tu cuenta.  
+Otro de los síntomas que considero preocupante, es la pérdida de esa satisfacción única que viene después de resolver un problema difícil por tu cuenta.  
 Cuando nos acostumbramos a soluciones instantáneas, la frustración natural del debugging o el diseño se vuelve intolerable, y perdemos una de las recompensas más gratificantes de programar.  
 
 ### Desconexión del "gimnasio mental"
@@ -64,8 +64,12 @@ Solemos pensar en habilidades como el debugging o el diseño de arquitecturas co
   
 Cada vez que nos enfrentamos a un error complejo, que refactorizamos código para hacerlo más legible o que diseñamos un sistema desde cero, no solo estamos resolviendo un problema de programación. Estamos ejercitando nuestro pensamiento crítico, el reconocimiento de patrones, la lógica deductiva, la visión abstracta y la tolerancia a la frustración.
   
-Al delegar estas tareas a la IA, no solo perdemos una habilidad concreta; estamos renunciando a un entrenamiento cognitivo de alto nivel. No nos damos cuenta de que la agilidad mental que ganamos depurando un bug es la misma que luego nos ayuda a tomar mejores decisiones en otros ámbitos de nuestra vida.  
+Al delegar estas tareas a la IA, no solo perdemos una habilidad concreta; estamos renunciando a un entrenamiento cognitivo de alto nivel.  
+  
+No nos damos cuenta de que la agilidad mental que ganamos depurando un bug es la misma que luego nos ayuda a tomar mejores decisiones en otros ámbitos de nuestra vida.  
+  
 Estamos desentrenando herramientas que, sin saberlo, mantienen nuestro cerebro en forma en muchos más aspectos de los que creemos.  
+
 
 ## 🧠 Checklist de Autoevaluación: ¿Estoy perdiendo habilidades?
 Si te identificas con 4 o más de estos puntos, puede que sea momento de reflexionar sobre tu relación con la IA:
