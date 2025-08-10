@@ -36,8 +36,8 @@ Si es así, no estás solo.
 ### Evitar el debugging manual
 Uno de los primeros síntomas que noté fue mi tendencia a saltar directamente a la IA cuando encontraba un error.  
 En lugar de leer cuidadosamente el stack trace o usar el debugger paso a paso, mi primer instinto era copiar el error y decirle a la IA: "Fix it".  
-Esto estaba haciendo que dejara de entender realmente el problema y me estaba atrofiando una habilidad fundamental: 
-- Interpretar y depurar los errores de mi propio código.
+Esto estaba haciendo que dejara de entender realmente el problema y me estaba atrofiando una habilidad fundamental:  
+Interpretar y depurar los errores de mi propio código.
 
 ### Generación pasiva de código
 La facilidad para generar rápidamente código que funciona es una tentación muy peligrosa.  
