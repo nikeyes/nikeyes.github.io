@@ -39,7 +39,7 @@ published: true
 ## Opciones de Personalización:
   - Comienza con prompt engineering
   - Opciones de ajuste fino (PEFT, LoRA, Ajuste fino completo)
-  - Puedes hacer ajustr fino varias veces
+  - Puedes hacer ajustar fino varias veces
   - Normalmente requiere un conjunto de entrenamiento de 1000 registros
   - Soporte a técnicas creadas por la comunidad para modelos de código abierto
 
