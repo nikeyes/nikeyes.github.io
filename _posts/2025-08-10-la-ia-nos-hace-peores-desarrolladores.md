@@ -20,8 +20,8 @@ ChatGPT me explicó un concepto de arquitectura que no entendía.
 
 *La IA me está haciendo más productivo que nunca.*
 
-Pero hay un lado oscuro del que casi nadie habla en las conferencias tech ni en los posts de LinkedIn:
-**¿Estamos perdiendo la esencia de lo que nos hace buenos desarrolladores?**
+Pero hay un lado oscuro del que casi nadie habla en las conferencias tech ni en los posts de LinkedIn:  
+**¿Estamos perdiendo habilidades clave para desarrollar… y para pensar?**
 
 Después de varios meses observando mi comportamiento y el de otros compañeros, he comenzado a notar que nos estamos volviendo muy dependientes de la IA y esto está erosionando nuestras habilidades fundamentales como desarrolladores.  
 Por ejemplo:
@@ -50,7 +50,7 @@ Usa la IA pero no dejes de ser tú el que lidera el diseño y los refactors.
 ¿Ya no miras la documentación para buscar la función que necesitas y se la pides a la IA?  
 La comodidad del autocompletado constante puede hacer que perdamos familiaridad con las herramientas básicas de nuestro oficio y que confiemos ciegamente en soluciones pueden parecer correctas en la superficie, pero esconden suposiciones erróneas sobre nuestro sistema.
 
-### 🏗️ Arquitectura por prompts
+### Arquitectura por prompts
 Ya no diseñas sistemas. Los describes a la IA y ella te da componentes.  
 "Necesito un microservicio que maneje usuarios, con autenticación JWT, base de datos PostgreSQL, y API REST..."  
 Has dejado de diseñar para convertirte en traductor de requerimientos de lenguaje Humano a lenguaje "Prompt"  
