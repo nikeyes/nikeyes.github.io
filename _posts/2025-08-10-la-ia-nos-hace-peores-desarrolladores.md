@@ -9,7 +9,7 @@ tags:
   - GenAI
   - LLMs
   - Desarrollo guiado por IA
-published: false
+published: true
 ---
 
 > ”Es más fácil engañar a la gente que convencerla de que ha sido engañada”  - Mark Twain
@@ -21,7 +21,7 @@ ChatGPT me explicó un concepto de arquitectura que no entendía.
 *La IA me está haciendo más productivo que nunca.*
 
 Pero hay un lado oscuro del que casi nadie habla en las conferencias tech ni en los posts de LinkedIn:
-**¿Estamos perdiendo la esencia de lo que nos hace buenos programadores.?**
+**¿Estamos perdiendo la esencia de lo que nos hace buenos desarrolladores?**
 
 Después de varios meses observando mi comportamiento y el de otros compañeros, he comenzado a notar que nos estamos volviendo muy dependientes de la IA y esto está erosionando nuestras habilidades fundamentales como desarrolladores.
 Por ejemplo:
@@ -94,7 +94,8 @@ Establece una regla personal: dedica 15-30 minutos a investigar un problema ante
 Este tiempo no es "perdido", es inversión en tu comprensión del problema y del proyecto.  
 
 ### Revisa el código generado como código humano
-Aplica los mismos estándares de code review que usarías con cualquier otro desarrollador. La IA puede escribir el código, pero nosotros somos responsables de mantenerlo.
+Aplica los mismos estándares de code review que usarías con cualquier otro desarrollador.  
+La IA puede escribir el código, pero nosotros somos responsables de mantenerlo.
 
 ### Busca un equilibrio sostenible
 No se trata de rechazar la IA, se trata de usarla conscientemente.  
@@ -114,7 +115,7 @@ El peligro surge cuando las usamos como sustituto del pensamiento crítico, no c
 La pregunta es cómo usarla de manera que nos haga mejores desarrolladores, no más dependientes.  
   
 Puedes seguir el camino fácil: copiar, pegar, desplegar, repetir.  
-Es cómodo, es rápido, y funciona... hasta que no.  
+Es cómodo, es rápido y funciona... hasta que no.  
 O puedes elegir el camino del desarrollador profesional: usar la IA como una herramienta poderosa mientras mantienes y desarrollas tus propias habilidades.  
 
 ¿Quieres ser el programador que controla la IA, o el que necesita la IA para desarrollar?   
