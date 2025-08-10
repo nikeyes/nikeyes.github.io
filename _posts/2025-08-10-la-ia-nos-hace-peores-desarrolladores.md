@@ -125,8 +125,7 @@ El peligro surge cuando las usamos como sustituto del pensamiento crítico, no c
 ## Reflexión final
 La pregunta es cómo usarla de manera que nos haga mejores desarrolladores, no más dependientes.  
   
-Puedes seguir el camino fácil: copiar, pegar, desplegar, repetir.  
-Es cómodo, es rápido y funciona... hasta que no.  
+Puedes seguir el camino fácil: pedir, copiar, pegar, desplegar, repetir. Es cómodo, es rápido y funciona... hasta que no.  
 O puedes elegir el camino del desarrollador profesional: usar la IA como una herramienta poderosa mientras mantienes y desarrollas tus propias habilidades.  
 
 ¿Quieres ser el programador que controla la IA, o el que necesita la IA para desarrollar?   
