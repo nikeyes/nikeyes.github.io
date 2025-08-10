@@ -14,7 +14,8 @@ published: false
 
 > ”Es más fácil engañar a la gente que convencerla de que ha sido engañada”  - Mark Twain
 
-GitHub Copilot me escribió un algoritmo de ordenamiento perfecto en 3 segundos. Claude Code me resolvió un bug que llevaba horas buscando.  
+GitHub Copilot me escribió un algoritmo de ordenamiento perfecto en 3 segundos.  
+Claude Code me resolvió un bug que llevaba horas buscando.  
 ChatGPT me explicó un concepto de arquitectura que no entendía.  
 
 *La IA me está haciendo más productivo que nunca.*
