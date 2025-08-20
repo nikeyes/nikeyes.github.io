@@ -48,7 +48,7 @@ Usa la IA pero no dejes de ser tú el que lidera el diseño y los refactors.
 ¿Recuerdas la sintaxis exacta para hacer una petición HTTP en tu lenguaje favorito?  
 ¿Recuerdas cómo crear una clase desde cero?  
 ¿Ya no miras la documentación para buscar la función que necesitas y se la pides a la IA?  
-La comodidad del autocompletado constante puede hacer que perdamos familiaridad con las herramientas básicas de nuestro oficio y que confiemos ciegamente en soluciones pueden parecer correctas en la superficie, pero esconden suposiciones erróneas sobre nuestro sistema.
+La comodidad del autocompletado constante puede hacer que perdamos familiaridad con las herramientas básicas de nuestro oficio y que confiemos ciegamente en soluciones que pueden parecer correctas en la superficie, pero esconden suposiciones erróneas sobre nuestro sistema.
 
 ### Arquitectura por prompts
 Ya no diseñas sistemas. Los describes a la IA y ella te da componentes.  
@@ -125,7 +125,7 @@ El peligro surge cuando las usamos como sustituto del pensamiento crítico, no c
 ## Reflexión final
 La pregunta no es si usar o no la IA, la pregunta es cómo usar la IA de manera que nos haga mejores desarrolladores, no más dependientes.  
   
-Puedes seguir el camino fácil: pedir, copiar, pegar, desplegar, repetir. Es cómodo, es rápido y funciona... hasta que no.  
+Puedes seguir el camino fácil: pedir, copiar, pegar, desplegar, repetir. Es cómodo, es rápido y funciona... hasta que deja de hacerlo.  
 O puedes elegir el camino del desarrollador profesional: usar la IA como una herramienta poderosa mientras mantienes y desarrollas tus propias habilidades.  
 
 ¿Quieres ser el programador que controla la IA, o el que necesita la IA para desarrollar?   
