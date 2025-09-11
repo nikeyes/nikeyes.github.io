@@ -86,7 +86,7 @@ And remember that with or without AI, the most important question remains the sa
 These principles aren't new, but their relevance is greater than ever. Let's consider them a **manifesto for navigating the AI era**.
 
 *References:*
-- [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)*
+- [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)
 - [El coste basal del software](https://www.eferro.net/2024/07/el-coste-basal-del-software.html)
 - [Complejidad Accidental](https://medium.com/@pedromcarrion/complejidad-accidental-10f176632c10)
 - [AI Copilot Code Quality, by GitClear (2025)](https://www.gitclear.com/ai_assistant_code_quality_2025_research)

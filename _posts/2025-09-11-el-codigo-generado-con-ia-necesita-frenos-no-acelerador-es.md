@@ -86,8 +86,8 @@ Y recuerda que con IA o sin IA, la pregunta más importante sigue siendo la mism
 Estos principios no son nuevos, pero su relevancia es mayor que nunca. Considerémoslos un **manifiesto para navegar en la era de la IA**.
 
 *Referencias:*
-- [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)*
--  [El coste basal del software](https://www.eferro.net/2024/07/el-coste-basal-del-software.html)
+- [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)
+- [El coste basal del software](https://www.eferro.net/2024/07/el-coste-basal-del-software.html)
 - [Complejidad Accidental](https://medium.com/@pedromcarrion/complejidad-accidental-10f176632c10)
 - [AI Copilot Code Quality, de GitClear (2025)](https://www.gitclear.com/ai_assistant_code_quality_2025_research)
 - [Should we revisit Extreme Programming in the age of AI?](https://www.hyperact.co.uk/blog/should-we-revisit-xp-in-the-age-of-ai)
