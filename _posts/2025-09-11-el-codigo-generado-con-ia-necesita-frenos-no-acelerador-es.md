@@ -85,6 +85,15 @@ Y recuerda que con IA o sin IA, la pregunta más importante sigue siendo la mism
 
 Estos principios no son nuevos, pero su relevancia es mayor que nunca. Considerémoslos un **manifiesto para navegar en la era de la IA**.
 
+---
+
+*"Vale, pero ¿cómo aplico estos frenos en mi día a día?"*
+
+Si os interesa el tema, compartiré consejos prácticos sobre como implementar estos frenos.
+
+Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cómo y cuándo pisarlos.
+
+
 *Referencias:*
 - [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)
 - [El coste basal del software](https://www.eferro.net/2024/07/el-coste-basal-del-software.html)

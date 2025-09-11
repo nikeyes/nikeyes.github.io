@@ -87,11 +87,12 @@ These principles aren't new, but their relevance is greater than ever. Let's con
 
 ---
 
-*"Vale, pero ¿cómo aplico estos frenos en mi día a día?"*
+*‘Okay, but how do I apply these brakes in my daily life?’*
 
-Si os interesa el tema, compartiré consejos prácticos sobre como implementar estos frenos.
+If you're interested in the topic, I'll share practical tips on how to implement these brakes.
 
-Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cómo y cuándo pisarlos.
+Because it's one thing to know you need brakes, and quite another to know how and when to apply them.
+
 
 *References:*
 - [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)
