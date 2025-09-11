@@ -85,6 +85,14 @@ And remember that with or without AI, the most important question remains the sa
 
 These principles aren't new, but their relevance is greater than ever. Let's consider them a **manifesto for navigating the AI era**.
 
+---
+
+*"Vale, pero ¿cómo aplico estos frenos en mi día a día?"*
+
+Si os interesa el tema, compartiré consejos prácticos sobre como implementar estos frenos.
+
+Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cómo y cuándo pisarlos.
+
 *References:*
 - [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)
 - [El coste basal del software](https://www.eferro.net/2024/07/el-coste-basal-del-software.html)
