@@ -18,13 +18,13 @@ published: true
 
 La IA nos ha dado una velocidad sobrehumana para crear código, pero seguimos entregando proyectos mediocres. Hemos confundido la **capacidad de generar código** con la **capacidad de entregar valor**.
 
-Podemos generar 1000 líneas en una hora, pero validar si sirven para algo lleva semanas. El cuello de botella sigue siendo el mismo: **saber qué desarrollar**.
+Podemos generar 1000 líneas en una hora, pero validar si sirven para algo lleva semanas. El cuello de botella sigue siendo el mismo: **saber cuál es el siguiente incremento que nos acerca a nuestros objetivos**.
 
 ## El problema no es nuevo (pero se ha amplificado)
 
 Extreme Programming (XP) nació en los años 90 con un objetivo claro: evitar que el código crezca más rápido que nuestra capacidad de validarlo. Por eso XP insiste en ciclos cortos, pruebas constantes y feedback continuo.
 
-Si no ponemos frenos a la IA, se convierte en una máquina de generar entropía. Genera capas y capas de lógica sin validar en el mercado, añade suposiciones y una complejidad arquitectónica que crece de forma exponencial. El resultado es un código frágil, enredado y cada vez más caro de modificar.
+Si no ponemos frenos a la IA, se convierte en una máquina de generar desperdicio. Genera capas y capas de lógica sin validar en el mercado, añade suposiciones y una complejidad arquitectónica que crece de forma exponencial. El resultado es un código frágil, enredado y cada vez más caro de modificar.
 
 Según [AI Copilot Code Quality, de GitClear (2025)](https://www.gitclear.com/ai_assistant_code_quality_2025_research), la frecuencia de los bloques de código con más de 5 líneas duplicadas se multiplicó por ocho durante 2024.
 
@@ -45,6 +45,18 @@ Aquí es donde los principios de XP se vuelven imprescindibles.
 XP nunca buscó maximizar la producción. XP introdujo fricciones deliberadas para forzar el aprendizaje y la alineación.
 
 XP es simple pero poderoso: ve más despacio en lo pequeño para poder ir más rápido en lo grande.
+
+## ¿Dónde está realmente el valor?
+
+La IA es brillante resolviendo problemas ya resueltos: autenticación, CRUD, backoffices, etc. Pero el valor de tu producto no está en el boilerplate.
+
+El valor está en:
+- Las reglas de negocio específicas de tu dominio
+- El conocimiento único que tu equipo tiene sobre tus usuarios
+- La complejidad inherente del problema que resuelves
+
+Estos son exactamente los elementos que la IA no puede generar porque no existen en Stack Overflow. Son únicos de tu contexto, y aquí es donde tu experiencia humana es insustituible.
+
 Invierte tiempo en prácticas que parecen "lentas" a corto plazo, como TDD, pair programming, refactoring constante y entregas pequeñas, para ganar velocidad exponencial en el medio/largo plazo: menos bugs en producción, menor deuda técnica y prácticamente cero retrabajo.
 
 Es importante recordar que:
@@ -55,12 +67,13 @@ Es importante recordar que:
 ## Detrás de cada producto exitoso hay conversaciones, no solo código
 
 A pesar del auge de la IA, los obstáculos para entregar valor siguen siendo los mismos:
-- Alineación
-- Contexto compartido
-- Claridad en los objetivos
-- Validación con el usuario.
+- Alineación: mantener el equipo sincronizado ante cambios de prioridades.
+- Contexto compartido: asegurar que todos entiendan el problema y su evolución.
+- Claridad en los objetivos: definir metas que puedan ajustarse según el aprendizaje.
+- Validación con el usuario: iterar continuamente basándose en feedback real.
+- Adaptabilidad constante: modificar enfoques y decisiones cuando las circunstancias cambian.
 
-Desarrollar software va de personas, no solo de código. Necesitamos marcos que nos anclen a prácticas centradas en las personas. XP nos da disciplina y empatía: pone al equipo en el centro y eleva el entendimiento compartido por encima de la velocidad bruta.
+Desarrollar software va de personas, no solo de código. Necesitamos marcos que nos guíen a prácticas centradas en las personas. XP nos da disciplina y empatía: pone al equipo en el centro y eleva el entendimiento compartido por encima de la velocidad bruta.
 
 ## Deuda técnica = bloqueador de IA  
 
@@ -72,7 +85,8 @@ Ahora somos los que tenemos que equilibrar entre la velocidad de la IA y la cali
 Y vamos a necesitar nuevas habilidades:
 - **AI Whisperer**: Saber cómo comunicarte de forma efectiva con las herramientas de IA
 - **AI Quality Gatekeeper:** Distinguir entre código que funciona y código mantenible. La IA puede resolver el problema inmediato, pero tú decides si la solución será mantenible en 6 meses.
-- **AI System Designer:** Diseña para que los humanos y la IA puedan colaborar y crear estructuras donde la IA potencie al equipo sin crear dependencias imposibles de mantener por los humanos.
+- **AI System Architect:** Diseña sistemas donde humanos e IA colaboren de forma sostenible, creando arquitecturas que potencien al equipo sin generar dependencias imposibles de mantener.
+
 
 ## Lo que realmente importa
 
@@ -93,8 +107,11 @@ Si os interesa el tema, compartiré consejos prácticos sobre como implementar e
 
 Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cómo y cuándo pisarlos.
 
+# Esta artículo es mucho mejor gracias al feedback de
+- [heedrox/itortv](https://bsky.app/profile/heedrox.bsky.social)
+- [Edu Ferro](https://bsky.app/profile/eferro.net)
 
-*Referencias:*
+## *Referencias:*
 - [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)
 - [El coste basal del software](https://www.eferro.net/2024/07/el-coste-basal-del-software.html)
 - [Complejidad Accidental](https://medium.com/@pedromcarrion/complejidad-accidental-10f176632c10)
@@ -102,5 +119,3 @@ Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cóm
 - [Should we revisit Extreme Programming in the age of AI?](https://www.hyperact.co.uk/blog/should-we-revisit-xp-in-the-age-of-ai)
 - [DORA - Impact of Gen AI in Software Development](https://dora.dev/research/ai/#impact-of-gen-ai-in-software-development)
 - [Extreme Programming Explained: Embrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
-
-
