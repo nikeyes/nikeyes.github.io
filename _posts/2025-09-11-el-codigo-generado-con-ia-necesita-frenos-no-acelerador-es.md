@@ -113,7 +113,7 @@ Si os interesa el tema, compartiré consejos prácticos sobre como implementar e
 
 Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cómo y cuándo pisarlos.
 
-## Esta artículo es mucho mejor gracias al feedback de
+## Esta artículo es mucho mejor gracias al feedback de:
 - [heedrox/itortv](https://bsky.app/profile/heedrox.bsky.social)
 - [Edu Ferro](https://bsky.app/profile/eferro.net)
 
