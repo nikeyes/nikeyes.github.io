@@ -73,17 +73,16 @@ Es importante recordar que:
 ## Detrás de cada producto exitoso hay conversaciones, no solo código
 
 A pesar del auge de la IA, los obstáculos para entregar valor siguen siendo los mismos:
-- Alineación: mantener el equipo sincronizado ante cambios de prioridades.
-- Contexto compartido: asegurar que todos entiendan el problema y su evolución.
-- Claridad en los objetivos: definir metas que puedan ajustarse según el aprendizaje.
-- Validación con el usuario: iterar continuamente basándose en feedback real.
-- Adaptabilidad constante: modificar enfoques y decisiones cuando las circunstancias cambian.
+- **Alineación**: mantener el equipo sincronizado ante cambios de prioridades.
+- **Contexto compartido**: asegurar que todos entiendan el problema y su evolución.
+- **Claridad en los objetivos**: definir metas que puedan ajustarse según el aprendizaje.
+- **Validación con el usuario**: iterar continuamente basándose en feedback real.
+- **Adaptabilidad constante**: modificar enfoques y decisiones cuando las circunstancias cambian.
 
-Desarrollar software va de personas, no solo de código. Necesitamos marcos que nos guíen a prácticas centradas en las personas. XP nos da disciplina y empatía: pone al equipo en el centro y eleva el entendimiento compartido por encima de la velocidad bruta.
+Desarrollar software va de personas, no solo de código.  
+Necesitamos marcos que nos guíen a prácticas centradas en las personas.  
+XP nos da disciplina y empatía: pone al equipo en el centro y eleva el entendimiento compartido por encima de la velocidad bruta.
 
-## Deuda técnica = bloqueador de IA  
-
-El código legacy no es solo "difícil de mantener", es incompatible con la IA. Una base de código limpio, bien estructurada y modular es el prerrequisito para la integración efectiva de herramientas de IA. La refactorización ya no es opcional.
 
 ## El rol del senior developer evoluciona
 
@@ -96,11 +95,12 @@ Y vamos a necesitar nuevas habilidades:
 
 ## Lo que realmente importa
 
-Con la IA puedes generar soluciones brillantes en minutos, pero también crear problemas imposibles de resolver en segundos.
+Con la IA puedes generar soluciones brillantes en minutos, pero también crear grandes problemas en segundos.
 
 La experiencia humana sigue siendo crucial.
 
-Necesitamos disciplina sobre velocidad, claridad sobre cantidad y, por encima de todo, personas sobre código.
+Necesitamos disciplina sobre velocidad, claridad sobre cantidad y, por encima de todo, personas sobre código.  
+
 Y recuerda que con IA o sin IA, la pregunta más importante sigue siendo la misma: **¿Estamos construyendo lo correcto?**
 
 Estos principios no son nuevos, pero su relevancia es mayor que nunca. Considerémoslos un **manifiesto para navegar en la era de la IA**.
@@ -113,11 +113,11 @@ Si os interesa el tema, compartiré consejos prácticos sobre como implementar e
 
 Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cómo y cuándo pisarlos.
 
-# Esta artículo es mucho mejor gracias al feedback de
+## Esta artículo es mucho mejor gracias al feedback de
 - [heedrox/itortv](https://bsky.app/profile/heedrox.bsky.social)
 - [Edu Ferro](https://bsky.app/profile/eferro.net)
 
-## *Referencias:*
+### *Referencias:*
 - [The Nature of Software Development](https://pragprog.com/titles/rjnsd/the-nature-of-software-development/)
 - [El coste basal del software](https://www.eferro.net/2024/07/el-coste-basal-del-software.html)
 - [Complejidad Accidental](https://medium.com/@pedromcarrion/complejidad-accidental-10f176632c10)
