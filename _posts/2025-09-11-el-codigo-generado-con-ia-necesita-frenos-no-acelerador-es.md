@@ -22,7 +22,7 @@ Podemos generar 1000 líneas en una hora, pero validar si sirven para algo lleva
 
 ## El problema no es nuevo (pero se ha amplificado)
 
-Extreme Programming (XP) nació en los años 90 con un objetivo claro: evitar que el código crezca más rápido que nuestra capacidad de validarlo. Por eso XP insiste en ciclos cortos, pruebas constantes y feedback continuo.
+[Extreme Programming (XP)](https://www.geeksforgeeks.org/software-engineering/software-engineering-extreme-programming-xp/) nació en los años 90 con un objetivo claro: evitar que el código crezca más rápido que nuestra capacidad de validarlo. Por eso XP insiste en ciclos cortos, pruebas constantes y feedback continuo.
 
 Si no ponemos frenos a la IA, se convierte en una máquina de generar desperdicio. Genera capas y capas de lógica sin validar en el mercado, añade suposiciones y una complejidad arquitectónica que crece de forma exponencial. El resultado es un código frágil, enredado y cada vez más caro de modificar.
 
@@ -32,10 +32,16 @@ Estamos construyendo castillos de naipes a la velocidad de la luz.
 
 ## ¿Y si dejamos que la IA lo arregle todo?
 
-Aquí viene la ironía: las herramientas de IA funcionan mejor en código limpio, bien documentado y bien estructurado.
-Si usas la IA sin disciplina, creas un código base caótico. Ese mismo caos hace que la IA sea cada vez menos efectiva, hasta que ni ella ni los humanos entiendan qué está pasando.
+Aquí viene la ironía: las herramientas de IA funcionan mejor en código limpio, bien documentado y bien estructurado. Les proporciona un contexto claro y de alta calidad para entender la intención del desarrollador y generar resultados precisos y coherentes.  
+Además, [el último estudio de Sonar](https://arxiv.org/abs/2508.14727) concluye que todos los modelos de IA evaluados (incluyendo Claude Sonnet 4, GPT-4o, y Llama) siempre introducen bugs, vulnerabilidades de seguridad y problemas de mantenibilidad o "code-smells".
 
-Has invertido en un Ferrari para conducirlo por un atasco infinito.
+![distribution_of_issue_types_by_LLM.png]({{ site.baseurl }}/images/2025-09-11-el-codigo-generado-con-ia-necesita-frenos-no-acelerador/distribution_of_issue_types_by_LLM.png)
+
+Esto confirma lo que muchos ya intuimos: **la IA es fantástica resolviendo el problema de hoy, pero terrible preparando el código para mañana.**
+
+Si usas la IA sin disciplina, crearás un código base caótico. Ese mismo caos hace que la IA sea cada vez menos efectiva, hasta que ni ella ni los humanos entiendan qué está pasando.
+
+Has invertido en un Ferrari para conducirlo por un atasco que tú mismo estás creando.
 
 ## La solución no es más velocidad, sino mejores frenos
 
@@ -46,7 +52,7 @@ XP nunca buscó maximizar la producción. XP introdujo fricciones deliberadas pa
 
 XP es simple pero poderoso: ve más despacio en lo pequeño para poder ir más rápido en lo grande.
 
-## ¿Dónde está realmente el valor?
+## ¿Dónde está realmente el valor?
 
 La IA es brillante resolviendo problemas ya resueltos: autenticación, CRUD, backoffices, etc. Pero el valor de tu producto no está en el boilerplate.
 
@@ -119,3 +125,6 @@ Porque una cosa es saber que necesitas frenos, y otra muy distinta es saber cóm
 - [Should we revisit Extreme Programming in the age of AI?](https://www.hyperact.co.uk/blog/should-we-revisit-xp-in-the-age-of-ai)
 - [DORA - Impact of Gen AI in Software Development](https://dora.dev/research/ai/#impact-of-gen-ai-in-software-development)
 - [Extreme Programming Explained: Embrace Change](https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+- [What is Extreme Programming (XP)?](https://www.geeksforgeeks.org/software-engineering/software-engineering-extreme-programming-xp/)
+- [Extreme Programming: A gentle introduction](http://www.extremeprogramming.org/)
+- [Assessing the Quality and Security of AI-Generated Code: A Quantitative Analysis](https://arxiv.org/abs/2508.14727)
