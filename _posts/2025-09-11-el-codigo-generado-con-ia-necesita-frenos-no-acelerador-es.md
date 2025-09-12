@@ -90,7 +90,7 @@ Ahora somos los que tenemos que equilibrar entre la velocidad de la IA y la cali
 Y vamos a necesitar nuevas habilidades:
 - **AI Whisperer**: Saber cómo comunicarte de forma efectiva con las herramientas de IA
 - **AI Quality Gatekeeper:** Distinguir entre código que funciona y código mantenible. La IA puede resolver el problema inmediato, pero tú decides si la solución será mantenible en 6 meses.
-- **AI System Architect:** Diseña sistemas donde humanos e IA colaboren de forma sostenible, creando arquitecturas que potencien al equipo sin generar dependencias imposibles de mantener.
+- **AI System Architect:** Diseña sistemas donde humanos e IA colaboren de forma sostenible, creando arquitecturas que potencien al equipo manteniendo la simplicidad y la claridad del sistema a largo plazo.
 
 
 ## Lo que realmente importa
