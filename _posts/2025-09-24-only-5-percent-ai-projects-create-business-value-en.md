@@ -26,7 +26,7 @@ According to the study, the three main causes of failure are:
 
 1. **Using generic models to solve niche problems.** LLMs lack domain knowledge to be truly useful, leading to irrelevant and vague responses.
 
-2. **Projects without a business case.** Prototypes are launched without a measurable goal. They show potential but never scale or deliver ROI. As a CIO in the study says: "We've seen dozens of demos this year. Maybe one or two are genuinely  useful. The rest are wrappers or science projects."
+2. **Projects without a business case.** Prototypes are launched without a measurable goal. They show potential but never scale or deliver ROI. As a CIO in the study says: "We've seen dozens of demos this year. Maybe one or two are genuinely useful. The rest are wrappers or science projects."
 
 3. **Zero integration with real work.** Solutions create friction. If they don't fit into employee or user workflows, they simply aren't used. The study breaks the myth that "Generative AI is transforming businesses because its adoption is high," stating that "transformation is rare. Only 5% of enterprises have AI tools integrated in
 workflows at scale and 7 of 9 sectors show no real structural change."
