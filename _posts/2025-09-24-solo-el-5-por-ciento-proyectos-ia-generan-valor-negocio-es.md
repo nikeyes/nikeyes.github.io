@@ -33,6 +33,6 @@ Según el estudio, las tres causas principales del fracaso son:
 
 Esto no es nuevo. Es el mismo patrón de siempre: entusiasmo, inversión y frustración. Ya lo hemos vivido más veces.
 
-¿Te acuerdas de que no podía existir un producto digital sin microservicios, sin serverless, o sin blockchain?
+¿Te acuerdas de que no podía existir un producto digital sin microservicios, sin serverless, sin blockchain o sin el metaverso?
 
 **Pues no repitamos los mismos errores integrando la IA…**

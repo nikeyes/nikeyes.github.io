@@ -33,6 +33,6 @@ workflows at scale and 7 of 9 sectors show no real structural change."
 
 This isn't new. It's the same pattern as always: enthusiasm, investment, and frustration. We've lived through this before.
 
-Do you remember when no digital product could exist without microservices, without serverless, or without blockchain?
+Do you remember when no digital product could exist without microservices, without serverless, without blockchain or the metaverso?
 
 **Let's not repeat the same mistakes integrating AI...**
