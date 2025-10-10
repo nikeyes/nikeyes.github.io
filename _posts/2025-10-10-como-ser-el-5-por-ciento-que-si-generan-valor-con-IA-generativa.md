@@ -48,7 +48,13 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 **Pregunta clave:** ¿Estoy construyendo esto porque mola, o porque resuelve un problema medible para alguien concreto?
 
-**Caso real:** Lumen redujo la preparación de reuniones de venta de 4 horas a 15 minutos usando Copilot para investigación y análisis. Resultado: $50M de ahorro anual proyectado. Métrica clara desde el día 1: tiempo ahorrado por vendedor.
+**Caso real: Lumen**
+- Problema: Preparación de reuniones consumía 4h por vendedor
+- Solución: Microsoft Copilot para investigación y análisis
+- Métricas:
+  - De 4 horas a 15 minutos por preparación (94% reducción)
+  - $50M en ahorro anual proyectado para 2024
+  - Métrica clara desde día 1: tiempo ahorrado por vendedor
 
 **Qué hacer:**
 - Define métricas de negocio antes de escribir código: tiempo ahorrado, errores evitados, ingresos generados.
@@ -59,7 +65,14 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 **El problema:** Las respuestas pueden ser incorrectas, inexactas o inventadas. Los problemas los descubres tarde o los descubren tus usuarios. No hay trazabilidad ni gobernanza.
 
-**Caso real:** CirrusMD automatizó notas SOAP y navegación de beneficios para 13M+ miembros manteniendo compliance total. Clave: sistema genera notas completas pero siempre requiere revisión médica antes de aprobar. Human-in-the-loop en decisiones críticas.
+**Caso real: CirrusMD**
+- Problema: Documentación clínica consume tiempo de médicos
+- Solución: IA agéntica para navegación de beneficios y notas SOAP
+- Métricas:
+  - Automatización completa de dos flujos críticos
+  - 13M+ de miembros atendidos
+  - Compliance regulatorio 100% mantenido
+  - Clave: sistema genera notas pero siempre requiere revisión médica
 
 **Qué hacer:**
 - Haz visible el razonamiento del modelo. Un botón "¿Por qué me recomiendas esto?" vale más que nuevas funcionalidades con IA.
@@ -72,7 +85,14 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 **El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar las últimas librerías que viste en el video de Youtube pero que tienen breaking changes en cada versión.
 
-**Caso real:** Accenture desplegó GitHub Copilot con RCT a miles de desarrolladores. 96% empezaron a usarlo el día 1, hasta 55% más rápidos. Éxito: integración transparente en flujos existentes sin cambiar arquitectura del equipo.
+**Caso real: Accenture (Desarrollo de software)**
+- Problema: Medir impacto real de IA en empresa grande
+- Solución: GitHub Copilot con estudio controlado randomizado (RCT)
+- Métricas:
+  - Hasta 55% más rápido completando tareas
+  - 96% adoptaron la herramienta el mismo día de instalación
+  - 85% más confiados en calidad del código
+  - Éxito: integración transparente sin cambiar arquitectura del equipo
 
 **Regla de oro:** Si cambiar de Claude Sonnet a Gemini te lleva más de 1 día, tu arquitectura es frágil.
 
@@ -85,7 +105,13 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 **El problema:** Reintentos infinitos, ventanas de contexto mal gestionadas, facturas que crecen exponencialmente. Si no hay margen, no hay negocio.
 
-**Caso real:** Klarna gestionó 2.3M de conversaciones equivalente a 700 agentes. Proyección: $40M en mejora de beneficios para 2024. Vodafone redujo coste por chat de $3 a $0.90 (70%) usando RAG. Clave: monitorizar coste por operación vs valor generado desde el día 1.
+**Casos reales: Vodafone (TOBi)**
+- Problema: 600M+ suscriptores con consultas recurrentes
+- Solución: Chatbot AI con RAG sobre base de conocimiento
+- Métricas:
+  - 70% de consultas resueltas sin intervención humana
+  - Coste por chat: de $3 a $0.90 (70% reducción)
+  - Clave: monitorizar coste por operación vs valor generado
 
 **Qué hacer:**
 - Establece presupuestos de tokens por caso de uso. No dejes consumo ilimitado.
@@ -97,7 +123,13 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 **El problema:** En sectores regulados o de alto riesgo, "casi correcto" no es suficiente. Un error puede tener consecuencias graves.
 
-**Caso real:** JPMorgan Chase (COIN) revisó contratos legales reduciendo de 360,000 horas anuales a segundos. LawGeex logró 94% de precisión vs 85% humana en NDAs. Éxito: IA especializada en un dominio muy específico con validación continua.
+**Caso real: LawGeex**
+- Problema: Validar efectividad de IA vs abogados humanos
+- Solución: Test con 20 abogados experimentados vs IA en NDAs
+- Métricas:
+  - IA: 94% de precisión en 26 segundos
+  - Abogados: 85% de precisión en tiempo significativamente mayor
+  - Éxito: IA especializada en dominio específico con validación continua
 
 **Qué hacer:**
 - Especializa modelos en tu dominio. Fine-tuning, RAG o modelos específicos superan a LLMs genéricos en tareas de nicho.
@@ -140,6 +172,5 @@ La pregunta sigue siendo la misma:
 - [Caso Lumen](https://www.microsoft.com/en-us/worklab/agents-of-change)
 - [Caso CirrusMD](https://writer.com/blog/roi-for-generative-ai/)
 - [Caso Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/)
-- [Caso Klarna y Vodafone](https://www.nexgencloud.com/blog/case-studies/how-ai-and-rag-chatbots-cut-customer-service-costs-by-millions)
-- [Caso JPMorgan](https://www.abajournal.com/news/article/jpmorgan_chase_uses_tech_to_save_360000_hours_of_annual_work_by_lawyers_and#google_vignette)
+- [Caso Vodafone](https://www.nexgencloud.com/blog/case-studies/how-ai-and-rag-chatbots-cut-customer-service-costs-by-millions)
 - [Caso LawGeex](https://www.virtasant.com/ai-today/ai-contract-mangement-legal)
