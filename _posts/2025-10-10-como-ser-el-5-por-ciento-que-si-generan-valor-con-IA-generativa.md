@@ -33,16 +33,16 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 - Empieza con MVPs medibles. Un flujo, un proceso, una métrica.
 - Si tras N semanas no hay impacto medible, cancela o pivota.
 
-### 2. Construye confianza como producto
+### 2. Genera confianza con tu producto
 
 **El problema:** Los modelos reponden pero el resultado puede ser incorrecto, inexacto o inventado. No tinenes trazabilidad ni gobernanza efectiva.
 
-**Ejemplo:** Pon un botón de "¿Por qué me recomiendas esto?" y eso vale más que nuevas features con IA.
+**Ejemplo:** Pon un botón de "¿Por qué me recomiendas esto?" y eso vale más que nuevas funcionalidades con IA.
 
 **Qué hacer:**
 - Haz visible el razonamiento del modelo y las decisiones.
 - No todo debe ser automático. Implementa human-in-the-loop para decisiones críticas. 
-- Logging completo, audit trails, control de acceso, desde el día 1.
+- Logging completo, audit trails, control de acceso.
 - Define qué datos puede ver la IA y cuáles están prohibidos.
 
 ### 3. Arquitectura sencilla que evoluciona con el negocio
