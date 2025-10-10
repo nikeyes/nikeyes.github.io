@@ -85,14 +85,15 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 **El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar las últimas librerías que viste en el video de Youtube pero que tienen breaking changes en cada versión.
 
-**Caso real: Accenture (Desarrollo de software)**
+**Caso real: Accenture**
 - Problema: Medir impacto real de IA en empresa grande
-- Solución: GitHub Copilot con estudio controlado randomizado (RCT)
+- Solución: Estudio controlado randomizado con grupo con/sin GitHub Copilot
 - Métricas:
   - Hasta 55% más rápido completando tareas
-  - 96% adoptaron la herramienta el mismo día de instalación
-  - 85% más confiados en calidad del código
-  - Éxito: integración transparente sin cambiar arquitectura del equipo
+  - 85% de desarrolladores más confiados en calidad del código
+  - 96% empezaron a usar la herramienta el mismo día de instalación
+  - 1 minuto desde primera sugerencia hasta primera aceptación
+  - Clave: integración transparente sin cambiar arquitectura del equipo
 
 **Regla de oro:** Si cambiar de Claude Sonnet a Gemini te lleva más de 1 día, tu arquitectura es frágil.
 
