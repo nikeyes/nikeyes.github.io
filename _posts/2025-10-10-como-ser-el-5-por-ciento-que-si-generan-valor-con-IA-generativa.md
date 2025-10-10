@@ -39,6 +39,19 @@ Cálculos, validaciones, reglas claras. Un if/else es más barato, más rápido 
 **No uses la IA si el riesgo es inaceptable:**
 Decisiones críticas sin revisión humana, sectores regulados, fallos con consecuencias graves. Pregúntate que pasa si el sistema no se comporta como esperamos: ¿cómo de grave es?
 
+## Los 3 errores que garantizan el fracaso
+
+**POC tras POC, nunca producción:**
+Medir éxito por demos "wow" en lugar de ROI.
+Tres pilotos brillantes, cero sistemas en producción. Si en 6 meses no hay usuarios reales usando el sistema, no tienes un proyecto de IA, tienes un hobby caro.
+
+**"Ya optimizaremos después":** Factura de $50K en tokens el primer mes en producción.
+Sin caché, sin límites, sin monitorización. Descubres el problema cuando finanzas te pregunta por qué la factura del proveedor de LLMs superó el presupuesto del trimestre.
+
+**Ignorar la especialización del dominio:**
+Si usas un LLM tal cual, no tienes ventaja competitiva. La diferenciación real está en cómo lo especializas con tus datos y tu dominio.
+
+Ahora que sabes qué evitar, veamos cómo hacerlo bien.
 
 ## Los 5 obstáculos que tienes que superar
 
@@ -53,7 +66,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Empieza con MVPs medibles. Un flujo, un proceso, una métrica.
 - Si tras N semanas no hay impacto medible, cancela o pivota.
 
-**Caso real: [Lumen](https://www.microsoft.com/en-us/worklab/agents-of-change)**
+**Caso real: [Lumen](https://www.microsoft.com/en/customers/story/1771760434465986810-lumen-microsoft-copilot-telecommunications-en-united-states)**
 - Problema: La investigación de clientes consumía 4h por vendedor
 - Solución: Microsoft Copilot para investigación y análisis
 - Métricas:
@@ -81,7 +94,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
   - Sector altamente regulado con supervisión constante
   - Clave: sistema genera notas pero siempre requiere revisión médica
 
-### 3. Arquitectura sencilla que evoluciona con el negocio
+### 3. Arquitectura: simple hoy, adaptable mañana
 
 **El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar las últimas librerías que viste en el video de Youtube pero que tienen breaking changes en cada versión.
 
@@ -120,7 +133,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 ### 5. Precisión cuando importa
 
-**El problema:** En sectores regulados o de alto riesgo, "casi correcto" no es suficiente. Un error puede tener consecuencias graves.
+**El problema:** En sectores regulados o de alto riesgo, "casi correcto" no es suficiente. Un error puede tener consecuencias graves. **Y los LLMs genéricos, por definición, son generalistas mediocres en dominios específicos.**
 
 **Qué hacer:**
 - Especializa modelos en tu dominio. Usa Fine-tuning, RAG o modelos específicos.
