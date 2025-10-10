@@ -102,7 +102,7 @@ No hagas 10 demos. Haz 1 flujo end-to-end en producción con telemetría complet
 Los LLMs genéricos fallan en problemas de nicho. Si no estás resolviendo un problema genérico, usa Fine-tuning, RAG, o modelos pequeños específicos. Tu ventaja está en el conocimiento específico de tu dominio.
 
 **Integra en flujos existentes**  
-Si añade fricción, nadie lo usará. La mejor IA es la que el usuario no percibe mientras usa tu producto.
+Si la IA añade fricción, nadie lo usará. La mejor IA es la que el usuario no percibe mientras usa tu producto.
 
 **Mide desde el primer día**  
 Lanza a un grupo reducido de usuarios reales. Mide impacto, recopila feedback, valida antes de escalar.
@@ -110,7 +110,7 @@ Lanza a un grupo reducido de usuarios reales. Mide impacto, recopila feedback, v
 **Itera con usuarios reales**  
 Tu equipo dirá que funciona. Los usuarios reales te enseñarán dónde falla y si estás resolviendo un problema real.
 
-## Lo que realmente importa
+## Esto es lo que realmente importa
 
 El 5% que triunfa no tiene los mejores modelos. Elige bien qué construir y cómo medirlo.
 
