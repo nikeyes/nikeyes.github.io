@@ -20,6 +20,26 @@ Hace unos días os explicaba que [el 95% de los proyectos de IA generativa fraca
 
 La respuesta está en cómo definimos, construimos, operamos y medimos.
 
+Pero antes la pregunta que casi nadie se hace.
+
+## ¿Estás seguro de que la IA es la respuesta?
+
+Muchos proyectos fracasan porque intentan resolver con IA problemas que no la necesitan.
+
+**Usa IA cuando las reglas no escalan:**
+Análisis de documentos desestructurados, contenido personalizado, asistencia donde cada caso es diferente. Cuando escribir todas las reglas es imposible, la IA tiene sentido.
+
+**Usa IA cuando los números cuadran:** 
+Si automatizar vale más que lo que ahorras, no hay negocio. Simple.
+El coste de construir, escalar y mantener el sistema con IA tiene que ser menor que el coste humano.
+
+**No uses IA si lo puedes resolver de forma clásica:**
+Cálculos, validaciones, reglas claras. Un if/else es más barato, más rápido y más fiable que un modelo.
+
+**No uses la IA si el riesgo es inaceptable:**
+Decisiones críticas sin revisión humana, sectores regulados, fallos con consecuencias graves. Pregúntate que pasa si el sistema no se comporta como esperamos ¿Cómo de grave es?
+
+
 ## 6 obstáculos a superar
 
 ### 1. Valor primero, tecnología después
@@ -112,7 +132,8 @@ Tu equipo dirá que funciona. Los usuarios reales te enseñarán dónde falla y 
 
 ## Esto es lo que realmente importa
 
-El 5% que triunfa no tiene los mejores modelos. Eligen bien qué construir y cómo medirlo.
+La diferencia no está en los modelos que usan (Opus, Gemini, GPT-4).  
+La diferencia está en las preguntas que se hacen antes de escribir la primera línea de código.
 
 No construyen tecnología para demos. Resuelven problemas usando tecnología.
 
