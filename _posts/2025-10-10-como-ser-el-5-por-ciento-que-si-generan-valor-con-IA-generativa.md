@@ -54,11 +54,11 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Si tras N semanas no hay impacto medible, cancela o pivota.
 
 **Caso real: [Lumen](https://www.microsoft.com/en-us/worklab/agents-of-change)**
-- Problema: La preparación de reuniones consumía 4h por vendedor
+- Problema: La investigación de clientes consumía 4h por vendedor
 - Solución: Microsoft Copilot para investigación y análisis
 - Métricas:
-  - De 4 horas a 15 minutos por preparación (94% reducción)
-  - $50M en ahorro anual proyectado para 2024
+  - De 4 horas a 15 minutos para investigación de clientes (94% reducción)
+  - $50M en oportunidad de ingresos durante 12 meses por tiempo liberado
   - Métrica clara desde día 1: tiempo ahorrado por vendedor
 
 ### 2. Convierte incertidumbre en confianza
@@ -78,7 +78,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Métricas:
   - Automatización completa de dos flujos críticos
   - 13M+ de miembros atendidos
-  - Compliance regulatorio 100% mantenido
+  - Sector altamente regulado con supervisión constante
   - Clave: sistema genera notas pero siempre requiere revisión médica
 
 ### 3. Arquitectura sencilla que evoluciona con el negocio
@@ -93,7 +93,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Si una librería cambia su API cada mes, mejor crea tu propio adaptador simple
 
 **Caso real: [Equipo que abandonó su framework de IA](https://mubashirullahd.medium.com/migrating-away-from-langchain-lessons-learned-from-upgrading-our-ai-codebase-2f8fe1cb14f3)**
-- Problema: Aplicación sobre LangChain. Tras 10 meses, al actualizar modelos, colapsó por conflictos de dependencias
+- Problema: Aplicación sobre LangChain. Tras 10 meses, al actualizar modelos, tuvieron graves problemas por conflictos de dependencias
 - Solución: Abandonaron el framework y migraron a código personalizado contra APIs directamente
 - Resultado:
   - Código significativamente más simple y mantenible
@@ -116,7 +116,6 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Solución: Chatbot AI con RAG sobre base de conocimiento
 - Métricas:
   - 70% de consultas resueltas sin intervención humana
-  - Coste por chat: de $3 a $0.90 (70% reducción)
   - Clave: monitorizar coste por operación vs valor generado
 
 ### 5. Precisión cuando importa
