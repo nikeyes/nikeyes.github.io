@@ -10,8 +10,8 @@ tags:
   - LLMs
   - Desarrollo guiado por IA
 lang: es
-ref: 
-published: false
+ref: how-to-be-the-5-percent-that-generates-value-with-generative-ai
+published: true
 ---
 
 > "Las ideas son fáciles. La ejecución lo es todo." - John Doerr
@@ -46,7 +46,7 @@ Medir éxito por demos "wow" en lugar de ROI.
 Tres pilotos brillantes, cero sistemas en producción. Si en 6 meses no hay usuarios reales usando el sistema, no tienes un proyecto de IA, tienes un hobby caro.
 
 **"Ya optimizaremos después":** Factura de $50K en tokens el primer mes en producción.
-Sin caché, sin límites, sin monitorización. Descubres el problema cuando finanzas te pregunta por qué la factura del proveedor de LLMs superó el presupuesto del trimestre.
+Sin estimaciones, sin caché, sin límites, sin monitorización. Descubres el problema cuando finanzas te pregunta por qué la factura del proveedor de LLMs superó el presupuesto del trimestre.
 
 **Ignorar la especialización del dominio:**
 Si usas un LLM tal cual, no tienes ventaja competitiva. La diferenciación real está en cómo lo especializas con tus datos y tu dominio.
