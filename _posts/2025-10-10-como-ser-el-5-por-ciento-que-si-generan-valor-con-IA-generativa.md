@@ -20,7 +20,7 @@ Hace unos días os explicaba que [el 95% de los proyectos de IA generativa fraca
 
 La respuesta está en cómo definimos, construimos, operamos y medimos.
 
-## Los 6 obstáculos y cómo superarlos
+## 6 obstáculos a superar
 
 ### 1. Valor primero, tecnología después
 
