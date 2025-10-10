@@ -24,9 +24,9 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 
 ### 1. Valor primero, tecnología después
 
-**El problema:** Creamos demos impresionantes sin impacto de negocio. Prototipos sin ROI. Pilotos que nunca escalan. Pilotos técnicos sin usuarios ni métricas.
+**El problema:** Creamos demos impresionantes sin impacto de negocio. Prototipos técnicos sin usuarios ni métricas. Pilotos que nunca escalan.
 
-**Pregunta clave:** ¿Estoy construyendo esto porque puedo, o porque realmente resuelve un problema medible para alguien concreto?
+**Pregunta clave:** ¿Estoy construyendo esto porque mola, o porque realmente resuelve un problema medible para alguien concreto?
 
 **Qué hacer:**
 - Define métricas de negocio antes de escribir código: tiempo ahorrado, errores evitados, ingresos generados.
@@ -35,30 +35,30 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 
 ### 2. Construye confianza como producto
 
-**El problema:** Los modelos repondes pero el resultado puede ser incorrecto, inexacto o inventado. No tinenes trazabilidad ni gobernanza efectiva.
+**El problema:** Los modelos reponden pero el resultado puede ser incorrecto, inexacto o inventado. No tinenes trazabilidad ni gobernanza efectiva.
 
-**Ejemplo práctico:** Un botón de "¿Por qué me recomiendas esto?" vale más que 10 features más.
+**Ejemplo:** Pon un botón de "¿Por qué me recomiendas esto?" y eso vale más que nuevas features con IA.
 
 **Qué hacer:**
 - Haz visible el razonamiento del modelo y las decisiones.
 - No todo debe ser automático. Implementa human-in-the-loop para decisiones críticas. 
-- Desde el día 1: logging completo, audit trails, control de acceso.
+- Logging completo, audit trails, control de acceso, desde el día 1.
 - Define qué datos puede ver la IA y cuáles están prohibidos.
 
 ### 3. Arquitectura sencilla que evoluciona con el negocio
 
-**El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar librerías con breaking changes en cada versión.
+**El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar las últimas librerías que viste en el video de Youtube pero que tienen breaking changes en cada versión.
 
 **Regla de oro:** Si cambiar de Claude Sonnet a Google Gemini te lleva más de 1 día, tu arquitectura es muy frágil.
 
 **Qué hacer:**
-- Separa tu lógica de negocio de los proveedores de modelos o librerías para trabajar con LLMs.
-- Implementa fallbacks. Si el modelo o el proveedor que usas no funciona, ¿Tienes un plan B?
+- Separa tu lógica de negocio de los proveedores de modelos o las librerías para trabajar con LLMs.
+- Implementa fallbacks. Por ejemplo, si el modelo o el proveedor que usas no funciona, salta a un flujo manual de tu caso de uso.
 - Usa capas de adaptación sencillas. Los modelos cambian pero tu arquitectura no debería.
 
 ### 4. Excelencia operativa: no vueles a ciegas
 
-**El problema:** Los fallos son silenciosos. Los problemas los descubren se descubren muy tarde o los descubren los clientes.
+**El problema:** Los modelos responden pero las respuestas pueden ser incorrectas, inexactas o inventadas. Los problemas los descubres muy tarde o los descubren los usuarios.
 
 **Desde el día 1:** Logs estructurados, métricas en tiempo real, alertas automáticas.
 
@@ -72,7 +72,7 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 
 **El problema:** Sistemas completamente autónomos en los que nadie puede intervenir ni entender las decisiones.
 
-**Implementación:** Sistemas de supervisión, posibilidad de override, feedback loop para mejorar.
+**Ejemplos:** Sistemas de supervisión, posibilidad de override, feedback loop para mejorar.
 
 **Qué hacer:**
 - Define puntos de intervención humana. Alguien debe poder parar, corregir o anular las decisiones del modelo.
@@ -83,15 +83,15 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 
 **El problema:** Reintentos infinitos, ventanas de contexto mal gestionadas, facturas que crecen exponencialmente.
 
-**Cálculo básico:** Coste por operación vs. valor generado. Si no hay margen, no hay negocio.
+**Ejemplos:** Coste por operación vs. valor generado. Si no hay margen, no hay negocio.
 
 **Qué hacer:**
-- Establece budgets de tokens por caso de uso. No dejes consumo ilimitado.
-- Implementa caché agresivas. La misma pregunta no debe golpear la API dos veces.
-- Monitorea en tiempo real. Un pico de costes es síntoma de algo roto.
+- Establece presupuestos de tokens por caso de uso. No dejes consumo ilimitado.
+- Implementa caché agresivas. La misma pregunta no debe llegar a la API dos veces.
+- Monitoriza en tiempo real. Un pico de costes es síntoma de algo roto.
 - Si no es rentable, no podrás escalar.
 
-## Lo que funciona en la práctica
+## Lo que funciona en el mundo real
 
 Estos son los patrones recurrentes de los proyectos exitosos:
 
@@ -102,19 +102,19 @@ No hagas 10 demos. Haz 1 flujo end-to-end en producción con telemetría complet
 Los LLMs genéricos fallan en problemas de nicho. Si no estás resolviendo un problema genérico, usa Fine-tuning, RAG, o modelos pequeños específicos. Tu ventaja está en el conocimiento específico de tu dominio.
 
 **Integra en flujos existentes**  
-Si añade fricción, nadie lo usará. Si añade fricción, nadie lo usará. La mejor IA es la que el usuario no percibe mientras usa tu producto.
+Si añade fricción, nadie lo usará. La mejor IA es la que el usuario no percibe mientras usa tu producto.
 
 **Mide desde el primer día**  
 Lanza a un grupo reducido de usuarios reales. Mide impacto, recopila feedback, valida antes de escalar.
 
 **Itera con usuarios reales**  
-Tu equipo dirá que funciona. Los usuarios reales te mostrarán dónde falla y siestás resolviendo un problema real.
+Tu equipo dirá que funciona. Los usuarios reales te enseñarán dónde falla y si estás resolviendo un problema real.
 
 ## Lo que realmente importa
 
 El 5% que triunfa no tiene los mejores modelos. Elige bien qué construir y cómo medirlo.
 
-No construyen tecnología buscando problemas. Resuelven problemas usando tecnología.
+No construyen tecnología para demos. Resuelven problemas usando tecnología.
 
 Y sobre todo: saben que el éxito no está en cuánto código generan, sino en cuánto valor entregan.
 
