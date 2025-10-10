@@ -53,7 +53,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Empieza con MVPs medibles. Un flujo, un proceso, una métrica.
 - Si tras N semanas no hay impacto medible, cancela o pivota.
 
-**Caso real: Lumen**
+**Caso real: [Lumen](https://www.microsoft.com/en-us/worklab/agents-of-change)**
 - Problema: La preparación de reuniones consumía 4h por vendedor
 - Solución: Microsoft Copilot para investigación y análisis
 - Métricas:
@@ -72,7 +72,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Human-in-the-loop para decisiones críticas: define puntos donde alguien pueda intervenir, corregir o anular.
 - Runbooks para incidentes. Cuando falle (y fallará), ¿qué haces?
 
-**Caso real: CirrusMD**
+**Caso real: [CirrusMD](https://writer.com/blog/roi-for-generative-ai/)**
 - Problema: La documentación clínica consume tiempo de médicos
 - Solución: IA agéntica para navegación en coberturas, beneficios y notas SOAP
 - Métricas:
@@ -85,22 +85,21 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 **El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar las últimas librerías que viste en el video de Youtube pero que tienen breaking changes en cada versión.
 
-**Regla de oro:** Si cambiar de Claude Sonnet a Gemini te lleva más de 1 día, tu arquitectura es frágil.
-
 **Qué hacer:**
-- Separa tu lógica de negocio de los proveedores de modelos y librerías de LLMs.
-- Implementa fallbacks. Si el modelo no funciona, salta a un flujo manual.
-- Capas de adaptación sencillas. Los modelos cambian, tu arquitectura no debería.
+- Define contratos claros independientes del proveedor
+- Mantén templates de prompts por proveedor para  casos críticos
+- Crea evaluaciones automáticas
+- Implementa normalización de outputs a tu formato interno estándar
+- Si una librería cambia su API cada mes, mejor crea tu propio adaptador simple
 
-**Caso real: Accenture**
-- Problema: Medir impacto real de IA en empresa grande
-- Solución: Estudio controlado randomizado con grupo con/sin GitHub Copilot
-- Métricas:
-  - Hasta 55% más rápido completando tareas
-  - 85% de desarrolladores más confiados en calidad del código
-  - 96% empezaron a usar la herramienta el mismo día de instalación
-  - 1 minuto desde primera sugerencia hasta primera aceptación
-  - Clave: integración transparente sin cambiar arquitectura del equipo
+**Caso real: [Equipo que abandonó su framework de IA](https://mubashirullahd.medium.com/migrating-away-from-langchain-lessons-learned-from-upgrading-our-ai-codebase-2f8fe1cb14f3)**
+- Problema: Aplicación sobre LangChain. Tras 10 meses, al actualizar modelos, colapsó por conflictos de dependencias
+- Solución: Abandonaron el framework y migraron a código personalizado contra APIs directamente
+- Resultado:
+  - Código significativamente más simple y mantenible
+  - Eliminación de dependencias frágiles
+  - Mantenimiento centralizado en utilidades vs abstracciones multicapa
+  - Preguntas clave: "¿Con qué frecuencia vamos a cambiar de modelo? ¿Valía la pena toda esta complejidad del framework?"
 
 ### 4. Sostenibilidad económica
 
@@ -112,7 +111,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Monitoriza en tiempo real. Un pico de costes es síntoma de algo roto.
 - Si no es rentable, no podrás escalar.
 
-**Casos reales: Vodafone (TOBi)**
+**Casos reales: [Vodafone (TOBi)](https://www.nexgencloud.com/blog/case-studies/how-ai-and-rag-chatbots-cut-customer-service-costs-by-millions)**
 - Problema: 600M+ suscriptores con consultas recurrentes
 - Solución: Chatbot AI con RAG sobre base de conocimiento
 - Métricas:
@@ -129,7 +128,7 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 - Valida continuamente. Define umbrales mínimos de precisión y monitoriza degradación.
 - Implementa revisión humana escalonada según nivel de riesgo de la decisión.
 
-**Caso real: LawGeex**
+**Caso real: [LawGeex](https://www.virtasant.com/ai-today/ai-contract-mangement-legal)**
 - Problema: Validar efectividad de IA vs abogados humanos
 - Solución: Test con 20 abogados experimentados vs IA en NDAs
 - Métricas:
@@ -146,6 +145,8 @@ Está en las preguntas que te haces antes de escribir código. **¿Estás constr
 
 **Especializa, no generalices:** Tu ventaja está en el conocimiento de tu dominio. Los LLMs funcionan bien para problemas genéricos; tú ganas en los de nicho con Fine-tuning, RAG o modelos específicos.
 
+**Mantén la arquitectura simple:** No añadas abstracciones o frameworks "por si acaso". Pregúntate: ¿de verdad necesito ahora todas esas posibilidades que me da este nuevo framework?
+
 **Integra en flujos existentes:** Si la IA añade fricción, nadie la usará. La mejor IA es invisible para el usuario.
 
 **Itera con usuarios reales:** Tu equipo dirá que funciona. Los usuarios reales te enseñarán dónde falla y si estás resolviendo un problema real.
@@ -154,12 +155,7 @@ Recuerda que el éxito no está en cuánto código generas, sino en cuánto valo
 
 ---
 
-**Referencias:**
+**Otras referencias:**
 - [MIT Nanda - The GenAI Divide - State of AI in business 2025](https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf)
 - [McKinsey - One year of agentic AI: Six lessons from the people doing the work](https://www.mckinsey.com/~/media/mckinsey/business%20functions/quantumblack/our%20insights/one%20year%20of%20agentic%20ai%20six%20lessons%20from%20the%20people%20doing%20the%20work/one-year-of-agentic-ai-six-lessons-from-the-people-doing-the-work_final.pdf)
 - [MIT Says 95% of AI Pilots Fail. McKinsey Explains Why. Agentic Engineering Shows How to Fix It.](https://medium.com/generative-ai-revolution-ai-native-transformation/mit-says-95-of-ai-pilots-fail-mckinsey-explains-why-agentic-engineering-shows-how-to-fix-it-66a7bb2d8e0d)
-- [Caso Lumen](https://www.microsoft.com/en-us/worklab/agents-of-change)
-- [Caso CirrusMD](https://writer.com/blog/roi-for-generative-ai/)
-- [Caso Accenture](https://github.blog/news-insights/research/research-quantifying-github-copilots-impact-in-the-enterprise-with-accenture/)
-- [Caso Vodafone](https://www.nexgencloud.com/blog/case-studies/how-ai-and-rag-chatbots-cut-customer-service-costs-by-millions)
-- [Caso LawGeex](https://www.virtasant.com/ai-today/ai-contract-mangement-legal)
