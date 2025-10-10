@@ -40,70 +40,44 @@ Cálculos, validaciones, reglas claras. Un if/else es más barato, más rápido 
 Decisiones críticas sin revisión humana, sectores regulados, fallos con consecuencias graves. Pregúntate que pasa si el sistema no se comporta como esperamos ¿Cómo de grave es?
 
 
-## 6 obstáculos a superar
+## 5 obstáculos a superar
 
 ### 1. Valor primero, tecnología después
 
 **El problema:** Creamos demos impresionantes sin impacto de negocio. Prototipos técnicos sin usuarios ni métricas. Pilotos que nunca escalan.
 
-**Pregunta clave:** ¿Estoy construyendo esto porque mola, o porque realmente resuelve un problema medible para alguien concreto?
+**Pregunta clave:** ¿Estoy construyendo esto porque mola, o porque resuelve un problema medible para alguien concreto?
 
 **Qué hacer:**
 - Define métricas de negocio antes de escribir código: tiempo ahorrado, errores evitados, ingresos generados.
 - Empieza con MVPs medibles. Un flujo, un proceso, una métrica.
 - Si tras N semanas no hay impacto medible, cancela o pivota.
 
-### 2. Genera confianza con tu producto
+### 2. Convierte incertidumbre en confianza
 
-**El problema:** Los modelos responden pero el resultado puede ser incorrecto, inexacto o inventado. No tienes trazabilidad ni gobernanza efectiva.
-
-**Ejemplo:** Pon un botón de "¿Por qué me recomiendas esto?" y eso vale más que nuevas funcionalidades con IA.
+**El problema:** Las respuestas pueden ser incorrectas, inexactas o inventadas. Los problemas los descubres tarde o los descubren tus usuarios. No hay trazabilidad ni gobernanza.
 
 **Qué hacer:**
-- Haz visible el razonamiento del modelo y las decisiones.
-- No todo debe ser automático. Implementa human-in-the-loop para decisiones críticas. 
-- Logging completo, audit trails, control de acceso.
-- Define qué datos puede ver la IA y cuáles están prohibidos.
+- Haz visible el razonamiento del modelo. Un botón "¿Por qué me recomiendas esto?" vale más que nuevas funcionalidades con IA.
+- Observabilidad desde el día 1. Logs estructurados, métricas en tiempo real, alertas automáticas.
+- Testing continuo de calidad. ¿Las respuestas son consistentes? ¿Siguen correctas tras actualizar el prompt?
+- Human-in-the-loop para decisiones críticas. Define puntos donde alguien pueda intervenir, corregir o anular.
+- Runbooks para incidentes. Cuando falle (y fallará), ¿qué haces?
 
 ### 3. Arquitectura sencilla que evoluciona con el negocio
 
 **El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar las últimas librerías que viste en el video de Youtube pero que tienen breaking changes en cada versión.
 
-**Regla de oro:** Si cambiar de Claude Sonnet a Google Gemini te lleva más de 1 día, tu arquitectura es muy frágil.
+**Regla de oro:** Si cambiar de Claude Sonnet a Gemini te lleva más de 1 día, tu arquitectura es frágil.
 
 **Qué hacer:**
-- Separa tu lógica de negocio de los proveedores de modelos o las librerías para trabajar con LLMs.
-- Implementa fallbacks. Por ejemplo, si el modelo o el proveedor que usas no funciona, salta a un flujo manual de tu caso de uso.
-- Usa capas de adaptación sencillas. Los modelos cambian pero tu arquitectura no debería.
+- Separa tu lógica de negocio de los proveedores de modelos y librerías de LLMs.
+- Implementa fallbacks. Si el modelo no funciona, salta a un flujo manual.
+- Capas de adaptación sencillas. Los modelos cambian, tu arquitectura no debería.
 
-### 4. Excelencia operativa: no vueles a ciegas
+### 4. Sostenibilidad económica
 
-**El problema:** Los modelos responden pero las respuestas pueden ser incorrectas, inexactas o inventadas. Los problemas los descubres muy tarde o los descubren los usuarios.
-
-**Desde el día 1:** Logs estructurados, métricas en tiempo real, alertas automáticas.
-
-**Qué hacer:**
-- Observabilidad desde el primer día. Si no puedes verlo, no puedes arreglarlo.
-- Testing continuo de calidad. ¿Las respuestas son consistentes? ¿Siguen siendo correctas después de actualizar el prompt?
-- Runbooks para incidentes. Cuando falle (y fallará), ¿qué haces?
-- Convierte fallos silenciosos en incidentes recuperables.
-
-### 5. Supervisión humana no negociable
-
-**El problema:** Sistemas completamente autónomos en los que nadie puede intervenir ni entender las decisiones.
-
-**Ejemplos:** Sistemas de supervisión, posibilidad de override, feedback loop para mejorar.
-
-**Qué hacer:**
-- Define puntos de intervención humana. Alguien debe poder parar, corregir o anular las decisiones del modelo.
-- Define métricas de confianza: tasa de alucinaciones, consistencia, feedback de usuarios.
-- Crea procesos de revisión antes de cada cambio en producción.
-
-### 6. Sostenibilidad económica
-
-**El problema:** Reintentos infinitos, ventanas de contexto mal gestionadas, facturas que crecen exponencialmente.
-
-**Ejemplos:** Coste por operación vs. valor generado. Si no hay margen, no hay negocio.
+**El problema:** Reintentos infinitos, ventanas de contexto mal gestionadas, facturas que crecen exponencialmente. Si no hay margen, no hay negocio.
 
 **Qué hacer:**
 - Establece presupuestos de tokens por caso de uso. No dejes consumo ilimitado.
@@ -113,32 +87,27 @@ Decisiones críticas sin revisión humana, sectores regulados, fallos con consec
 
 ## Lo que funciona en el mundo real
 
-Estos son los patrones recurrentes de los proyectos exitosos:
+**Empieza pequeño, pero completo**
+No hagas 10 demos. Haz 1 flujo end-to-end en producción con telemetría e impacto medible.
 
-**Empieza pequeño, pero completo**  
-No hagas 10 demos. Haz 1 flujo end-to-end en producción con telemetría completa e impacto en usuarios.
+**Especializa, no generalices**
+Tu ventaja está en el conocimiento de tu dominio. Usa Fine-tuning, RAG o modelos específicos cuando resuelves problemas de nicho.
+Los LLMs funcionan bien para resolver problema genéricos.
 
-**Especializa, no generalices**  
-Los LLMs genéricos fallan en problemas de nicho. Si no estás resolviendo un problema genérico, usa Fine-tuning, RAG, o modelos pequeños específicos. Tu ventaja está en el conocimiento específico de tu dominio.
+**Integra en flujos existentes**
+Si la IA añade fricción, nadie la usará. La mejor IA es invisible para el usuario.
 
-**Integra en flujos existentes**  
-Si la IA añade fricción, nadie lo usará. La mejor IA es la que el usuario no percibe mientras usa tu producto.
-
-**Mide desde el primer día**  
-Lanza a un grupo reducido de usuarios reales. Mide impacto, recopila feedback, valida antes de escalar.
-
-**Itera con usuarios reales**  
+**Itera con usuarios reales**
 Tu equipo dirá que funciona. Los usuarios reales te enseñarán dónde falla y si estás resolviendo un problema real.
 
 ## Esto es lo que realmente importa
 
-La diferencia no está en los modelos que usan (Opus, Gemini, GPT-4).  
-La diferencia está en las preguntas que se hacen antes de escribir la primera línea de código.
+La diferencia no está en los modelos que usas.
+Está en las preguntas que te haces antes de escribir código.
 
 No construyen tecnología para demos. Resuelven problemas usando tecnología.
 
 Y sobre todo: saben que el éxito no está en cuánto código generan, sino en cuánto valor entregan.
-
 La pregunta sigue siendo la misma:
 
 **¿Estás construyendo lo correcto?**
