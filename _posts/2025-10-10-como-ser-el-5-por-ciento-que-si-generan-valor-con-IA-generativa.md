@@ -22,49 +22,49 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 
 ## Los 6 obstáculos y cómo superarlos
 
-### 1. Valor primero, no tecnología primero
+### 1. Valor primero, tecnología después
 
-**El problema:** Creamos demos impresionantes sin impacto de negocio. Prototipos sin ROI. Pilotos que nunca escalan.
+**El problema:** Creamos demos impresionantes sin impacto de negocio. Prototipos sin ROI. Pilotos que nunca escalan. Pilotos técnicos sin usuarios ni métricas.
 
 **Pregunta clave:** ¿Estoy construyendo esto porque puedo, o porque realmente resuelve un problema medible para alguien concreto?
 
 **Qué hacer:**
 - Define métricas de negocio antes de escribir código: tiempo ahorrado, errores evitados, ingresos generados.
 - Empieza con MVPs medibles. Un flujo, un proceso, una métrica.
-- Si tras n semanas no hay impacto medible, cancela o pivota.
+- Si tras N semanas no hay impacto medible, cancela o pivota.
 
 ### 2. Construye confianza como producto
 
-**El problema:** Los modelos fallan silenciosamente, alucinan o actúan como cajas negras, sin trazabilidad ni gobernanza efectiva.
+**El problema:** Los modelos repondes pero el resultado puede ser incorrecto, inexacto o inventado. No tinenes trazabilidad ni gobernanza efectiva.
 
 **Ejemplo práctico:** Un botón de "¿Por qué me recomiendas esto?" vale más que 10 features más.
 
 **Qué hacer:**
-- Haz visible el razonamiento del modelo, las respuestas y las decisiones.
+- Haz visible el razonamiento del modelo y las decisiones.
 - No todo debe ser automático. Implementa human-in-the-loop para decisiones críticas. 
 - Desde el día 1: logging completo, audit trails, control de acceso.
 - Define qué datos puede ver la IA y cuáles están prohibidos.
 
 ### 3. Arquitectura sencilla que evoluciona con el negocio
 
-**El problema:** Abstracciones prematuras que colapsan al cambiar de versión o proveedor. Vendor lock-in con breaking changes de APIs en cada versión 
+**El problema:** Abstracciones prematuras que colapsan al cambiar de versión o de proveedor. Usar librerías con breaking changes en cada versión.
 
 **Regla de oro:** Si cambiar de Claude Sonnet a Google Gemini te lleva más de 1 día, tu arquitectura es muy frágil.
 
 **Qué hacer:**
 - Separa tu lógica de negocio de los proveedores de modelos o librerías para trabajar con LLMs.
-- Implementa fallbacks. Si el modelo que usas no funciona, ¿Tienes un plan B?
+- Implementa fallbacks. Si el modelo o el proveedor que usas no funciona, ¿Tienes un plan B?
 - Usa capas de adaptación sencillas. Los modelos cambian pero tu arquitectura no debería.
 
 ### 4. Excelencia operativa: no vueles a ciegas
 
-**El problema:** Los fallos son silenciosos. Los problemas los descubren los clientes o se descubren muy tarde.
+**El problema:** Los fallos son silenciosos. Los problemas los descubren se descubren muy tarde o los descubren los clientes.
 
-**Mínimo viable:** Logs estructurados, métricas en tiempo real, alertas automáticas.
+**Desde el día 1:** Logs estructurados, métricas en tiempo real, alertas automáticas.
 
 **Qué hacer:**
 - Observabilidad desde el primer día. Si no puedes verlo, no puedes arreglarlo.
-- Testing continuo de calidad. ¿Las respuestas son consistentes? ¿Siguen siendo correctas después de actualizar el modelo?
+- Testing continuo de calidad. ¿Las respuestas son consistentes? ¿Siguen siendo correctas después de actualizar el prompt?
 - Runbooks para incidentes. Cuando falle (y fallará), ¿qué haces?
 - Convierte fallos silenciosos en incidentes recuperables.
 
@@ -72,7 +72,7 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 
 **El problema:** Sistemas completamente autónomos en los que nadie puede intervenir ni entender las decisiones.
 
-**Implementación:** Interfaz de revisión, posibilidad de override, feedback loop para mejorar.
+**Implementación:** Sistemas de supervisión, posibilidad de override, feedback loop para mejorar.
 
 **Qué hacer:**
 - Define puntos de intervención humana. Alguien debe poder parar, corregir o anular las decisiones del modelo.
