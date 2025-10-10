@@ -16,7 +16,7 @@ published: false
 
 > "Las ideas son fáciles. La ejecución lo es todo." - John Doerr
 
-Hace unos días os explicaba que [el 95% de los proyectos de IA generativa fracasan](https://nikeyes.github.io/solo-el-5-por-ciento-proyectos-ia-generan-valor-negocio-es/). Supongo que también os interesa saber **cómo ser ese 5% que triunfan**
+Hace unos días os explicaba que [el 95% de los proyectos de IA generativa fracasan](https://nikeyes.github.io/solo-el-5-por-ciento-proyectos-ia-generan-valor-negocio-es/). Supongo que también os interesa saber **cómo ser ese 5% que triunfa**
 
 La respuesta está en cómo definimos, construimos, operamos y medimos.
 
@@ -35,7 +35,7 @@ La respuesta está en cómo definimos, construimos, operamos y medimos.
 
 ### 2. Genera confianza con tu producto
 
-**El problema:** Los modelos reponden pero el resultado puede ser incorrecto, inexacto o inventado. No tinenes trazabilidad ni gobernanza efectiva.
+**El problema:** Los modelos responden pero el resultado puede ser incorrecto, inexacto o inventado. No tienes trazabilidad ni gobernanza efectiva.
 
 **Ejemplo:** Pon un botón de "¿Por qué me recomiendas esto?" y eso vale más que nuevas funcionalidades con IA.
 
@@ -112,7 +112,7 @@ Tu equipo dirá que funciona. Los usuarios reales te enseñarán dónde falla y 
 
 ## Esto es lo que realmente importa
 
-El 5% que triunfa no tiene los mejores modelos. Elige bien qué construir y cómo medirlo.
+El 5% que triunfa no tiene los mejores modelos. Eligen bien qué construir y cómo medirlo.
 
 No construyen tecnología para demos. Resuelven problemas usando tecnología.
 
