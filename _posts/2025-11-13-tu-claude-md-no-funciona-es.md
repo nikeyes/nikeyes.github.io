@@ -1,0 +1,212 @@
+---
+layout: post
+title: Tu CLAUDE.md no funciona (y no es culpa de tus reglas)
+categories:
+  - GenAI
+  - LLMs
+  - Desarrollo guiado por IA
+tags:
+  - GenAI
+  - LLMs
+  - Desarrollo guiado por IA
+  - Claude Code
+  - Context Engineering
+lang: es
+ref: tu-claude-md-no-funciona
+published: false
+---
+
+> "Context engineering over prompt engineering" - Andrej Karpathy
+
+Ya has visto todos los tutoriales de Claude Code. Has creado tu flamante CLAUDE.md y tienes unas buenas reglas de arquitectura y diseño. ¡A desarrollar!
+
+Pero cuando Claude Code lleva un rato haciendo cambios empieza a olvidar tus reglas y ya no desarrolla como te gustaría.
+
+**El problema no son tus reglas. El problema es que no estas controlando el contexto.**
+
+## Por qué tener un CLAUDE.md no es suficiente
+
+Mi [CLAUDE.md](https://github.com/nikeyes/claude-code-config/blob/main/CLAUDE.md) define principios claros y sólidos. Pero hay un problema: Las mejores reglas del mundo no sirven si Claude Code tiene **demasiado contexto**.
+
+## Lo importante no son las ventanas de contexto, son las ventanas de atención
+
+Los fabricantes de LLMs anuncian ventanas de contexto enormes. Claude 3.5 Sonnet acepta 200k tokens. Gemini 1 millón. Suena impresionante.
+
+Pero hay que diferenciar entre **cuánto contexto aceptan** (la ventana de contexto) y **cuánto contexto pueden procesar de forma eficaz** (la ventana de atención).
+
+### La ventana de contexto vs la ventana de atención
+
+Los fabricantes no publican información de sus ventanas de atención para no revelar detalles de implementación de sus arquitecturas.
+Pero la comunidad ha intentado buscar el tamaño de la ventana de atención de forma empírica. Probando, probando y probando.
+En todos estas pruebas se demuestra que la ventana de atención es menor que la ventana de contexto.
+
+| Modelo       | Ventana de contexto | Ventana de atención        | Fuente                       |
+|--------------|---------------------|----------------------------|------------------------------|
+| GPT-4 Turbo  | 128k tokens         | ~64k tokens (50%)          | [RULER Benchmark](https://ar5iv.labs.arxiv.org/html/2404.06654)  |
+| Claude 3/3.5 | 200k tokens         | Significativamente menor   | [Anthropic: "LLMs lose focus with long contexts"](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
+| LLaMA 3.1    | 128k tokens         | ~32k tokens (25%)          | [Evaluaciones RAG Databricks](https://www.databricks.com/blog/long-context-rag-performance-llms)  |
+| Mistral 7B   | 32k tokens          | ~16k efectivos (50%)       | [Benchmark RULER](https://ar5iv.labs.arxiv.org/html/2404.06654)              |
+
+**Las pruebas demuestran que después del 50-60% de las ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
+
+Después de varios meses trabajando con Claude Code, encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado. He creado el plugin stepwise-dev para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
+
+## El marco FIC (Frequent Intentional Compaction)
+
+Como explica [Dex Horthy en su charla sobre Context Engineering](https://www.youtube.com/watch?v=VvkhYWFWaKI), el problema de contexto se resuelve con un flujo de trabajo estructurado:
+
+> "The key is to separate research, planning, and implementation into distinct phases with frequent intentional compaction."
+
+El marco FIC propone 4 fases independientes:
+- **Research**: Investigación sin implementación
+- **Plan**: Diseño iterativo antes de código
+- **Implement**: Ejecución por fases
+- **Validate**: Verificación sistemática
+
+Entre cada fase, se hace limpieza intencional del contexto (`/clear`), pero el conocimiento persiste en archivos estructurados.
+
+**Stepwise-dev automatiza este flujo de trabajo FIC**, proporcionando comandos específicos para cada fase y gestionando automáticamente la persistencia del conocimiento en el directorio `thoughts/`.
+
+## Cómo stepwise-dev implementa el marco FIC
+
+La solución no es escribir mejores prompts. Es estructurar tu flujo de trabajo para mantener el contexto controlado, como propone el marco FIC.
+
+Stepwise-dev implementa las 4 fases del marco FIC mediante comandos específicos. Cada fase empieza con contexto limpio.
+
+**Research** -> Investiga sin implementar
+
+El problema típico: pides a Claude "investiga cómo funciona X". Claude carga 15 archivos, analiza todo, y terminas con 65% de contexto lleno de información que ya no necesitas.
+
+```bash
+/stepwise-dev:research_codebase "How does authentication work in this project?"
+/clear
+```
+
+Claude lanza hasta **5 agentes especializados en paralelo** (codebase-locator, codebase-analyzer, pattern-finder...), genera un documento en `thoughts/shared/research/`, y listo.
+
+**Resultado:** Conocimiento persistente. Contexto limpio.
+
+---
+
+**Plan** -> Diseña antes de implementar
+
+Como dice [Dex Horthy](https://x.com/dexhorthy/) in [Context Engineering SF: Advanced Context Engineering for Agents](https://www.youtube.com/watch?v=VvkhYWFWaKI)
+
+> "A bad line of code is... a bad line of code. But a bad line of a plan could lead to hundreds of bad lines of code."
+
+Revisar 200 líneas de plan es más fácil que revisar 2000 líneas de código.
+
+```bash
+/stepwise-dev:create_plan @thoughts/shared/research/2025-11-15-auth.md
+/clear
+
+# Opcional: iterar el plan
+/stepwise-dev:iterate_plan @thoughts/shared/plans/2025-11-15-auth.md "Añadir soporte para refresh tokens y manejo de expiración"
+/clear
+```
+
+Claude crea un plan estructurado en fases. Tú iteras las veces que quieras hasta que el plan es sólido.
+
+**Clave:** Corriges errores en fase de diseño, no después de implementarlo. 
+
+---
+
+**Implement** -> Una fase a la vez
+
+```bash
+/stepwise-dev:implement_plan @thoughts/shared/plans/2025-11-15-oauth.md Phase 1 only
+/clear
+```
+
+Claude lee el plan completo, implementa **solo UNA fase**, ejecuta tests, y espera tu confirmación.
+
+```bash
+/stepwise-dev:implement_plan @thoughts/shared/plans/2025-11-15-oauth.md Phase 2 only
+/clear
+```
+
+**Resultado:** El contexto nunca supera 60%. El código coherente porque cada fase tiene contexto limpio.
+
+---
+
+**Validate** -> Verifica sistemáticamente
+
+```bash
+/stepwise-dev:validate_plan @thoughts/shared/plans/2025-11-15-oauth.md
+/clear
+```
+
+Claude verifica que todo está implementado: todas las fases completadas, tests pasando, código coincide con el plan, sin desviaciones no documentadas.
+
+## La clave está en el sistema de memoria: thoughts/
+
+Aquí está la diferencia fundamental con solo usar prompts:
+
+**Sin stepwise-dev:**
+- Investigas -> `/clear` -> Se pierde todo.
+- Investigas sin `/clear`-> Llenas el contexto de información innecesaria para seguir desarrollando.
+- Dos semanas después: vuelves a investigar lo mismo porque no lo has guardado.
+
+**Con stepwise-dev:**
+- Investigas -> Se guarda en `thoughts/shared/research/`
+- Planificas -> Se guarda en `thoughts/shared/plans/`
+- Implementas -> Referencias el plan
+- Validas -> Comparas con el plan
+
+**Ventajas:**
+1. **Conocimiento persistente**: El research de hace 3 semanas sigue disponible
+2. **Decisiones documentadas**: "¿Por qué usamos esta librería?" -> Está en el research doc
+3. **Equipo alineado**: Todos leen `shared/`, no solo tú
+4. **Zero retrabajo**: No repites investigaciones
+
+## ¿Quieres probarlo?
+
+[Instala stepwise-dev](https://github.com/nikeyes/stepwise-dev?tab=readme-ov-file#-installation) úsalo en tu siguiente sesión de trabajo.
+
+```bash
+# En Claude Code
+/plugin marketplace add nikeyes/stepwise-dev
+/plugin install stepwise-dev@stepwise-dev
+
+# Reinicia Claude Code
+```
+
+## Lo que realmente cambia
+
+He usado Claude Code durante meses antes de crear stepwise-dev. El problema no era escribir código mantenible. El problema era gestionar bien el contexto:
+
+**El ciclo sin fin:**
+- Claude investiga -> Contexto al 70% -> ¿Hago /clear y pierdo info?
+- Contexto crece -> Claude ignora mi CLAUDE.md -> Código inconsistente
+- Busco "esa investigación de hace 2 semanas" -> Se perdió en un /clear
+
+**Con stepwise-dev:**
+- Research -> Conocimiento en `thoughts/shared/` + `/clear` sin miedo
+- Plans -> Diseño iterativo sin llenar el contexto
+- Implement -> Por fases, contexto siempre < 60%
+- Validate -> Verificación contra el plan
+
+
+Ahora claude sigue tu CLAUDE.md consistentemente porque el contexto nunca se desborda. El conocimiento persiste. No decides cuándo hacer `/clear`, el flujo lo hace por ti.
+
+No es velocidad. Es **control del contexto sin pensar en ello.**
+
+[Instala stepwise-dev](https://github.com/nikeyes/stepwise-dev) y deja de decidir cuándo hacer /clear.
+
+---
+
+## Referencias
+
+### Context Engineering
+- [Advanced Context Engineering for Coding Agents - Dex Horthy](https://hlyr.dev/ace)
+- [Frequent Intentional Compaction - HumanLayer](https://github.com/humanlayer/humanlayer/blob/main/.claude/README.md)
+- [I Mastered the Claude Code Workflow - Ashley Ha](https://medium.com/@ashleyha/i-mastered-the-claude-code-workflow-145d25e502cf)
+- [Context Engineering SF: Advanced Context Engineering for Agents](https://www.youtube.com/watch?v=VvkhYWFWaKI)
+- [Avoiding Skill Atrophy in the Age of AI](https://addyo.substack.com/p/avoiding-skill-atrophy-in-the-age)
+- [Effective context engineering for AI agents - Anthropic](https://www.anthropic.com/research/context-engineering)
+
+### Estudios sobre ventanas de atención
+- [Lost in the Middle (Liu et al., 2024)](https://aclanthology.org/2024.tacl-1.9.pdf)
+- [RULER Benchmark (Hsieh et al., 2024)](https://ar5iv.labs.arxiv.org/html/2404.06654)
+- [Long Context RAG Performance - Databricks](https://www.databricks.com/blog/long-context-rag-performance-llms)
+- [Effective Context Engineering - Anthropic](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
