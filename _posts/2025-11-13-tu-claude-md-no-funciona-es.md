@@ -20,11 +20,11 @@ published: false
 
 Ya has visto todos los tutoriales de Claude Code. Has creado tu flamante CLAUDE.md y tienes unas buenas reglas de arquitectura y diseño. ¡A desarrollar!
 
-Pero cuando Claude Code lleva un rato haciendo cambios empieza a olvidar tus reglas y ya no desarrolla como te gustaría.
+Pero cuando Claude Code lleva un rato haciendo cambios empieza a olvidar tus reglas y ya no desarrolla como necesitas.
 
 **El problema no son tus reglas. El problema es que no estas controlando el contexto.**
 
-## Por qué tener un CLAUDE.md no es suficiente
+## ¿Por qué tener un CLAUDE.md no es suficiente?
 
 Mi [CLAUDE.md](https://github.com/nikeyes/claude-code-config/blob/main/CLAUDE.md) define principios claros y sólidos. Pero hay un problema: Las mejores reglas del mundo no sirven si Claude Code tiene **demasiado contexto**.
 
@@ -43,13 +43,13 @@ En todos estas pruebas se demuestra que la ventana de atención es menor que la 
 | Modelo       | Ventana de contexto | Ventana de atención        | Fuente                       |
 |--------------|---------------------|----------------------------|------------------------------|
 | GPT-4 Turbo  | 128k tokens         | ~64k tokens (50%)          | [RULER Benchmark](https://ar5iv.labs.arxiv.org/html/2404.06654)  |
-| Claude 3/3.5 | 200k tokens         | Significativamente menor   | [Anthropic: "LLMs lose focus with long contexts"](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
+| Claude 3/3.5 | 200k tokens         | No he encontrado datos     | [Anthropic: "LLMs lose focus with long contexts"](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
 | LLaMA 3.1    | 128k tokens         | ~32k tokens (25%)          | [Evaluaciones RAG Databricks](https://www.databricks.com/blog/long-context-rag-performance-llms)  |
 | Mistral 7B   | 32k tokens          | ~16k efectivos (50%)       | [Benchmark RULER](https://ar5iv.labs.arxiv.org/html/2404.06654)              |
 
 **Las pruebas demuestran que después del 50-60% de las ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
 
-Después de varios meses trabajando con Claude Code, encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado. He creado el plugin stepwise-dev para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
+Después de varios meses trabajando con Claude Code, encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado. He creado el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
 
 ## El marco FIC (Frequent Intentional Compaction)
 
@@ -67,9 +67,9 @@ Entre cada fase, se hace limpieza intencional del contexto (`/clear`), pero el c
 
 **Stepwise-dev automatiza este flujo de trabajo FIC**, proporcionando comandos específicos para cada fase y gestionando automáticamente la persistencia del conocimiento en el directorio `thoughts/`.
 
-## Cómo stepwise-dev implementa el marco FIC
+## ¿Cómo implementa el marco FIC stepwise-dev?
 
-La solución no es escribir mejores prompts. Es estructurar tu flujo de trabajo para mantener el contexto controlado, como propone el marco FIC.
+La solución no es escribir mejores prompts. Es estructurar tu flujo de trabajo para mantener el contexto controlado.
 
 Stepwise-dev implementa las 4 fases del marco FIC mediante comandos específicos. Cada fase empieza con contexto limpio.
 
@@ -111,7 +111,7 @@ Claude crea un plan estructurado en fases. Tú iteras las veces que quieras hast
 
 ---
 
-**Implement** -> Una fase a la vez
+**Implement** -> Implementa una fase cada vez
 
 ```bash
 /stepwise-dev:implement_plan @thoughts/shared/plans/2025-11-15-oauth.md Phase 1 only
@@ -125,7 +125,7 @@ Claude lee el plan completo, implementa **solo UNA fase**, ejecuta tests, y espe
 /clear
 ```
 
-**Resultado:** El contexto nunca supera 60%. El código coherente porque cada fase tiene contexto limpio.
+**Resultado:** El contexto nunca supera 60%. El código es coherente porque cada fase tiene el contexto limpio.
 
 ---
 
@@ -138,30 +138,9 @@ Claude lee el plan completo, implementa **solo UNA fase**, ejecuta tests, y espe
 
 Claude verifica que todo está implementado: todas las fases completadas, tests pasando, código coincide con el plan, sin desviaciones no documentadas.
 
-## La clave está en el sistema de memoria: thoughts/
-
-Aquí está la diferencia fundamental con solo usar prompts:
-
-**Sin stepwise-dev:**
-- Investigas -> `/clear` -> Se pierde todo.
-- Investigas sin `/clear`-> Llenas el contexto de información innecesaria para seguir desarrollando.
-- Dos semanas después: vuelves a investigar lo mismo porque no lo has guardado.
-
-**Con stepwise-dev:**
-- Investigas -> Se guarda en `thoughts/shared/research/`
-- Planificas -> Se guarda en `thoughts/shared/plans/`
-- Implementas -> Referencias el plan
-- Validas -> Comparas con el plan
-
-**Ventajas:**
-1. **Conocimiento persistente**: El research de hace 3 semanas sigue disponible
-2. **Decisiones documentadas**: "¿Por qué usamos esta librería?" -> Está en el research doc
-3. **Equipo alineado**: Todos leen `shared/`, no solo tú
-4. **Zero retrabajo**: No repites investigaciones
-
 ## ¿Quieres probarlo?
 
-[Instala stepwise-dev](https://github.com/nikeyes/stepwise-dev?tab=readme-ov-file#-installation) úsalo en tu siguiente sesión de trabajo.
+[Instala stepwise-dev](https://github.com/nikeyes/stepwise-dev?tab=readme-ov-file#-installation) y úsalo en tu siguiente sesión de trabajo.
 
 ```bash
 # En Claude Code
@@ -173,25 +152,30 @@ Aquí está la diferencia fundamental con solo usar prompts:
 
 ## Lo que realmente cambia
 
-He usado Claude Code durante meses antes de crear stepwise-dev. El problema no era escribir código mantenible. El problema era gestionar bien el contexto:
+He usado Claude Code durante meses antes de crear [stepwise-dev](https://github.com/nikeyes/stepwise-dev). El problema no era saber escribir código mantenible con Claude Code. El problema era gestionar bien el contexto:
 
 **El ciclo sin fin:**
-- Claude investiga -> Contexto al 70% -> ¿Hago /clear y pierdo info?
+- Claude investiga -> Contexto al 70% -> ¿Hago `/clear` y pierdo info?
 - Contexto crece -> Claude ignora mi CLAUDE.md -> Código inconsistente
-- Busco "esa investigación de hace 2 semanas" -> Se perdió en un /clear
+- Busco "esa investigación de hace 2 semanas" -> Se perdió en un `/clear`
 
-**Con stepwise-dev:**
-- Research -> Conocimiento en `thoughts/shared/` + `/clear` sin miedo
-- Plans -> Diseño iterativo sin llenar el contexto
-- Implement -> Por fases, contexto siempre < 60%
-- Validate -> Verificación contra el plan
+**La diferencia fundamental es el [directorio thoughts/](https://github.com/nikeyes/stepwise-dev?tab=readme-ov-file#-directory-structure):**
 
+Con stepwise-dev:
+- **Research** -> Se guarda en `thoughts/shared/research/` -> `/clear` sin miedo
+- **Plans** -> Se guarda en `thoughts/shared/plans/` -> Diseño iterativo sin llenar contexto
+- **Implement** -> Referencias el plan -> Contexto siempre < 60%
+- **Validate** -> Comparas contra el plan -> Verificación sistemática
 
-Ahora claude sigue tu CLAUDE.md consistentemente porque el contexto nunca se desborda. El conocimiento persiste. No decides cuándo hacer `/clear`, el flujo lo hace por ti.
+ **Problemas que elimina:**
+  1. **"¿Dónde guardé esa info?"** -> Todo en `thoughts/shared/`, siempre accesible
+  2. **"¿Por qué decidimos esto?"** -> Cada decisión tiene su research o plan asociado
+  3. **"Nuevo en el equipo"** -> Lee `shared/` y entiendes el proyecto
+  4. **"Investigar de nuevo"** -> Si está en `thoughts/`, no se reinvestiga
 
-No es velocidad. Es **control del contexto sin pensar en ello.**
+Pero sobre todo, ahora Claude Code sigue tu CLAUDE.md consistentemente porque el contexto nunca se llena.
 
-[Instala stepwise-dev](https://github.com/nikeyes/stepwise-dev) y deja de decidir cuándo hacer /clear.
+No vas a ir más rápido pero tienes el **control del contexto sin pensar en ello.**
 
 ---
 
