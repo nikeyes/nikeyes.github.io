@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(stepwise-dev:thoughts-management)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
