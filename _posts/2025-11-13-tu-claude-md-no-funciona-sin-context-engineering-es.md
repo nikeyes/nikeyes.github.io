@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tu CLAUDE.md no funciona (y no es culpa de tus reglas)
+title: Tu CLAUDE.md no funciona (sin Context Engineering)
 categories:
   - GenAI
   - LLMs
@@ -12,7 +12,7 @@ tags:
   - Claude Code
   - Context Engineering
 lang: es
-ref: tu-claude-md-no-funciona
+ref: tu-claude-md-no-funciona-sin-context-engineering
 published: false
 ---
 
@@ -49,7 +49,13 @@ En todos estas pruebas se demuestra que la ventana de atención es menor que la 
 
 **Las pruebas demuestran que después del 50-60% de las ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
 
-Después de varios meses trabajando con Claude Code, encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado. He creado el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
+Después de varios meses trabajando con Claude Code, mi flujo de trabajo típico era:
+- 30 minutos de productividad espectacular
+- Claude empezaba a olvidar mis reglas de CLAUDE.md
+- Contexto al 75%... ¿Hago `/clear` y pierdo todo? 
+- Dónde está esa investigación de hace 2 semanas... Pedírsela de nuevo desde cero.
+
+Entonces cuando encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado. He creado el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
 
 ## El marco FIC (Frequent Intentional Compaction)
 
