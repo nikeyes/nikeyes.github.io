@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Skill(stepwise-dev:thoughts-management)"
+      "Skill(stepwise-dev:thoughts-management)",
+      "WebFetch(domain:github.com)"
     ],
     "deny": [],
     "ask": []

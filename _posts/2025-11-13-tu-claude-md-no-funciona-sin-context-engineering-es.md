@@ -194,6 +194,7 @@ No vas a ir más rápido pero tienes el **control del contexto sin pensar en ell
 - [Context Engineering SF: Advanced Context Engineering for Agents](https://www.youtube.com/watch?v=VvkhYWFWaKI)
 - [Avoiding Skill Atrophy in the Age of AI](https://addyo.substack.com/p/avoiding-skill-atrophy-in-the-age)
 - [Effective context engineering for AI agents - Anthropic](https://www.anthropic.com/research/context-engineering)
+- [12-Factor Agents - Own your context window](https://github.com/humanlayer/12-factor-agents/blob/main/content/factor-03-own-your-context-window.md)
 
 ### Estudios sobre ventanas de atención
 - [Lost in the Middle (Liu et al., 2024)](https://aclanthology.org/2024.tacl-1.9.pdf)
