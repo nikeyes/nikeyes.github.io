@@ -41,12 +41,12 @@ Los fabricantes no publican información de sus ventanas de atención para no re
 Pero la comunidad ha intentado buscar el tamaño de la ventana de atención de forma empírica. Probando, probando y probando.
 En todas estas pruebas se demuestra que la ventana de atención es menor que la ventana de contexto.
 
-| Modelo       | Ventana de contexto | Ventana de atención        | Fuente                       |
-|--------------|---------------------|----------------------------|------------------------------|
-| GPT-4 Turbo  | 128k tokens         | ~64k tokens (50%)          | [RULER Benchmark](https://ar5iv.labs.arxiv.org/html/2404.06654)  |
-| Claude 3/3.5 | 200k tokens         | No he encontrado datos     | [Anthropic: "LLMs lose focus with long contexts"](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
-| LLaMA 3.1    | 128k tokens         | ~32k tokens (25%)          | [Evaluaciones RAG Databricks](https://www.databricks.com/blog/long-context-rag-performance-llms)  |
-| Mistral 7B   | 32k tokens          | ~16k efectivos (50%)       | [Benchmark RULER](https://ar5iv.labs.arxiv.org/html/2404.06654)              |
+| **Modelo**   | **Ventana de contexto** | **Ventana de atención**    | **Fuente**                   |
+|--------------|-------------------------|----------------------------|------------------------------|
+| GPT-4 Turbo  | 128k tokens             | ~64k tokens (50%)          | [RULER Benchmark](https://ar5iv.labs.arxiv.org/html/2404.06654)  |
+| Claude 3/3.5 | 200k tokens             | No he encontrado datos     | [Anthropic: "LLMs lose focus with long contexts"](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) |
+| LLaMA 3.1    | 128k tokens             | ~32k tokens (25%)          | [Evaluaciones RAG Databricks](https://www.databricks.com/blog/long-context-rag-performance-llms) |
+| Mistral 7B   | 32k tokens              | ~16k efectivos (50%)       | [Benchmark RULER](https://ar5iv.labs.arxiv.org/html/2404.06654)              |
 
 **Las pruebas demuestran que después del 50-60% de la ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
 
