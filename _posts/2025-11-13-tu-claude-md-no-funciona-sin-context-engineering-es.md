@@ -50,7 +50,7 @@ En todas estas pruebas se demuestra que la ventana de atención es menor que la 
 
 **Las pruebas demuestran que después del 50-60% de la ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
 
-Después de varios meses trabajando con Claude Code, mi flujo de trabajo típico era:
+Después de varios meses trabajando con Claude Code, mi flujo de trabajo habitual era:
 - **Media hora de productividad espectacular**, Claude trabaja de forma impecable siguiendo mi `CLAUDE.md`
 - **45 minutos después**: "Claude, así no, recuerda tu `CLAUDE.md`". Pero empieza a ignorar mis reglas de diseño y el contexto del proyecto: ¿Por qué crea un nuevo servicio si le pedí usar el existente? ¿Por qué no ha implementado tests?
 - **1 hora después**: Claude Code me va a compactar el contexto automáticamente. ¿Seguiré por encima del 60%? ¿Hago `/clear` y le explico todo otra vez? ¿Sigo así y me arriesgo a que siga ignorando mis reglas?
@@ -182,6 +182,8 @@ He usado Claude Code durante meses antes de crear [`stepwise-dev`](https://githu
 El problema no era saber escribir código mantenible con Claude Code. El problema era gestionar bien el contexto
 
 **La diferencia fundamental es el [directorio thoughts/](https://github.com/nikeyes/stepwise-dev?tab=readme-ov-file#-directory-structure):**
+
+La carpeta `/thoughts` es un cerebro externo para Claude Code. Cada fase produce conocimiento reutilizable por Claude Code, sus agentes, otras sesiones o humanos.
 
 Con `stepwise-dev`:
 - **Research** -> Se guarda en `thoughts/shared/research/` -> `/clear` sin miedo
