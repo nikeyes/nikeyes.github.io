@@ -13,7 +13,7 @@ tags:
   - Context Engineering
 lang: es
 ref: tu-claude-md-no-funciona-sin-context-engineering
-published: true
+published: false
 ---
 
 > "Context engineering over prompt engineering" - Andrej Karpathy
@@ -23,7 +23,7 @@ Has creado tu flamante `CLAUDE.md` y tienes unas buenas reglas de arquitectura y
 
 Pero cuando Claude Code lleva un rato haciendo cambios empieza a olvidar tus reglas y ya no desarrolla como necesitas.
 
-**El problema no son tus reglas. El problema es que no estas controlando el contexto.**
+**El problema no son tus reglas. El problema es que no estás controlando el contexto.**
 
 ## ¿Por qué tener un CLAUDE.md no es suficiente?
 
@@ -39,7 +39,7 @@ Pero hay que diferenciar entre **cuánto contexto aceptan** (la ventana de conte
 
 Los fabricantes no publican información de sus ventanas de atención para no revelar detalles de implementación de sus arquitecturas.
 Pero la comunidad ha intentado buscar el tamaño de la ventana de atención de forma empírica. Probando, probando y probando.
-En todos estas pruebas se demuestra que la ventana de atención es menor que la ventana de contexto.
+En todas estas pruebas se demuestra que la ventana de atención es menor que la ventana de contexto.
 
 | Modelo       | Ventana de contexto | Ventana de atención        | Fuente                       |
 |--------------|---------------------|----------------------------|------------------------------|
@@ -48,13 +48,13 @@ En todos estas pruebas se demuestra que la ventana de atención es menor que la 
 | LLaMA 3.1    | 128k tokens         | ~32k tokens (25%)          | [Evaluaciones RAG Databricks](https://www.databricks.com/blog/long-context-rag-performance-llms)  |
 | Mistral 7B   | 32k tokens          | ~16k efectivos (50%)       | [Benchmark RULER](https://ar5iv.labs.arxiv.org/html/2404.06654)              |
 
-**Las pruebas demuestran que después del 50-60% de las ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
+**Las pruebas demuestran que después del 50-60% de la ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
 
 Después de varios meses trabajando con Claude Code, mi flujo de trabajo típico era:
 - **Media hora** de productividad espectacular, Claude trabaja de forma impecable siguiendo mi `CLAUDE.md`
-- **45 minutos depués**: Claude, así no, recuerda tu `CLAUDE.md`. Pero empieza a ignorar mis reglas de diseño y el contexto del proyecto: ¿Por qué crea un nuevo servicio si le pedí usar el existente?
-- **1 hora después**: Claude Code me lo va a compactar automáticamente pero seguiré por encima del 60%. ¿Hago `/clear`? y le explico todo otra vez?. ¿Sigo así y me arriesgo a que siga ignorando mis reglas?
-- **2 semanas después**: "¿Dónde guardaste esa investigación de autenticación de la semana pasada?" → Pedírsela de nuevo desde cero.
+- **45 minutos después**: Claude, así no, recuerda tu `CLAUDE.md`. Pero empieza a ignorar mis reglas de diseño y el contexto del proyecto: ¿Por qué crea un nuevo servicio si le pedí usar el existente? ¿Por qué no ha implementado tests?
+- **1 hora después**: Claude Code me va a compactar el contexto automáticamente. ¿Seguiré por encima del 60%? ¿Hago `/clear` y le explico todo otra vez? ¿Sigo así y me arriesgo a que siga ignorando mis reglas?
+- **2 semanas después**: "¿Dónde guardé esa investigación de autenticación de la semana pasada?" -> Se la tengo que pedir de nuevo desde cero.
 
 Este es mi contexto en una sesión nueva y limpia. De inicio ya está al 32% 😱: 
 
@@ -98,12 +98,12 @@ Claude lanza hasta **5 agentes especializados en paralelo** (codebase-locator, c
 
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/02_research_agents.png" alt="" style="height:400px;"/>
 
-Cuando termina te guia en los siguientes pasos
+Cuando termina te guía en los siguientes pasos
 
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/03_research_output.png" alt="" style="height:400px;"/>
 
 
-Y este es mi contexto después del research en una carpeta con 7 proyectos que interactuan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
+Y este es mi contexto después del research en una carpeta con 7 proyectos que interactúan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
 
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/04_research_context_after.png" alt="" style="height:400px;"/>
 
@@ -127,7 +127,7 @@ Revisar 200 líneas de plan es más fácil que revisar 2000 líneas de código.
 ```
 Claude crea un plan estructurado en fases. Tú iteras las veces que quieras hasta que el plan es sólido.
 
-Recuerda que he lanzado `/create_plan` en una carpeta con 7 proyectos que interactuan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
+Recuerda que he lanzado `/create_plan` en una carpeta con 7 proyectos que interactúan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
 
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/05_plan_context_after.png" alt="" style="height:400px;"/>
 
