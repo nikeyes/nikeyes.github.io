@@ -58,7 +58,7 @@ Después de varios meses trabajando con Claude Code, mi flujo de trabajo habitua
 
 Este es mi contexto de Claude Code en una sesión nueva y limpia. De inicio ya está al 32% 😱: 
 
-<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/01_free_context.png" alt="" style="height:400px;"/>
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/01_free_context.png" alt="Contexto de Claude Code en sesión nueva al 32%" style="height:400px; width:auto;"/>
 
 Entonces encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado.  
 He creado el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
@@ -96,16 +96,16 @@ El problema: pides a Claude "investiga cómo funciona X". Claude carga 30 archiv
 
 `stepwise-dev` lanza hasta **5 agentes especializados en paralelo** (codebase-locator, codebase-analyzer, pattern-finder...) y genera un documento en `thoughts/shared/research/`.
 
-<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/02_research_agents.png" alt="" style="height:400px;"/>
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/02_research_agents.png" alt="5 agentes especializados ejecutándose en paralelo durante el research" style="height:400px; width:auto;"/>
 
 Cuando `stepwise-dev` termina la investigación, te guía en los siguientes pasos (también lo hacen el resto de comandos.)
 
-<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/03_research_output.png" alt="" style="height:400px;"/>
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/03_research_output.png" alt="Guía de siguientes pasos después de completar el research" style="height:400px; width:auto;"/>
 
 
 Y este es mi contexto después del research en una carpeta con 7 proyectos que interactúan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
 
-<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/04_research_context_after.png" alt="" style="height:400px;"/>
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/04_research_context_after.png" alt="Contexto de Claude Code después del research en proyecto con 7 tecnologías" style="height:400px; width:auto;"/>
 
 Después del `/clear`, conocimiento persistente. Contexto limpio.
 
@@ -129,13 +129,13 @@ Claude crea un plan estructurado en fases. Tú iteras las veces que quieras hast
 
 Recuerda que he lanzado `/create_plan` en una carpeta con 7 proyectos que interactúan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
 
-<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/05_plan_context_after.png" alt="" style="height:400px;"/>
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/05_plan_context_after.png" alt="Contexto de Claude Code después de crear el plan" style="height:400px; width:auto;"/>
 
 ### Implement: Implementa las fases de una en una (/stepwise-dev:implement_plan)
 
 `Stepwise-dev` te permite implementar el plan completo. El problema es que seguramente hagas crecer el contexto más allá del 60%
 
-<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/07_plan_context_implement_all_fases.png" alt="" style="height:400px;"/>
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/07_plan_context_implement_all_fases.png" alt="Contexto de Claude Code al implementar todas las fases, superando el 60%" style="height:400px; width:auto;"/>
 
 Por eso es importante ejecutarlo por fases
 
@@ -153,7 +153,7 @@ Claude Code lee el plan completo, implementa **solo UNA fase**, ejecuta tests, y
 
 **Resultado:** El contexto nunca supera 60% en proyectos pequeños/medianos y se queda muy cerca del 60% en proyectos grandes. El código es coherente porque cada fase tiene el contexto limpio.
 
-<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/06_Plan_context_implement_fase_1.png" alt="" style="height:400px;"/>
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/06_Plan_context_implement_fase_1.png" alt="Contexto de Claude Code al implementar solo la fase 1, manteniéndose controlado" style="height:400px; width:auto;"/>
 
 ### Validate: Verifica sistemáticamente (/stepwise-dev:validate_plan)
 
