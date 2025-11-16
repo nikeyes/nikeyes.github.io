@@ -85,7 +85,7 @@ La solución no es escribir mejores prompts. Es estructurar tu flujo de trabajo 
 
 Stepwise-dev implementa las 4 fases del marco FIC mediante comandos específicos. Cada fase empieza con contexto limpio.
 
-**Research** -> Investiga sin implementar
+### Research: Investiga sin implementar
 
 El problema típico: pides a Claude "investiga cómo funciona X". Claude carga 15 archivos, analiza todo, y terminas con 65% de contexto lleno de información que ya no necesitas.
 
@@ -109,11 +109,9 @@ Y este es mi contexto después del research en una carpeta con 7 proyectos que i
 
 Después del `/clear`, conocimiento persistente. Contexto limpio.
 
----
+### Plan: Diseña antes de implementar
 
-**Plan** -> Diseña antes de implementar
-
-Como dice [Dex Horthy](https://x.com/dexhorthy/) in [Context Engineering SF: Advanced Context Engineering for Agents](https://www.youtube.com/watch?v=VvkhYWFWaKI)
+Como dice [Dex Horthy](https://x.com/dexhorthy/) en [Context Engineering SF: Advanced Context Engineering for Agents](https://www.youtube.com/watch?v=VvkhYWFWaKI)
 
 > "A bad line of code is... a bad line of code. But a bad line of a plan could lead to hundreds of bad lines of code."
 
@@ -134,13 +132,11 @@ Recuerda que he lanzado `/create_plan` en una carpeta con 7 proyectos que intera
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/05_plan_context_after.png" alt="" style="height:400px;"/>
 
 
-**Clave:** Corriges errores en fase de diseño, no después de implementarlo. 
+**Clave:** Corriges errores en fase de diseño, no después de implementarlo.
 
----
+### Implement: Implementa una fase cada vez
 
-**Implement** -> Implementa una fase cada vez
-
-`Stepwise-dev` te permite implementar el plan completo. El problema es que seguramente hagas crecer el contecto más allá del 60%
+`Stepwise-dev` te permite implementar el plan completo. El problema es que seguramente hagas crecer el contexto más allá del 60%
 
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/07_plan_context_implement_all_fases.png" alt="" style="height:400px;"/>
 
@@ -158,13 +154,11 @@ Claude lee el plan completo, implementa **solo UNA fase**, ejecuta tests, y espe
 /clear
 ```
 
-**Resultado:** El contexto nunca supera 60% en proyecto pequeños/medianos y se queda muy cerca del 60% en proyectos grandes. El código es coherente porque cada fase tiene el contexto limpio.
+**Resultado:** El contexto nunca supera 60% en proyectos pequeños/medianos y se queda muy cerca del 60% en proyectos grandes. El código es coherente porque cada fase tiene el contexto limpio.
 
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/06_Plan_context_implement_fase_1.png" alt="" style="height:400px;"/>
 
----
-
-**Validate** -> Verifica sistemáticamente
+### Validate: Verifica sistemáticamente
 
 ```bash
 /stepwise-dev:validate_plan @thoughts/shared/plans/2025-11-15-oauth.md
