@@ -13,7 +13,7 @@ tags:
   - Context Engineering
 lang: es
 ref: tu-claude-md-no-funciona-sin-context-engineering
-published: false
+published: true
 ---
 
 > "Context engineering over prompt engineering" - Andrej Karpathy
@@ -55,7 +55,12 @@ Después de varios meses trabajando con Claude Code, mi flujo de trabajo típico
 - Contexto al 75%... ¿Hago `/clear` y pierdo todo? 
 - Dónde está esa investigación de hace 2 semanas... Pedírsela de nuevo desde cero.
 
-Entonces cuando encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado. He creado el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
+Este es mi contexto en una sesión nueva y limpia. De inicio ya está al 32% 😱: 
+
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/01_free_context.png" alt="" style="height:400px;"/>
+
+Entonces cuando encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado.  
+He creado el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
 
 ## El marco FIC (Frequent Intentional Compaction)
 
@@ -90,7 +95,18 @@ El problema típico: pides a Claude "investiga cómo funciona X". Claude carga 1
 
 Claude lanza hasta **5 agentes especializados en paralelo** (codebase-locator, codebase-analyzer, pattern-finder...), genera un documento en `thoughts/shared/research/`, y listo.
 
-**Resultado:** Conocimiento persistente. Contexto limpio.
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/02_research_agents.png" alt="" style="height:400px;"/>
+
+Cuando termina te guia en los siguientes pasos
+
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/03_research_output.png" alt="" style="height:400px;"/>
+
+
+Y este es mi contexto después del research en una carpeta con 7 proyectos que interactuan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
+
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/04_research_context_after.png" alt="" style="height:400px;"/>
+
+Después del `/clear`, conocimiento persistente. Contexto limpio.
 
 ---
 
@@ -103,21 +119,31 @@ Como dice [Dex Horthy](https://x.com/dexhorthy/) in [Context Engineering SF: Adv
 Revisar 200 líneas de plan es más fácil que revisar 2000 líneas de código.
 
 ```bash
-/stepwise-dev:create_plan @thoughts/shared/research/2025-11-15-auth.md
+/stepwise-dev:create_plan is running… @thoughts/shared/research/2025-11-15-auth.md add token refreshes 
 /clear
 
 # Opcional: iterar el plan
 /stepwise-dev:iterate_plan @thoughts/shared/plans/2025-11-15-auth.md "Añadir soporte para refresh tokens y manejo de expiración"
 /clear
 ```
-
 Claude crea un plan estructurado en fases. Tú iteras las veces que quieras hasta que el plan es sólido.
+
+Recuerda que he lanzado `/create_plan` en una carpeta con 7 proyectos que interactuan entre ellos pero están implementados con diferentes tecnologías  (Astro, Java, Python)
+
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/05_plan_context_after.png" alt="" style="height:400px;"/>
+
 
 **Clave:** Corriges errores en fase de diseño, no después de implementarlo. 
 
 ---
 
 **Implement** -> Implementa una fase cada vez
+
+`Stepwise-dev` te permite implementar el plan completo. El problema es que seguramente hagas crecer el contecto más allá del 60%
+
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/07_plan_context_implement_all_fases.png" alt="" style="height:400px;"/>
+
+Por eso es importante ejecutarlo por fases
 
 ```bash
 /stepwise-dev:implement_plan @thoughts/shared/plans/2025-11-15-oauth.md Phase 1 only
@@ -131,7 +157,9 @@ Claude lee el plan completo, implementa **solo UNA fase**, ejecuta tests, y espe
 /clear
 ```
 
-**Resultado:** El contexto nunca supera 60%. El código es coherente porque cada fase tiene el contexto limpio.
+**Resultado:** El contexto nunca supera 60% en proyecto pequeños/medianos y se queda muy cerca del 60% en proyectos grandes. El código es coherente porque cada fase tiene el contexto limpio.
+
+<img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/06_Plan_context_implement_fase_1.png" alt="" style="height:400px;"/>
 
 ---
 
@@ -156,9 +184,10 @@ Claude verifica que todo está implementado: todas las fases completadas, tests 
 # Reinicia Claude Code
 ```
 
-## Lo que realmente cambia
+## Lo que realmente cambia con Stepwise-dev
 
-He usado Claude Code durante meses antes de crear [stepwise-dev](https://github.com/nikeyes/stepwise-dev). El problema no era saber escribir código mantenible con Claude Code. El problema era gestionar bien el contexto:
+He usado Claude Code durante meses antes de crear [stepwise-dev](https://github.com/nikeyes/stepwise-dev).  
+El problema no era saber escribir código mantenible con Claude Code. El problema era gestionar bien el contexto:
 
 **El ciclo sin fin:**
 - Claude investiga -> Contexto al 70% -> ¿Hago `/clear` y pierdo info?
@@ -173,15 +202,15 @@ Con stepwise-dev:
 - **Implement** -> Referencias el plan -> Contexto siempre < 60%
 - **Validate** -> Comparas contra el plan -> Verificación sistemática
 
- **Problemas que elimina:**
+ **Qué soluciona:**
   1. **"¿Dónde guardé esa info?"** -> Todo en `thoughts/shared/`, siempre accesible
   2. **"¿Por qué decidimos esto?"** -> Cada decisión tiene su research o plan asociado
   3. **"Nuevo en el equipo"** -> Lee `shared/` y entiendes el proyecto
   4. **"Investigar de nuevo"** -> Si está en `thoughts/`, no se reinvestiga
 
-Pero sobre todo, ahora Claude Code sigue tu CLAUDE.md consistentemente porque el contexto nunca se llena.
+Pero sobre todo, ahora Claude Code sigue tu CLAUDE.md de forma consistente porque el contexto nunca se llena.
 
-No vas a ir más rápido pero tienes el **control del contexto sin pensar en ello.**
+No vas a ir más rápido, pero ahora tienes el **control del contexto sin pensar en ello.**
 
 ---
 
