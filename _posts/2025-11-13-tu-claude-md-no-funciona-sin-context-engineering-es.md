@@ -18,7 +18,8 @@ published: true
 
 > "Context engineering over prompt engineering" - Andrej Karpathy
 
-Ya has visto todos los tutoriales de Claude Code. Has creado tu flamante CLAUDE.md y tienes unas buenas reglas de arquitectura y diseño. ¡A desarrollar!
+Ya has visto todos los tutoriales de Claude Code. 
+Has creado tu flamante `CLAUDE.md` y tienes unas buenas reglas de arquitectura y diseño. ¡A desarrollar!
 
 Pero cuando Claude Code lleva un rato haciendo cambios empieza a olvidar tus reglas y ya no desarrolla como necesitas.
 
@@ -50,16 +51,16 @@ En todos estas pruebas se demuestra que la ventana de atención es menor que la 
 **Las pruebas demuestran que después del 50-60% de las ventana de contexto, la precisión cae entre 20-50% dependiendo del modelo.**
 
 Después de varios meses trabajando con Claude Code, mi flujo de trabajo típico era:
-- 30 minutos de productividad espectacular
-- Claude empezaba a olvidar mis reglas de CLAUDE.md
-- Contexto al 75%... ¿Hago `/clear` y pierdo todo? 
-- Dónde está esa investigación de hace 2 semanas... Pedírsela de nuevo desde cero.
+- **Media hora** de productividad espectacular, Claude trabaja de forma impecable siguiendo mi `CLAUDE.md`
+- **45 minutos depués**: Claude, así no, recuerda tu `CLAUDE.md`. Pero empieza a ignorar mis reglas de diseño y el contexto del proyecto: ¿Por qué crea un nuevo servicio si le pedí usar el existente?
+- **1 hora después**: Claude Code me lo va a compactar automáticamente pero seguiré por encima del 60%. ¿Hago `/clear`? y le explico todo otra vez?. ¿Sigo así y me arriesgo a que siga ignorando mis reglas?
+- **2 semanas después**: "¿Dónde guardaste esa investigación de autenticación de la semana pasada?" → Pedírsela de nuevo desde cero.
 
 Este es mi contexto en una sesión nueva y limpia. De inicio ya está al 32% 😱: 
 
 <img src="{{ site.baseurl }}/images/2025-11-13-tu-claude-md-no-funciona-sin-context-engineering-es/01_free_context.png" alt="" style="height:400px;"/>
 
-Entonces cuando encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado.  
+Entonces encontré el marco "Frequent Intentional Compaction" (FIC) desarrollado por [Dex Horthy](https://x.com/dexhorthy/) y [HumanLayer](https://github.com/humanlayer/humanlayer). Este marco propone un flujo de trabajo estructurado en fases (Research -> Plan -> Implement -> Validate) para mantener el contexto controlado.  
 He creado el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) para automatizar e implementar este flujo de trabajo FIC en Claude Code, manteniendo el contexto por debajo del 60% de forma sistemática.
 
 ## El marco FIC (Frequent Intentional Compaction)
@@ -191,7 +192,7 @@ El problema no era saber escribir código mantenible con Claude Code. El problem
 
 **El ciclo sin fin:**
 - Claude investiga -> Contexto al 70% -> ¿Hago `/clear` y pierdo info?
-- Contexto crece -> Claude ignora mi CLAUDE.md -> Código inconsistente
+- Contexto crece -> Claude ignora mi `CLAUDE.md` -> Código inconsistente
 - Busco "esa investigación de hace 2 semanas" -> Se perdió en un `/clear`
 
 **La diferencia fundamental es el [directorio thoughts/](https://github.com/nikeyes/stepwise-dev?tab=readme-ov-file#-directory-structure):**
@@ -208,7 +209,7 @@ Con stepwise-dev:
   3. **"Nuevo en el equipo"** -> Lee `shared/` y entiendes el proyecto
   4. **"Investigar de nuevo"** -> Si está en `thoughts/`, no se reinvestiga
 
-Pero sobre todo, ahora Claude Code sigue tu CLAUDE.md de forma consistente porque el contexto nunca se llena.
+Pero sobre todo, ahora Claude Code sigue tu `CLAUDE.md` de forma consistente porque el contexto nunca se llena.
 
 No vas a ir más rápido, pero ahora tienes el **control del contexto sin pensar en ello.**
 
