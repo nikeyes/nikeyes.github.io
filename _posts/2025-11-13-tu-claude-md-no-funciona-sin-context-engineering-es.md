@@ -27,7 +27,24 @@ Pero cuando Claude Code lleva un rato haciendo cambios empieza a olvidar tus reg
 
 ## ¿Por qué tener un CLAUDE.md no es suficiente?
 
-Mi [CLAUDE.md](https://github.com/nikeyes/claude-code-config/blob/main/CLAUDE.md) define principios claros y sólidos. Pero hay un problema: Las mejores reglas del mundo no sirven si Claude Code tiene **demasiado contexto**.
+Mi [CLAUDE.md](https://github.com/nikeyes/claude-code-config/blob/main/CLAUDE.md) define principios claros y sólidos. Pero hay dos problemas:
+
+### 1. Claude Code puede ignorar tu CLAUDE.md
+
+Como explica [HumanLayer en su artículo sobre CLAUDE.md](https://www.hlyr.dev/blog/writing-a-good-claude-md), Claude Code inyecta un recordatorio de sistema que dice explícitamente:
+
+```
+<system-reminder>
+IMPORTANT: this context may or may not be relevant to your tasks.
+You should not respond to this context unless it is highly relevant to your task.
+</system-reminder>
+```
+
+**Claude ignorará tu CLAUDE.md si decide que no es relevante para la tarea actual.** Cuantas más instrucciones específicas o "hotfixes" temporales tengas, más probable es que las ignore.
+
+**Solución:** Mantén solo principios universalmente aplicables. Evita instrucciones de contexto específico.
+
+### 2. Las mejores reglas no sirven con demasiado contexto
 
 ## Lo importante no son las ventanas de contexto, son las ventanas de atención
 
@@ -208,6 +225,7 @@ No vas a ir más rápido, pero ahora tienes el **control del contexto automátic
 ### Sobre Context Engineering
 - [Advanced Context Engineering for Coding Agents - Dex Horthy](https://hlyr.dev/ace)
 - [Frequent Intentional Compaction - HumanLayer](https://github.com/humanlayer/humanlayer/blob/main/.claude/README.md)
+- [Writing a Good CLAUDE.md - HumanLayer](https://www.hlyr.dev/blog/writing-a-good-claude-md)
 - [I Mastered the Claude Code Workflow - Ashley Ha](https://medium.com/@ashleyha/i-mastered-the-claude-code-workflow-145d25e502cf)
 - [Context Engineering SF: Advanced Context Engineering for Agents](https://www.youtube.com/watch?v=VvkhYWFWaKI)
 - [Avoiding Skill Atrophy in the Age of AI](https://addyo.substack.com/p/avoiding-skill-atrophy-in-the-age)
