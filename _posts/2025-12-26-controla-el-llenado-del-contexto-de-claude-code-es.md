@@ -76,6 +76,8 @@ Ejemplo: [https://github.com/nikeyes/claude-code-config/blob/main/settings-perso
 
 Listo. Ahora ves tu porcentaje de contexto en todo momento.
 
+<img src="{{ site.baseurl }}/images/2025-12-26-controla-el-llenado-del-contexto-de-claude-code-es/context-status-line-complete.png" alt="Claude Code with context status line" style="max-height:400px; width:auto; height:auto;"/>  
+
 ## Nota sobre auto compactado
 
 **Yo tengo desactivado el auto compactado de contexto.** Si lo tienes activado, Claude Code se reserva un 22,5% del contexto para poder hacer el compactado. Así que cuando llegues al **77% del contexto, se compactará automáticamente**.
