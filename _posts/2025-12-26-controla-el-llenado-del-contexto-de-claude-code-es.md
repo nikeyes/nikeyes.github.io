@@ -32,7 +32,7 @@ El comando `/context` es lento y rompe mi flujo de trabajo, así que he creado u
 
 <img src="{{ site.baseurl }}/images/2025-12-26-controla-el-llenado-del-contexto-de-claude-code-es/context-status-line-yellow.png" alt="Status bar amarillo - contexto entre 40% y 60%" style="max-height:400px; width:auto; height:auto;"/>  
 
-**Rojo** (>60%). Con warning ⚠️ al llegar al 70% porque te acercas al auto compactado, si lo tienes activado.
+**Rojo** (>60%). Con warning ⚠️ al llegar al 70% porque te acercas al auto-compactado, si lo tienes activado.
 
 <img src="{{ site.baseurl }}/images/2025-12-26-controla-el-llenado-del-contexto-de-claude-code-es/context-status-line-red.png" alt="Status bar rojo - contexto sobre 60% con warning" style="max-height:400px; width:auto; height:auto;"/>  
 
@@ -78,9 +78,9 @@ Listo. Ahora ves tu porcentaje de contexto en todo momento.
 
 <img src="{{ site.baseurl }}/images/2025-12-26-controla-el-llenado-del-contexto-de-claude-code-es/context-status-line-complete.png" alt="Claude Code with context status line" style="max-height:400px; width:auto; height:auto;"/>  
 
-## Nota sobre auto compactado
+## Nota sobre auto-compactado
 
-**Yo tengo desactivado el auto compactado de contexto.** Si lo tienes activado, Claude Code se reserva un 22,5% del contexto para poder hacer el compactado. Así que cuando llegues al **77% del contexto, se compactará automáticamente**.
+**Yo tengo desactivado el auto-compactado de contexto.** Si lo tienes activado, Claude Code se reserva un 22,5% del contexto para poder hacer el compactado. Así que cuando llegues al **77% del contexto, se compactará automáticamente**.
 
 Yo uso el plugin [stepwise-dev](https://github.com/nikeyes/stepwise-dev) y no compacto nunca. Controlo el contexto en cada paso y limpio el contexto entero en cada fase: Research → Plan → Implement Phase X → Validate.
 
