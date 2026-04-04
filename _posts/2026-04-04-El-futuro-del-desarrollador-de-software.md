@@ -77,7 +77,7 @@ El desarrollador no desaparece, pero su trabajo cambia:
 - De **implementar features** a **habilitar que otros las construyan**
 - De **developer experience** para devs a **developer experience** para todos los roles
 
-Ahora que el código es barato, lo escaso es el criterio.
+Ahora que el código es barato, lo escaso es el criterio y saber cuándo una solución “vale” aunque no sea perfecta.
 
 
 Este artículo no existiría sin [Gork Martínez](https://www.linkedin.com/in/gorkma/) por compartir todo [lo que están aprendiendo](https://www.linkedin.com/posts/gorkma_hasta-ahora-ten%C3%ADa-claro-que-el-rol-del-desarrollador-activity-7437479812765728768-hw4h/) y [Emilio Carrión](https://www.linkedin.com/in/emcarrio/) por artículos como [este](https://www.emiliocarrion.com/en/blog/agente-ia-necesita-verificacion).
