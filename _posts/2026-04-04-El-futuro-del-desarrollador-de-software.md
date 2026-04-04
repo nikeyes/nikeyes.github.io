@@ -25,7 +25,7 @@ Si generar código ya no es un problema, **¿a qué se tiene que dedicar un desa
 
 ## Tu valor ya no está en escribir código
 
-Hay algo curioso pasando en equipos que adoptan IA fuerte: producen más, pero no necesariamente mejor.  
+Hay algo curioso pasando en equipos que adoptan IA: producen más, pero no necesariamente mejor.  
 Más PRs, más velocidad… pero también más revisión, más fricción, y a veces más bugs.
 No porque la IA sea mala, sino porque **acelera justo la parte que ya no era el problema**.
 El problema nunca fue escribir líneas de código.
