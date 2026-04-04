@@ -27,11 +27,11 @@ Si generar código ya no es un problema, **¿a qué se tiene que dedicar un desa
 
 Hay algo curioso pasando en equipos que adoptan IA: producen más, pero no necesariamente mejor.  
 Más PRs, más velocidad… pero también más revisión, más fricción, y a veces más bugs.
+Los datos de [Faros AI](https://www.faros.ai/blog/ai-software-engineering) (10.000+ desarrolladores): 98% más PRs, pero el tiempo de revisión sube un 91% y los bugs por desarrollador crecen un 9%.
 No porque la IA sea mala, sino porque **acelera justo la parte que no era el problema**.
-El problema nunca fue escribir líneas de código.
-El problema es decidir qué construir, cómo validarlo y cómo mantenerlo bajo control.
+El problema nunca fue escribir código. Es decidir qué construir, cómo validarlo y cómo mantenerlo bajo control.
 
-La IA no funciona sola. El [estudio de METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) de principios de 2025 mostró que desarrolladores experimentados tardaron un 19% más con IA. Pero usaron Cursor Pro directamente, sin preparar los repos, sin context engineering, sin reglas, sin hooks. Así cualquier herramienta rinde mal.  
+La IA no funciona sola. El [estudio de METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) de principios de 2025 decía que desarrolladores experimentados tardaron un 19% más con IA. Pero usaron Cursor Pro directamente, sin preparar los repos, sin contexto, sin reglas, sin hooks. Así cualquier herramienta rinde mal.  
 Tienes que configurar tu entorno para que la IA trabaje bien.
 
 Escribir código ya es trivial en muchos casos. Que ese código sea correcto y mantenible requiere invertir tiempo y esfuerzo en configurar el sistema.
@@ -56,28 +56,28 @@ Esas habilidades ahora valen más que nunca, precisamente porque el código ya *
 
 ### 3. Habilitador de plataforma: consigue que otros no te necesiten
 
-Este es el cambio más radical. Tu trabajo ya no es escribir el código del producto. Es conseguir que otros no te necesiten para escribirlo. Creas las herramientas, automatizaciones y guardarraíles para que POs, PMs, diseñadores y otros roles del negocio construyan directamente.
+Este es el cambio más radical. Tu trabajo ya no es escribir el código del producto. Es conseguir que otros no te necesiten para escribirlo. Creas las herramientas, automatizaciones y guardarraíles para que POs, PMs, diseñadores y otros roles del negocio construyan directamente. Pero ojo: esto solo funciona si el punto 1 está resuleto. Sin los guardarraíles, dejar que esos roles desplieguen código a producción es una receta para el desastre.
 
 Andrew Ng ya lo está viviendo: [el ratio de 4 ingenieros por PM se está invirtiendo en algunos de sus equipos](https://x.com/lennysan/status/1943773031459172360). El cuello de botella se ha movido de implementar a definir. Ya no hablamos de **developer experience** para devs, hablamos de **developer experience** para todos los roles.
 
 ## El modelo de negocio también cambia, y tú con él
 
 No solo hay cambio en rol, hay cambios en los modelos de negocio que nos obligan a adaptarnos.
-El SaaS tradicional te da herramientas para que los humanos hagan su trabajo. El nuevo modelo, [Service as Software](https://foundationcapital.com/ai-service-as-software/), ofrece agentes que **hacen el trabajo directamente**.
+El SaaS tradicional te da herramientas para que los humanos hagan su trabajo. El nuevo modelo, [Service as Software](https://foundationcapital.com/ai-service-as-software/), ofrece agentes que **hacen el trabajo directamente**.  
 Hasta ahora pagabas por un software de atención al cliente (Zendesk, Intercom) y ponías personas a usarlo. El nuevo modelo es un agente que directamente resuelve las consultas del cliente. No pagas por la herramienta, pagas por cada consulta resuelta. [Salesforce ya cobra así en Agentforce](https://www.salesforce.com/agentforce/pricing/).
 
-Esto afecta al desarrollador: si lo que se vende es el resultado y no el software, tu trabajo no es entregar código bonito. Es asegurarte de que el sistema produce resultados fiables.
+Aquí es donde se complica. Cada vez que el agente corre estás pagando. A veces acierta, a veces no. Y cuando no, no es un bug que apuntas en Jira: es un error que ya ha tomado decisiones y puede haber arrastrado otras detrás.
 
 ## El cambio ya está aquí
 
 El desarrollador no desaparece, pero su trabajo cambia:
 
-- De **escribir código** a **definir qué código merece existir**
-- De **revisar PRs** a **diseñar sistemas que revisan por ti**
+- De **escribir código** a **decidir qué código merece existir**
+- De **revisar PRs** a **diseñar sistemas de validación**
 - De **implementar features** a **habilitar que otros las construyan**
 - De **developer experience** para devs a **developer experience** para todos los roles
 
-Ahora que el código es barato, lo escaso es el criterio y saber cuándo una solución “vale” aunque no sea perfecta.
+Ahora que el código es barato, lo escaso es el criterio.
 
 
-Este artículo no existiría sin [Gork Martínez](https://www.linkedin.com/in/gorkma/) por compartir todo [lo que están aprendiendo](https://www.linkedin.com/posts/gorkma_hasta-ahora-ten%C3%ADa-claro-que-el-rol-del-desarrollador-activity-7437479812765728768-hw4h/) y [Emilio Carrión](https://www.linkedin.com/in/emcarrio/) por artículos como [este](https://www.emiliocarrion.com/en/blog/agente-ia-necesita-verificacion).
+Este artículo no existiría sin [Gorka Moreno](https://www.linkedin.com/in/gorkma/) por compartir todo [lo que están aprendiendo](https://www.linkedin.com/posts/gorkma_hasta-ahora-ten%C3%ADa-claro-que-el-rol-del-desarrollador-activity-7437479812765728768-hw4h/) y [Emilio Carrión](https://www.linkedin.com/in/emcarrio/) por artículos como [este](https://www.emiliocarrion.com/en/blog/agente-ia-necesita-verificacion).
