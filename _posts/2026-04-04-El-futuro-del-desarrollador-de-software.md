@@ -33,7 +33,7 @@ Generar código es trivial. Que ese código sea correcto y mantenible requiere i
 
 ## Tres cosas a las que dedicarte si eres desarrollador
 
-### 1. Arquitecto de Guardarraíles: Diseña el sistema que verifica, no verifiques tú.
+### 1. Arquitecto de Guardarraíles: diseña el sistema que verifica, no verifiques tú
 
 [Martin Fowler](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) distingue entre estar **en** el loop (revisas cada línea, que es totalmente insostenible) y estar **sobre** el loop (diseñas el sistema que revisa por ti). Lo llama Harness Engineering.
 
@@ -42,16 +42,16 @@ En la práctica esto es: linting automático, tests que ejecuta el propio agente
 
 Tu responsabilidad pasa de revisar PRs a **diseñar los controles que hacen la revisión innecesaria**.
 
-### 2. Ingeniero de especificaciones: Define el qué, deja el cómo al agente
+### 2. Ingeniero de especificaciones: define el qué, deja el cómo al agente
 
 Cada vez más, el trabajo real del desarrollador es escribir buenas especificaciones: qué tiene que hacer esto, qué restricciones tiene, cómo sé que está bien hecho. El agente se encarga del cómo. La revisión deja de ser de código y pasa a ser de especificaciones.
 
 Kent Beck habla de [deflación de la programación](https://tidyfirst.substack.com/p/programming-deflation) y lo explica de forma muy clara: programar se está abaratando, como cuando un producto baja de precio. Lo que no se abarata es todo lo demás. Entender el problema, saber descomponerlo, tener criterio para decidir qué construir y qué no.
 Esas habilidades ahora valen más que nunca, precisamente porque el código ya **no** es lo escaso.
 
-### 3. Habilitador de plataforma: Habilita que otros construyan
+### 3. Habilitador de plataforma: consigue que otros no te necesiten
 
-Este es el cambio más radical. Tu trabajo ya no es escribir el código del producto. Es conseguir que otros no te necesiten para escribirlo. Creas las herramientas, automatizaciones y guardarraíles para que POs, PMs, diseñadores y otros roles del negocio, construyan directamente.
+Este es el cambio más radical. Tu trabajo ya no es escribir el código del producto. Es conseguir que otros no te necesiten para escribirlo. Creas las herramientas, automatizaciones y guardarraíles para que POs, PMs, diseñadores y otros roles del negocio construyan directamente.
 
 Andrew Ng ya lo está viviendo: [el ratio de 4 ingenieros por PM se está invirtiendo en algunos de sus equipos](https://x.com/lennysan/status/1943773031459172360). El cuello de botella se ha movido de implementar a definir. Ya no hablamos de **developer experience** para devs, hablamos de **developer experience** para todos los roles.
 
