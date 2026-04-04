@@ -25,7 +25,11 @@ Si generar código ya no es un problema, **¿a qué se tiene que dedicar un desa
 
 ## Tu valor ya no está en escribir código
 
-Los equipos con alta adopción de IA fusionan un [98% más de PRs](https://www.faros.ai/blog/ai-software-engineering), pero el tiempo de revisión sube un 91% y los bugs por desarrollador crecen un 9%. Más output, mismos problemas o peores. 😅
+Hay algo curioso pasando en equipos que adoptan IA fuerte: producen más, pero no necesariamente mejor.  
+Más PRs, más velocidad… pero también más revisión, más fricción, y a veces más bugs.
+No porque la IA sea mala, sino porque **acelera justo la parte que ya no era el problema**.
+El problema nunca fue escribir líneas de código.
+El problema es decidir qué construir, cómo validarlo y cómo mantenerlo bajo control.
 
 La IA no funciona sola. El [estudio de METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) de principios de 2025 mostró que desarrolladores experimentados tardaron un 19% más con IA. Pero usaron Cursor Pro directamente, sin preparar los repos, sin context engineering, sin reglas, sin hooks. Así cualquier herramienta rinde mal.  
 Tienes que configurar tu entorno para que la IA trabaje bien.
