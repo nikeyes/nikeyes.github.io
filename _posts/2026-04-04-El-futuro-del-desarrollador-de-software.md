@@ -19,7 +19,7 @@ published: false
 
 > "Cuando cualquiera puede construir cualquier cosa, saber qué merece ser construido se convierte en la habilidad clave." - Kent Beck
 
-Llevo meses sin escribir una línea de código a mano. Todo lo implementa la IA. Y no soy el único, el [84% de los desarrolladores ya usa IA en su trabajo o plantea usarla en breve](https://survey.stackoverflow.co/2025/ai).  
+Llevo meses escribiendo mucho menos código del que escribía antes. No cero, pero sí lo suficiente como para darme cuenta de algo incómodo: cada vez importa menos. Y no soy el único, el [84% de los desarrolladores ya usa IA en su trabajo o plantea usarla en breve](https://survey.stackoverflow.co/2025/ai).  
 
 Si generar código ya no es un problema, **¿a qué se tiene que dedicar un desarrollador?**
 
