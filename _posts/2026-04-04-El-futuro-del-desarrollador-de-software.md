@@ -38,7 +38,7 @@ Escribir código ya es trivial en muchos casos. Que ese código sea correcto y m
 
 ## Tres cosas a las que dedicarte si eres desarrollador
 
-### 1. Arquitecto de Guardarraíles: diseña el sistema que verifica, no verifiques tú
+### 1. Arquitecto de guardarraíles: diseña el sistema que verifica, no verifiques tú
 
 [Martin Fowler](https://martinfowler.com/articles/exploring-gen-ai/humans-and-agents.html) distingue entre estar **en** el loop (revisas cada línea, que es totalmente insostenible) y estar **sobre** el loop (diseñas el sistema que revisa por ti). Lo llama Harness Engineering.
 
