@@ -30,7 +30,7 @@ Los equipos con alta adopción de IA fusionan un [98% más de PRs](https://www.f
 La IA no funciona sola. El [estudio de METR](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/) de principios de 2025 mostró que desarrolladores experimentados tardaron un 19% más con IA. Pero usaron Cursor Pro directamente, sin preparar los repos, sin context engineering, sin reglas, sin hooks. Así cualquier herramienta rinde mal.  
 Tienes que configurar tu entorno para que la IA trabaje bien.
 
-Generar código ya es trivial. Que ese código sea correcto y mantenible requiere invertir tiempo y esfuerzo en crear el sistema que lo genera.
+Escribir código ya es trivial. Que ese código sea correcto y mantenible requiere invertir tiempo y esfuerzo en crear el sistema que lo genera.
 
 ## Tres cosas a las que dedicarte si eres desarrollador
 
