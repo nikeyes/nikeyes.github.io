@@ -66,7 +66,7 @@ No solo hay cambio en rol, hay cambios en los modelos de negocio que nos obligan
 El SaaS tradicional te da herramientas para que los humanos hagan su trabajo. El nuevo modelo, [Service as Software](https://foundationcapital.com/ai-service-as-software/), ofrece agentes que **hacen el trabajo directamente**.  
 Hasta ahora pagabas por un software de atención al cliente (Zendesk, Intercom) y ponías personas a usarlo. El nuevo modelo es un agente que directamente resuelve las consultas del cliente. No pagas por la herramienta, pagas por cada consulta resuelta. [Salesforce ya cobra así en Agentforce](https://www.salesforce.com/agentforce/pricing/).
 
-Aquí es donde se complica. Cada vez que el agente corre estás pagando. A veces acierta, a veces no. Y cuando no, no es un bug que apuntas en Jira: es un error que ya ha tomado decisiones y puede haber arrastrado otras detrás.
+Aquí es donde se complica. Cada vez que el agente corre estás pagando. A veces acierta, a veces no. Y cuando no, no es un bug que apuntas en Jira: es un error que ya ha tomado decisiones y puede haber arrastrado otros detrás.
 
 ## El cambio ya está aquí
 
