@@ -1,6 +1,6 @@
 ---
 layout: post
-title: El desarrollador ya no escribe código, diseña la fábrica que lo construye
+title: Si la IA escribe el código, ¿qué hace el desarrollador?
 categories:
   - GenAI
   - LLMs
