@@ -54,4 +54,4 @@ Las evals son los tests de tus skills. Si no los tienes, no sabes si funcionan. 
 
 ---
 
-Si quieres más en detalle, puedes ver cómo lo hago en [stepwise-dev](https://github.com/nikeyes/stepwise-dev), mi plugin para Claude Code, o puedes escribirme directamente en [LinkedIn](https://www.linkedin.com/in/jorge-castro-nistal), [X](https://x.com/nikey_es), [Bluesky](https://bsky.app/profile/nikeyes.bsky.social) o [GitHub](https://github.com/nikeyes).
+Si quieres más detalle, puedes ver cómo lo hago en [stepwise-dev](https://github.com/nikeyes/stepwise-dev), mi plugin para Claude Code, o puedes escribirme directamente en [LinkedIn](https://www.linkedin.com/in/jorge-castro-nistal), [X](https://x.com/nikey_es), [Bluesky](https://bsky.app/profile/nikeyes.bsky.social) o [GitHub](https://github.com/nikeyes).
