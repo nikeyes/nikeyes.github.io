@@ -19,7 +19,7 @@ published: true
 
 > "In God we trust; all others must bring data." — W. Edwards Deming
 
-Hay cientos de skills y agentes para Claude Code, pero yo acabo usando muy pocas.  
+Hay cientos de skills para Claude Code, pero yo acabo usando muy pocas.  
 La razón es muy sencilla, las evalúo para garantizar que aportan algo más allá de lo que el modelo ya hace por defecto.
 
 Instalar una skill de terceros es fácil. La pruebas dos veces, parece que va bien, y la das por buena.  
@@ -43,9 +43,6 @@ Cada iteración de la skill se mide contra la anterior. No hay "creo que funcion
 Una skill que parece útil a veces **empeora** los resultados.  
 Otra que parecía trivial **ahorra un 40% de tokens**.  
 Una refactorización del prompt que tardaste 5 minutos **dobla el pass rate**.
-
-Skills que yo *creía* que iban bien, aportaban poco o nada a hacerlo directamente con el modelo.  
-Otras que consideraba que solo me estructuraban el resultado resultaron ser las que más valor real generaban.
 
 Nada de esto lo sabría sin medir.
 
