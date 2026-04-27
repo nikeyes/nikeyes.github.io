@@ -38,6 +38,8 @@ El ciclo es simple:
 
 Cada iteración de la skill se mide contra la anterior. No hay "creo que funciona mejor". Hay números.
 
+<img src="{{ site.baseurl }}/images/2026-04-26-me-fio-de-mis-skills-porque-tienen-evals-es/eval_viewer.png" alt="Contexto de Claude Code en sesión nueva al 32%" style="max-height:400px; width:auto; height:auto;"/>
+
 ## Lo que los números te dicen
 
 Una skill que parece útil a veces **empeora** los resultados.  
