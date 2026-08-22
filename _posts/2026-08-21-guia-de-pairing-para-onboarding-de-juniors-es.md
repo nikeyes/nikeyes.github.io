@@ -16,9 +16,13 @@ ref: guia-de-pairing-para-onboarding-de-juniors
 published: false
 ---
 
-Ahora todo el mundo trabaja con IA, y casi siempre solo. Puedes pedirle al agente que te lleve la contraria, y lo hará durante un rato. Insiste, y acabará dándote la razón, contradiciendo lo que te decía dos mensajes antes. Los modelos están entrenados para ser complacientes. Tus compañeros no.
+> "No soy un gran programador; solo soy un buen programador con grandes hábitos." - Kent Beck
 
-Por eso, cuando trabajas con juniors sigue siendo igual de importante **cómo les enseñas**, aunque sea con Claude Code o Codex delante. La herramienta cambia pero la transferencia de conocimiento no.
+Ahora todo el mundo trabaja con IA, y casi siempre solo. Puedes pedirle al agente que te lleve la contraria, y lo hará durante un rato. Insiste, y acabará dándote la razón, contradiciendo lo que te decía dos mensajes antes.  
+Los modelos están entrenados para ser complacientes. Tus compañeros no.
+
+Por eso, cuando trabajas con juniors sigue siendo igual de importante **cómo les enseñas**, aunque sea con Claude Code o Codex delante.  
+La herramienta cambia pero la transferencia de conocimiento no.
 
 Estoy ayudando a un junior a entrar en el mundo del backend y estamos haciendo pairing. Pero no sabía qué era el pairing, así que he escrito esta guía con todas mis notas: una recopilación de muchos artículos, libros y conversaciones. Junto con las sesiones que hacemos. Espero que le sirva como un *from 0 to hero*.
 
@@ -30,7 +34,8 @@ Por si os es útil en estos nuevos tiempos, la dejo aquí.
 
 ## Por qué hacer Pair Programming o Pairing
 
-Hacer pairing sirve para **crear opciones, reducir riesgo y reducir retrabajo**. La discusión mientras se escribe el código es lo importante: llegar a un consenso obliga a tomar mejores decisiones, más alineamiento y menos errores.
+Hacer pairing sirve para **crear opciones, reducir riesgo y reducir retrabajo**.  
+La discusión mientras se escribe el código es lo importante: llegar a un consenso obliga a tomar mejores decisiones, más alineamiento y menos errores.
 
 Es una de las doce prácticas de Extreme Programming, y en términos de [*software economics*, de Luis Artola](https://leanpub.com/software-economics), es una de las herramientas de gestión del riesgo más potentes que tenemos: crea opciones, reduce complejidad y sube el bus factor.
 
@@ -44,7 +49,8 @@ Lo que nos llevamos, además del código:
 
 ## Los dos roles
 
-Los nombres vienen de los rallies. El driver toma la siguiente curva. El navigator (el copiloto) lee la carretera que viene y la canta. Ninguno de los dos gana la carrera solo.
+Los nombres vienen de los rallies. El driver toma la siguiente curva. El navigator (el copiloto) lee la carretera que viene y la canta.  
+Ninguno de los dos gana la carrera solo.
 
 - **Driver**: tiene el teclado. Trabaja en el paso en el que estáis ahora mismo. La sintaxis, la lógica, hacer que este test pase o que este paso funcione.
 - **Navigator**: suelta el teclado. Trabaja un paso por delante. Hacia dónde va esto, qué va a doler dentro de diez minutos, qué habíais acordado hacer después.
@@ -84,11 +90,12 @@ Los dos roles cansan, de formas distintas. Por eso se cambia a menudo.
 
 ## Como navigator
 
-El driver mira el **cómo** y el **qué**. Tú miras el **qué** y el **por qué**. Solo compartís el medio.
+El driver mira el **cómo** y el **qué**. Tú miras el **qué** y el **por qué**.  
+Solo compartís el medio.
 
 <img src="{{ site.baseurl }}/images/2026-08-21-a-pairing-guide-for-onboarding-juniors-en/driver-navigator-what-how-why.png" alt="El driver centrado en el cómo y el qué, el navigator centrado en el qué y el por qué" style="max-height:400px; width:auto; height:auto;"/>
 
-<small>Imagen de Jasmine Siessegger, de <a href="https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming">Effective Navigation in Pair Programming</a> (ThoughtWorks).</small>
+<small>Diagrama basado en <a href="https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming">Effective Navigation in Pair Programming</a> (ThoughtWorks).</small>
 
 - **Mantén la lista de objetivos**: lo que os falta para terminar, desde el objetivo grande hasta el paso de ahora mismo. Cuando el driver cierra uno, tú ya sabes cuál es el siguiente.
 - No entres en modo táctico. Los detalles son del driver.
@@ -113,8 +120,8 @@ El driver mira el **cómo** y el **qué**. Tú miras el **qué** y el **por qué
 
 Acordadlo en voz alta. Si no, uno de los dos está enseñando mientras el otro intenta terminar.
 
-- **Modo aprendizaje** (*capacitativo* en la guía original): cambiamos productividad por transferencia de conocimiento. Driver = quien recibe el conocimiento.
-- **Modo entrega** (*productivo*): cambiamos transferencia de conocimiento por productividad. Driver = quien más práctica tiene.
+- **Modo aprendizaje**: cambiamos productividad por transferencia de conocimiento. Driver = quien recibe el conocimiento.
+- **Modo entrega**: cambiamos transferencia de conocimiento por productividad. Driver = quien más práctica tiene.
 
 ## Cuándo no hacer pairing
 
@@ -143,11 +150,12 @@ Acordadlo en voz alta. Si no, uno de los dos está enseñando mientras el otro i
 
 ## Conclusiones
 
-Nada de esto es una técnica nueva: es lo de siempre, dos personas poniéndose de acuerdo sobre el código mientras lo escriben. Lo que ha cambiado es que nunca ha sido tan fácil pasarte el día entero escribiendo código con un agente que en realidad nunca te lleva la contraria. Si trabajas con un junior, llevar la contraria es justo lo que le tienes que enseñar a hacer.
+Nada de esto es una técnica nueva: es lo de siempre, dos personas poniéndose de acuerdo sobre el código mientras lo escriben. Lo que ha cambiado es que nunca ha sido tan fácil pasarte el día entero escribiendo código con un agente que en realidad nunca te lleva la contraria.  
+Si trabajas con un junior, llevar la contraria es justo lo que le tienes que enseñar a hacer.
 
 ---
 
-## Enlaces
+## Referencias
 
 - [Software economics](https://leanpub.com/software-economics) (Luis Artola. El marco de coste/valor/riesgo/deuda, en castellano)
 - [The Costs and Benefits of Pair Programming](https://www.cs.utexas.edu/~ans/classes/cs439/projects/XPSardinia.PDF) (Cockburn & Williams. El estudio del 15%)
