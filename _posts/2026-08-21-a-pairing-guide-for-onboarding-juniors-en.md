@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A pairing guide for the AI era
+title: A pairing guide for onboarding juniors
 categories:
   - learning
   - good practices
@@ -42,6 +42,22 @@ What we take home, besides the code:
 - **Immediate onboarding**: a new person sees code and contributes from day one.
 - **No pressure on the other person**: nobody should leave a session more stressed than they arrived.
 
+## The two roles
+
+The names come from rally racing. The driver takes the next corner. The navigator (copilot) reads the road ahead and calls it out. Neither one wins the race alone.
+
+- **Driver**: has the keyboard. Works on the step you are on right now. The syntax, the logic, making this test pass.
+- **Navigator**: hands off the keyboard. Works one step ahead. Where this is going, what is going to hurt in ten minutes, what you agreed to do next.
+
+You swap all the time. Four things that are easy to get wrong:
+
+- **Neither role is the senior one.** They are two jobs, not two levels. Juniors navigate too.
+- **The navigator is not proofreading.** Pairing *is* review, and that is what saves you the review afterwards: two people agreed on this code while it was being written, not two days later. But you review decisions, not keystrokes. A missing semicolon is for the compiler.
+- **The driver is not a typist.** You are not taking dictation. If you do not understand what you are typing, stop and ask. You are the one who will have to explain this code tomorrow.
+- **The navigator is not resting.** Not typing is not watching. If you go quiet for ten minutes, there is one person in the session, not two.
+
+The navigator is free to think because he is free from typing, and that is the whole reason there are two of you. Both roles are tiring, in different ways. That is why you swap often.
+
 ## Before you start
 
 - **Goal**: what does "done" mean?
@@ -70,7 +86,7 @@ What we take home, besides the code:
 
 The driver looks at the **how** and the **what**. You look at the **what** and the **why**. You only share the middle.
 
-<img src="{{ site.baseurl }}/images/2026-08-21-a-pairing-guide-for-the-ai-era-en/driver-navigator-what-how-why.png" alt="Driver focused on how and what, navigator focused on what and why" style="max-height:400px; width:auto; height:auto;"/>
+<img src="{{ site.baseurl }}/images/2026-08-21-a-pairing-guide-for-onboarding-juniors-en/driver-navigator-what-how-why.png" alt="Driver focused on how and what, navigator focused on what and why" style="max-height:400px; width:auto; height:auto;"/>
 
 <small>Image by Jasmine Siessegger, from <a href="https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming">Effective Navigation in Pair Programming</a> (ThoughtWorks).</small>
 
