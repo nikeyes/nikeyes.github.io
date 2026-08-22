@@ -16,9 +16,9 @@ ref: guia-de-pairing-para-la-era-de-la-ia
 published: false
 ---
 
-Everybody works with AI now, and almost always alone.
+Everybody works with AI now, and almost always alone. You can ask the agent to push back, and it will, for a while. Insist, and it will come around to your position, contradicting what it told you two messages ago. It was trained to please you. Your pair was not.
 
-But when you work with juniors, **how you teach them** still matters just as much, even with Claude Code or Codex in front of you. The tool changes; the knowledge transfer does not.
+So when you work with juniors, **how you teach them** still matters just as much, even with Claude Code or Codex in front of you. The tool changes; the knowledge transfer does not.
 
 I am helping a junior get into backend development and we are pairing. But he did not know what pairing was, so I wrote him this guide with all my notes: a collection from many articles, books and conversations. Together with our sessions, it works as a *from 0 to hero* guide.
 
@@ -65,14 +65,14 @@ The navigator is free to think because he is free from typing, and that is the w
 - **Style**: strong-style, ping-pong or free ([see below](#styles)).
 - **Swap cadence**: every green test, or every 25 minutes.
 - **Calendars**: how much time are we really going to pair? On which machine?
-- **Setup**: in the office we use two keyboards, two mice and one computer, so nobody has to move to take over. Remotely we use [VS Code Live Share](https://visualstudio.microsoft.com/services/live-share/).
+- **Setup**: in the office we use two keyboards, two mice and one computer, so nobody has to move to take over. Remotely, any editor with live collaboration or a screen share with remote control: we use [VS Code Live Share](https://visualstudio.microsoft.com/services/live-share/).
 
 ## The pair should
 
-- Help each other keep focused on the current step.
+Whatever role you are in:
+
 - Brainstorm refinements to the system, clarify ideas.
 - Take the initiative when the other is stuck.
-- Adopt each one of the roles. Be equally comfortable reading and writing.
 
 ## As a driver
 
@@ -142,12 +142,7 @@ Say it out loud. Otherwise one of you is teaching while the other is trying to f
 - Changing modality without saying it.
 - A navigator who goes quiet: usually communication broke, not interest. Try strong-style.
 - Answer or check Slack in the middle of the session
-
-## With an AI assistant
-
-Almost everything applies the same: write the specification before you ask for code, you navigate and it drives. The handover test still holds. If you could not explain the diff, you do not have working code.
-
-What it does not give you is the consensus at the start: it will happily agree with you.
+- Pairing for eight hours because it was going well. Focusing with another person is exhausting even when it is fun. You can handle it for a day, but as a routine it is impossible.
 
 ## Conclusions
 
@@ -161,7 +156,7 @@ For when somebody asks whether this pays off. It is worth using it honestly, bec
 
 **The central number** (Cockburn & Williams, XP2000, University of Utah experiment): pairing costs **~15% more time**, not double as intuition would say, and produces **~15% fewer defects**.
 
-**Why that 15% pays for itself**, with the example from the paper itself: 50,000 lines at 50 LOC/hour is 1,000 hours alone and 1,150 hours in a pair, so 150 hours of cost. If testing finds those 225 extra defects, at 10 h/defect that is 2,250 hours: **15× the cost of pairing**. If they reach production, at 40 h/defect that is 9,000 hours: **60×**. That is our "reduce rework", quantified.
+**Why that 15% pays for itself**, with the example from the paper itself: 50,000 lines at 50 LOC/hour is 1,000 hours alone and 1,150 hours in a pair, so 150 hours of cost. If testing finds those 225 extra defects, at 10 h/defect that is 2,250 hours: **15× the cost of pairing**. If they reach production, at 40 h/defect that is 9,000 hours: **60×**. That arithmetic is the authors' illustration, not a measurement. It is the shape of the argument, not a number about your team.
 
 **Warnings, if we are going to quote this:**
 
