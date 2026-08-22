@@ -46,7 +46,7 @@ What we take home, besides the code:
 
 The names come from rally racing. The driver takes the next corner. The navigator (copilot) reads the road ahead and calls it out. Neither one wins the race alone.
 
-- **Driver**: has the keyboard. Works on the step you are on right now. The syntax, the logic, making this test pass.
+- **Driver**: has the keyboard. Works on the step you are on right now. The syntax, the logic, making this test pass or this step work.
 - **Navigator**: hands off the keyboard. Works one step ahead. Where this is going, what is going to hurt in ten minutes, what you agreed to do next.
 
 You swap all the time. Four things that are easy to get wrong:
@@ -61,15 +61,13 @@ The navigator is free to think because he is free from typing, and that is the w
 ## Before you start
 
 - **Goal**: what does "done" mean?
-- **Modality**: capacitive or productive? ([see below](#modalities))
+- **Modality**: capacitive or productive ([see below](#modalities))?
 - **Style**: strong-style, ping-pong or free ([see below](#styles)).
 - **Swap cadence**: every green test, or every 25 minutes.
 - **Calendars**: how much time are we really going to pair? On which machine?
 - **Setup**: in the office we use two keyboards, two mice and one computer, so nobody has to move to take over. Remotely, any editor with live collaboration or a screen share with remote control: we use [VS Code Live Share](https://visualstudio.microsoft.com/services/live-share/).
 
-## The pair should
-
-Whatever role you are in:
+## Whatever role you are in
 
 - Brainstorm refinements to the system, clarify ideas.
 - Take the initiative when the other is stuck.
@@ -78,7 +76,7 @@ Whatever role you are in:
 
 - Keep the focus on the current step. The navigator takes care of the horizon.
 - Think out loud: what you are going to do, what you are doing, what you just did.
-- **The handover test:** at any moment you should be able to stop typing and your pair should be able to take over.
+- **The handover test**: at any moment you should be able to stop typing and your pair should be able to take over.
 - Ask for the keyboard when you need it. Not asking is also an error, and an invisible one.
 - Do not drive faster than your pair can follow. Say it when something is making you frustrated.
 
@@ -93,15 +91,14 @@ The driver looks at the **how** and the **what**. You look at the **what** and t
 - **Keep the goal stack**: the ordered list of steps until you are done. It is what sets the abstraction level you both work at.
 - Do not go tactical. The details belong to the driver.
 - **Write it down, do not drop it.** Note ideas and obstacles; bring them up when the current goal is closed. If the driver is typing, he cannot listen to you.
-- **The 5 second rule:** before you point at an error, wait. He may have seen it already.
-- **Intent -> Location -> Detail.** Stop as soon as he can continue alone: 
+- **The 5 second rule**: before you point at an error, wait. He may have seen it already.
+- **Intent -> Location -> Detail.** Going straight to the detail every time is micromanagement. Stop as soon as he can continue alone:
   - "let's extract the discount calculation"
   - "that block in `calculateTotal`"
-  - "lines 20-26, Cmd+Alt+M". 
-  - Going straight to the detail every time is micromanagement.
+  - "lines 20-26, Cmd+Alt+M"
 - Talk in "we", not in "I" and "you".
 - Keep the course: baby steps, YAGNI, KISS. The TDD cycle is your responsibility: "let's start with a test".
-- Many low level interruptions means it is time to swap roles. It is not something to manage.
+- Many low-level interruptions mean it is time to swap roles. It is not something to manage.
 - Get paper and a pencil. Pseudocode, boxes and arrows. When we pair remotely we use [Miro](https://miro.com/) or [Excalidraw](https://excalidraw.com/).
 
 ## Styles
@@ -117,18 +114,17 @@ Say it out loud. Otherwise one of you is teaching while the other is trying to f
 - **Capacitive**: we trade productivity for knowledge transmission. Driver = the person receiving the knowledge.
 - **Productive**: we trade knowledge transmission for productivity. Driver = the person with the most practice.
 
-## Split time (not pairing)
+## When not to pair
 
-- Trivial or mechanical task, either of you could do it alone, and there is nothing to learn. Careful: repetitive work can be a symptom of bad design.
+- Trivial or mechanical task: either of you could do it alone, and there is nothing to learn. Careful: repetitive work can be a symptom of bad design.
 - Too many unknowns for both of you: spike separately, agree on the questions first, and share the findings.
 - Somebody needs time alone. You have to make room for that.
-- **Keep pairing** on hard problems (you get a solution out of it) and on easy but important ones (that is where innovation comes from).
 - Keep syncing up when you split. You still work on that story together.
 
 ## Time
 
 - Pomodoro 25/5, **swap roles during the break**. Long break every four.
-- **6 hours of pairing per day maximum.** Eight is not sustainable. Remotely it is even less: sharing a screen and a call all day is more tiring than sitting next to someone, so plan for 2-4.
+- **6 hours of pairing per day maximum.** Eight is not sustainable. Remotely it is even less: sharing a screen and a call all day is more tiring than sitting next to someone, so plan for two to four.
 - Rotate pairs to spread knowledge, but not just for the sake of it. Every rotation costs context, and lost context becomes rework. So rotate one person at a time: the one who stays passes on what is not written down anywhere.
 - At the end of the day, a two minute mini retro. Did we swap roles enough? What would we change tomorrow? Make it a routine before something goes wrong.
 
@@ -141,7 +137,7 @@ Say it out loud. Otherwise one of you is teaching while the other is trying to f
 - Never swapping, never resting.
 - Changing modality without saying it.
 - A navigator who goes quiet: usually communication broke, not interest. Try strong-style.
-- Answer or check Slack in the middle of the session
+- Answering or checking Slack in the middle of the session.
 - Pairing for eight hours because it was going well. Focusing with another person is exhausting even when it is fun. You can handle it for a day, but as a routine it is impossible.
 
 ## Conclusions
@@ -150,23 +146,7 @@ The challenge lies in getting to know your pair enough to notice when you are pa
 
 ---
 
-## Appendix: what the evidence says
-
-For when somebody asks whether this pays off. It is worth using it honestly, because the evidence is weaker than people usually claim.
-
-**The central number** (Cockburn & Williams, XP2000, University of Utah experiment): pairing costs **~15% more time**, not double as intuition would say, and produces **~15% fewer defects**.
-
-**Why that 15% pays for itself**, with the example from the paper itself: 50,000 lines at 50 LOC/hour is 1,000 hours alone and 1,150 hours in a pair, so 150 hours of cost. If testing finds those 225 extra defects, at 10 h/defect that is 2,250 hours: **15× the cost of pairing**. If they reach production, at 40 h/defect that is 9,000 hours: **60×**. That arithmetic is the authors' illustration, not a measurement. It is the shape of the argument, not a number about your team.
-
-**Warnings, if we are going to quote this:**
-
-- The studies do not agree. There are results of −29%, −52% of time, no difference at all, and a meta-analysis of 15 studies that finds no significant difference in duration. The 40-50% number people repeat comes from an experiment with 41 students and four short exercises.
-- The "NASA study" (Wood & Kleb, *Exploring XP for scientific research*) does not measure pairing productivity: it is an XP pilot in a research context, and pairing was precisely the practice they could not apply. Let's not use it.
-- Any experiment about productivity in software development is easy to argue against: there is too much uncertainty and too much that cannot be measured. **What convinces people is showing that it works here.** Let's measure our own rework.
-
----
-
-## Links
+## References
 
 - [Software economics](https://leanpub.com/software-economics) (Luis Artola. The cost/value/risk/debt framework, in Spanish)
 - [The Costs and Benefits of Pair Programming](https://www.cs.utexas.edu/~ans/classes/cs439/projects/XPSardinia.PDF) (Cockburn & Williams. The 15% study)
