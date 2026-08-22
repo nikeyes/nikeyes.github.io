@@ -4,11 +4,11 @@ title: A pairing guide for onboarding juniors
 categories:
   - learning
   - good practices
-  - AI-Driven Development
 tags:
   - Pair Programming
   - Extreme Programming
   - Mentoring
+  - Onboarding
   - Claude Code
   - good practices
 lang: en
@@ -56,12 +56,12 @@ You swap all the time. Four things that are easy to get wrong:
 - **The driver is not a typist.** You are not taking dictation. If you do not understand what you are typing, stop and ask. You are the one who will have to explain this code tomorrow.
 - **The navigator is not resting.** Not typing is not watching. If you go quiet for ten minutes, there is one person in the session, not two.
 
-The navigator is free to think because he is free from typing, and that is the whole reason there are two of you. Both roles are tiring, in different ways. That is why you swap often.
+The navigator is free to think because they are free from typing, and that is the whole reason there are two of you. Both roles are tiring, in different ways. That is why you swap often.
 
 ## Before you start
 
 - **Goal**: what does "done" mean?
-- **Modality**: capacitive or productive ([see below](#modalities))?
+- **Modality**: learning or delivery ([see below](#modalities))?
 - **Style**: strong-style, ping-pong or free ([see below](#styles)).
 - **Swap cadence**: every green test, or every 25 minutes.
 - **Calendars**: how much time are we really going to pair? On which machine?
@@ -90,9 +90,9 @@ The driver looks at the **how** and the **what**. You look at the **what** and t
 
 - **Keep the goal stack**: the ordered list of steps until you are done. It is what sets the abstraction level you both work at.
 - Do not go tactical. The details belong to the driver.
-- **Write it down, do not drop it.** Note ideas and obstacles; bring them up when the current goal is closed. If the driver is typing, he cannot listen to you.
-- **The 5 second rule**: before you point at an error, wait. He may have seen it already.
-- **Intent -> Location -> Detail.** Going straight to the detail every time is micromanagement. Stop as soon as he can continue alone:
+- **Write it down, do not drop it.** Note ideas and obstacles; bring them up when the current goal is closed. If the driver is typing, they cannot listen to you.
+- **The 5 second rule**: before you point at an error, wait. They may have seen it already.
+- **Intent -> Location -> Detail.** Going straight to the detail every time is micromanagement. Stop as soon as they can continue alone:
   - "let's extract the discount calculation"
   - "that block in `calculateTotal`"
   - "lines 20-26, Cmd+Alt+M"
@@ -111,8 +111,8 @@ The driver looks at the **how** and the **what**. You look at the **what** and t
 
 Say it out loud. Otherwise one of you is teaching while the other is trying to finish.
 
-- **Capacitive**: we trade productivity for knowledge transmission. Driver = the person receiving the knowledge.
-- **Productive**: we trade knowledge transmission for productivity. Driver = the person with the most practice.
+- **Learning mode** (*capacitive* in the original guide): we trade productivity for knowledge transmission. Driver = the person receiving the knowledge.
+- **Delivery mode** (*productive*): we trade knowledge transmission for productivity. Driver = the person with the most practice.
 
 ## When not to pair
 
@@ -142,7 +142,9 @@ Say it out loud. Otherwise one of you is teaching while the other is trying to f
 
 ## Conclusions
 
-The challenge lies in getting to know your pair enough to notice when you are pairing badly. There is no single right way. The only test is whether you are getting the benefits. If you are not, change something.
+None of this is a new technique. It is the same thing as always: two people agreeing on the code while they write it. What has changed is that it is easier than ever to spend the whole day writing code with an agent that never really pushes back. If you work with a junior, that pushback is exactly what you have to teach them to give.
+
+Do not use this as a checklist. You will break half of it, and for good reasons. The only part that is not negotiable is talking about how you are pairing, not only about what you are building. That two minute retro at the end of the day is what makes the rest of this guide unnecessary.
 
 ---
 
