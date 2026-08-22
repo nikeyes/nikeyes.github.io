@@ -158,7 +158,7 @@ If you work with a junior, that pushback is exactly what you have to teach them 
 ## References
 
 - [Software economics](https://leanpub.com/software-economics) (Luis Artola. The cost/value/risk/debt framework, in Spanish)
-- [The Costs and Benefits of Pair Programming](https://www.cs.utexas.edu/~ans/classes/cs439/projects/XPSardinia.PDF) (Cockburn & Williams. The 15% study)
+- [The Costs and Benefits of Pair Programming](https://www.cs.utexas.edu/~ans/classes/cs439/projects/XPSardinia.PDF) (Cockburn & Williams. Costs ~15% more effort, pays it back in fewer defects)
 - [Pair Programming vs. Solo Programming: What Do We Know After 15 Years of Research?](https://ieeexplore.ieee.org/document/7427855/) (meta-analysis)
 - [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html) (Böckeler and Siessegger. The most complete treatment)
 - [Effective Navigation in Pair Programming](https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming) (ThoughtWorks. Goal stack, communicating the intent)

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Una guía de pairing para hacer onboarding a juniors
+title: Guía de pairing para onboarding de juniors
 categories:
   - aprendizaje
   - buenas prácticas
@@ -18,17 +18,17 @@ published: false
 
 > "No soy un gran programador; solo soy un buen programador con grandes hábitos." - Kent Beck
 
-Ahora todo el mundo trabaja con IA, y casi siempre solo. Puedes pedirle al agente que te lleve la contraria, y lo hará durante un rato. Insiste, y acabará dándote la razón, contradiciendo lo que te decía dos mensajes antes.  
+Ahora todo el mundo trabaja con IA, y casi siempre solo. Puedes pedirle al agente que te lleve la contraria, y lo hará durante un rato. Insiste, te acabará dando la razón y contradiciendo lo que te decía dos mensajes antes.  
 Los modelos están entrenados para ser complacientes. Tus compañeros no.
 
-Por eso, cuando trabajas con juniors sigue siendo igual de importante **cómo les enseñas**, aunque sea con Claude Code o Codex delante.  
+Por eso, cuando trabajas con juniors, sigue siendo igual de importante **cómo les enseñas**, aunque sea con Claude Code o Codex delante.  
 La herramienta cambia pero la transferencia de conocimiento no.
 
-Estoy ayudando a un junior a entrar en el mundo del backend y estamos haciendo pairing. Pero no sabía qué era el pairing, así que he escrito esta guía con todas mis notas: una recopilación de muchos artículos, libros y conversaciones. Junto con las sesiones que hacemos. Espero que le sirva como un *from 0 to hero*.
+Estoy ayudando a un junior a entrar en el mundo del backend y estamos haciendo pairing. Pero no sabía qué era el pairing, así que he escrito esta guía con todas mis notas: una recopilación de muchos artículos, libros y conversaciones. Espero que junto con las sesiones que hacemos, le sirva como un *from 0 to hero*.
 
-Buena parte de lo que viene a continuación es copia, a veces casi literal, de [unas *Pairing Guidelines* que escribió Rubén Antón](https://docs.google.com/document/d/1dGyhrW-2ivwi0iVdmwJoi0-mhRtKOMQp5eBSYkUR0Ek/edit) y que me gustaron mucho hace años.
+Gran parte de lo que he escrito está copiado de [unas *Pairing Guidelines* que escribió Rubén Antón](https://docs.google.com/document/d/1dGyhrW-2ivwi0iVdmwJoi0-mhRtKOMQp5eBSYkUR0Ek/edit) y que hace años me gustaron mucho.
 
-Por si os es útil en estos nuevos tiempos, la dejo aquí.
+Por si os es útil en estos nuevos tiempos, os dejo la guía por aquí.
 
 ---
 
@@ -39,7 +39,7 @@ La discusión mientras se escribe el código es lo importante: llegar a un conse
 
 Es una de las doce prácticas de Extreme Programming, y en términos de [*software economics*, de Luis Artola](https://leanpub.com/software-economics), es una de las herramientas de gestión del riesgo más potentes que tenemos: crea opciones, reduce complejidad y sube el bus factor.
 
-Lo que nos llevamos, además del código:
+Además del código nos llegamos unas cuantas cosas:
 
 - **Conocimiento repartido**, técnico y de negocio.
 - **Prácticas y valores compartidos**: diseño, testing, pragmatismo, YAGNI, transparencia. Eso se transmite haciendo pairing, no en un documento.
@@ -158,7 +158,7 @@ Si trabajas con un junior, llevar la contraria es justo lo que le tienes que ens
 ## Referencias
 
 - [Software economics](https://leanpub.com/software-economics) (Luis Artola. El marco de coste/valor/riesgo/deuda, en castellano)
-- [The Costs and Benefits of Pair Programming](https://www.cs.utexas.edu/~ans/classes/cs439/projects/XPSardinia.PDF) (Cockburn & Williams. El estudio del 15%)
+- [The Costs and Benefits of Pair Programming](https://www.cs.utexas.edu/~ans/classes/cs439/projects/XPSardinia.PDF) (Cockburn & Williams. Cuesta un 15% más de esfuerzo y lo devuelve en menos defectos)
 - [Pair Programming vs. Solo Programming: What Do We Know After 15 Years of Research?](https://ieeexplore.ieee.org/document/7427855/) (meta-análisis)
 - [On Pair Programming](https://martinfowler.com/articles/on-pair-programming.html) (Böckeler y Siessegger. El tratamiento más completo)
 - [Effective Navigation in Pair Programming](https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming) (ThoughtWorks. Pila de objetivos, comunicar la intención)
