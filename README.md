@@ -50,11 +50,20 @@ Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Ma
 
 ## Local Development
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+Requires Docker running. You don't need Ruby or Jekyll installed: the system Ruby on macOS is too old for the `github-pages` gem.
+
+```sh
+make           # http://localhost:4000, reloads on save. Ctrl+C to stop.
+make clean     # stops the server and wipes _site/ and the cache
+```
+
+The first run installs the gems, which are then cached in a Docker volume. If the server is ever left running in the background, `make` stops it before starting a new one.
+
+To write a new entry: a file in `_posts/` named `YYYY-MM-DD-title.md`. Local previews always include posts marked `published: false`, so you can see a draft while you write it. GitHub Pages never builds those.
+
+Bilingual articles come in pairs: the same `ref` in the front matter plus `lang: es` / `lang: en`, which is what links one version to the other.
+
+Pushing to `master` makes GitHub Pages rebuild and serve the site. GitHub Pages ignores the `Gemfile`: it is only used for local development.
 
 ## Moar!
 
