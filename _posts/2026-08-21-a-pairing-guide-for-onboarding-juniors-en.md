@@ -142,9 +142,7 @@ Say it out loud. Otherwise one of you is teaching while the other is trying to f
 
 ## Conclusions
 
-None of this is a new technique. It is the same thing as always: two people agreeing on the code while they write it. What has changed is that it is easier than ever to spend the whole day writing code with an agent that never really pushes back. If you work with a junior, that pushback is exactly what you have to teach them to give.
-
-Do not use this as a checklist. You will break half of it, and for good reasons. The only part that is not negotiable is talking about how you are pairing, not only about what you are building. That two minute retro at the end of the day is what makes the rest of this guide unnecessary.
+None of this is a new technique: it is the same thing as always, two people agreeing on the code while they write it. What has changed is that it is easier than ever to spend the whole day writing code with an agent that never really pushes back. If you work with a junior, that pushback is exactly what you have to teach them to give.
 
 ---
 
