@@ -48,19 +48,19 @@ Además del código nos llevamos unas cuantas cosas:
 
 ## Los dos roles
 
-Los nombres vienen de los rallies. El driver toma la siguiente curva. El navigator (el copiloto) lee la carretera que viene y la canta.
-
 - **Driver**: tiene el teclado. Trabaja en el paso en el que estáis ahora mismo. La sintaxis, la lógica, hacer que este test pase o que este paso funcione.
 - **Navigator**: suelta el teclado. Trabaja un paso por delante. Hacia dónde va esto, qué va a doler dentro de diez minutos, qué habíais acordado hacer después.
 
-Cambiáis de rol todo el rato.
+Cambiáis de rol durante toda la sesión.
+
+Los nombres vienen de los rallies. El driver toma la siguiente curva. El navigator (el copiloto) lee la carretera que viene y la canta.
 
 ## Cuatro cosas fáciles en las que os podéis equivocar
 
 - **Ninguno de los dos roles es el del senior.** Los juniors también navegan.
 - **El pairing *es* la review.** Por eso te ahorra la de después: dos personas se pusieron de acuerdo sobre este código mientras se escribía, no dos días más tarde. Pero revisas decisiones, no pulsaciones de teclas. Un punto y coma que falta es cosa del compilador.
-- **Si no lo entiendes, no lo teclees.** No estás escribiendo al dictado. Para y pregunta. Eres tú quien va a tener que explicar este código mañana.
-- **El navigator no está descansando.** Ni está solo mirando la pantalla. Si te callas durante diez minutos, en la sesión solo hay una persona, no dos.
+- **Si no lo entiendes, no lo teclees.** No estás escribiendo un dictado. Para y pregunta. Eres tú quien va a tener que explicar este código mañana.
+- **Navegar no es descansar.** Mientras tu pareja teclea, tú piensas en lo que viene después y lo dices en voz alta. Si llevas diez minutos callado, en la sesión solo hay una persona.
 
 El navigator puede pensar porque está libre del teclado, y el driver avanza porque no tiene que pensar en lo que viene después. Los dos roles cansan de formas distintas, por eso hay que cambiar a menudo.
 
@@ -96,11 +96,11 @@ El driver mira el **cómo** y el **qué**. El navigator mira el **qué** y el **
 <small>Diagrama basado en <a href="https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming">Effective Navigation in Pair Programming</a> (ThoughtWorks).</small>
 
 - **Lleva tú la lista de lo que falta**: el objetivo de la sesión, la tarea de ahora y el paso concreto en el que está el driver. Por ejemplo: "que se pueda cancelar un pedido" -> "impedir cancelar los que ya se han enviado" -> "que pase este test". Cuando el driver cierra un paso, tú ya sabes cuál es el siguiente.
-- No entres en modo táctico. Los detalles son del driver.
 - **Apúntalo, no lo digas ahora.** Escribe ideas y obstáculos, y sácalos cuando el objetivo actual esté cerrado. Si el driver está tecleando, no te puede escuchar.
+- No te pongas a discutir nombres de variables ni sintaxis mientras teclea. Eso es del driver, y ya preguntará si duda. Si aun así te chirría algo, apúntalo.
 - **Regla de los 5 segundos**: antes de señalar un error, espera. Puede que ya lo haya visto.
 - **Di lo mínimo que le permita continuar.** Si con "vamos a extraer el cálculo del descuento" ya se pone a teclear, no le digas dónde está ni cómo buscarlo. Si empiezas con "mira las líneas 20-26 y pulsa Cmd+Alt+M", le estás dictando, no navegando.
-- Habla de "nosotros", no de "yo" y "tú".
+- Habla de **nosotros**, no de **yo** y **tú**.
 - Marca el rumbo: baby steps, YAGNI, KISS. El ciclo de TDD es tu responsabilidad. Recuérdale: "empecemos con un test".
 - Muchas interrupciones de bajo nivel significan que toca cambiar de rol.
 - Coge papel y lápiz. Pseudocódigo, cajas y flechas. Cuando hacemos pairing en remoto usamos [Miro](https://miro.com/) o [Excalidraw](https://excalidraw.com/).
@@ -108,7 +108,7 @@ El driver mira el **cómo** y el **qué**. El navigator mira el **qué** y el **
 ## Estilos
 
 - **Ping-pong**: escribes un test que falla y pasas el teclado. Tu pareja lo hace pasar, escribe el siguiente test que falla y te lo devuelve. El cambio de rol va incorporado, por eso es el mejor por defecto con TDD.
-- **Strong-style**: la idea es que "para que una idea pase de tu cabeza al ordenador tiene que pasar por las manos de otro". Quien tiene la idea *navega*; conduce el otro. Exige un driver que esté cómodo sin entenderlo todo aún. Muy bueno para transferir conocimiento, roza el micromanagement, no abuséis.
+- **Strong-style**: la idea es que "para que una idea pase de tu cabeza al ordenador tiene que pasar por las manos de otro". Quien tiene la idea *navega*; conduce el otro. Exige un driver que esté cómodo sin entenderlo todo aún. Muy bueno para transferir conocimiento, pero al driver le puede agobiar. Acordadlo antes de empezar.
 - **Libre**: sin reglas de cambio, os pasáis el teclado cuando hace falta. Va bien cuando los dos tenéis práctica; entre un senior y un junior casi siempre termina con el senior tecleando y el junior mirando.
 
 ## Modos
@@ -123,7 +123,8 @@ Acordadlo en voz alta. Si no, uno de los dos estará enseñando mientras el otro
 - Tarea trivial o mecánica: cualquiera de los dos podría hacerla solo, y no hay nada que aprender.
 - Demasiadas incógnitas para los dos: haced un spike por separado, acordad antes las preguntas y compartid los hallazgos.
 - Alguien necesita tiempo a solas. Hay que dejarle hueco.
-- Seguid sincronizando cuando os separéis (por ejemplo, vía Slack). La tarea sigue siendo de los dos.
+
+Cuando os separéis, seguid sincronizando (por ejemplo, vía Slack). La tarea sigue siendo de los dos.
 
 ## Tiempo
 

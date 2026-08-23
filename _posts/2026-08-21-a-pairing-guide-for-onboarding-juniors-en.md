@@ -48,19 +48,19 @@ Besides the code, we take home a few things:
 
 ## The two roles
 
-The names come from rally racing. The driver takes the next corner. The navigator (copilot) reads the road ahead and calls it out.
-
 - **Driver**: has the keyboard. Works on the step you're on right now. The syntax, the logic, making this test pass or this step work.
 - **Navigator**: hands off the keyboard. Works one step ahead. Where this is going, what's going to hurt in ten minutes, what you agreed to do next.
 
-You swap roles all the time.
+You swap roles throughout the session.
+
+The names come from rally racing. The driver takes the next corner. The navigator (copilot) reads the road ahead and calls it out.
 
 ## Four things that are easy to get wrong
 
 - **Neither role is the senior one.** Juniors navigate too.
 - **Pairing *is* the review.** That's what saves you the one afterwards: two people agreed on this code while it was being written, not two days later. But you review decisions, not keystrokes. A missing semicolon is for the compiler.
 - **If you don't understand it, don't type it.** You aren't taking dictation. Stop and ask. You're the one who will have to explain this code tomorrow.
-- **The navigator isn't resting.** Nor just watching the screen. If you go quiet for ten minutes, there's one person in the session, not two.
+- **Navigating isn't resting.** While your pair types, you think about what comes next and say it out loud. If you go quiet for ten minutes, there's only one person in the session.
 
 The navigator can think because they're free from the keyboard, and the driver makes progress because they don't have to think about what comes next. Both roles are tiring, in different ways, and that's why you swap often.
 
@@ -96,11 +96,11 @@ The driver looks at the **how** and the **what**. The navigator looks at the **w
 <small>Diagram based on <a href="https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming">Effective Navigation in Pair Programming</a> (ThoughtWorks).</small>
 
 - **You keep the list of what's left**: the goal for the session, the task you're on, and the concrete step the driver is taking. For example: "orders can be cancelled" -> "block cancelling the ones already shipped" -> "make this test pass". When the driver closes a step, you already know which one comes next.
-- Don't go tactical. The details belong to the driver.
 - **Write it down, don't blurt it out.** Note ideas and obstacles, and bring them up when the current goal is closed. If the driver is typing, they can't listen to you.
+- Don't argue about variable names or syntax while they type. That's the driver's job, and they will ask if they have doubts. If something still bothers you, write it down.
 - **The 5 second rule**: before you point at an error, wait. They may have seen it already.
 - **Say the least that lets them continue.** If "let's extract the discount calculation" already gets them typing, don't tell them where it is or how to find it. If you start with "look at lines 20-26 and press Cmd+Alt+M", you're dictating, not navigating.
-- Talk in "we", not in "I" and "you".
+- Talk in **we**, not in **I** and **you**.
 - Keep the course: baby steps, YAGNI, KISS. The TDD cycle is your responsibility. Remind them: "let's start with a test".
 - Many low-level interruptions mean it's time to swap roles.
 - Get paper and a pencil. Pseudocode, boxes and arrows. When we pair remotely we use [Miro](https://miro.com/) or [Excalidraw](https://excalidraw.com/).
@@ -108,7 +108,7 @@ The driver looks at the **how** and the **what**. The navigator looks at the **w
 ## Styles
 
 - **Ping-pong**: you write a failing test and hand over the keyboard. Your pair makes it pass, writes the next failing test and hands it back. The role swap is built in, which is why it's the best default with TDD.
-- **Strong-style**: the idea is that "for an idea to go from your head to the computer it must go through someone else's hands". The person with the idea *navigates*; the other one drives. It needs a driver who is comfortable not understanding everything yet. Very good for knowledge transfer, close to micromanagement, don't overuse it.
+- **Strong-style**: the idea is that "for an idea to go from your head to the computer it must go through someone else's hands". The person with the idea *navigates*; the other one drives. It needs a driver who is comfortable not understanding everything yet. Very good for knowledge transfer, but it can overwhelm the driver. Agree on it before you start.
 - **Free**: no swapping rules, you hand over the keyboard when you need to. It works when you both have practice; with a senior and a junior it almost always ends up with the senior typing and the junior watching.
 
 ## Modes
@@ -123,7 +123,8 @@ Agree on it out loud. Otherwise one of you will be teaching while the other is t
 - Trivial or mechanical task: either of you could do it alone, and there's nothing to learn.
 - Too many unknowns for both of you: spike separately, agree on the questions first, and share the findings.
 - Somebody needs time alone. You have to make room for that.
-- Keep syncing up when you split (over Slack, for example). You're still working on the same task together.
+
+When you split, keep syncing up (over Slack, for example). You're still working on the same task together.
 
 ## Time
 
