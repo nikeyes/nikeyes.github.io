@@ -109,7 +109,7 @@ El driver mira el **cómo** y el **qué**. El navigator mira el **qué** y el **
 
 - **Ping-pong**: escribes un test que falla y pasas el teclado. Tu pareja lo hace pasar, escribe el siguiente test que falla y te lo devuelve. El cambio de rol va incorporado, por eso es el mejor por defecto con TDD.
 - **Strong-style**: la idea es que "para que una idea pase de tu cabeza al ordenador tiene que pasar por las manos de otro". Quien tiene la idea *navega*; conduce el otro. Exige un driver que esté cómodo sin entenderlo todo aún. Muy bueno para transferir conocimiento, roza el micromanagement, no abuséis.
-- **Libre**: el más cómodo y el más fácil de hacer mal.
+- **Libre**: sin reglas de cambio, os pasáis el teclado cuando hace falta. Va bien cuando los dos tenéis práctica; entre un senior y un junior casi siempre termina con el senior tecleando y el junior mirando.
 
 ## Modos
 

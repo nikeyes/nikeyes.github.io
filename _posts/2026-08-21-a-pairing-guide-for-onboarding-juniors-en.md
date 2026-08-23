@@ -109,7 +109,7 @@ The driver looks at the **how** and the **what**. The navigator looks at the **w
 
 - **Ping-pong**: you write a failing test and hand over the keyboard. Your pair makes it pass, writes the next failing test and hands it back. The role swap is built in, which is why it's the best default with TDD.
 - **Strong-style**: the idea is that "for an idea to go from your head to the computer it must go through someone else's hands". The person with the idea *navigates*; the other one drives. It needs a driver who is comfortable not understanding everything yet. Very good for knowledge transfer, close to micromanagement, don't overuse it.
-- **Free**: the most comfortable one and the easiest one to do badly.
+- **Free**: no swapping rules, you hand over the keyboard when you need to. It works when you both have practice; with a senior and a junior it almost always ends up with the senior typing and the junior watching.
 
 ## Modes
 
