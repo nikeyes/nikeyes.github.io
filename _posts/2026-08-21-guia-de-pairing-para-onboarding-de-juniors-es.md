@@ -13,18 +13,17 @@ tags:
   - buenas prácticas
 lang: es
 ref: guia-de-pairing-para-onboarding-de-juniors
-published: false
+published: true
 ---
 
 > "No soy un gran programador; solo soy un buen programador con grandes hábitos." - Kent Beck
 
-Ahora todo el mundo trabaja con IA, y casi siempre solo. Puedes pedirle al agente que te lleve la contraria, y lo hará durante un rato. Insiste, te acabará dando la razón y contradiciendo lo que te decía dos mensajes antes.  
+Ahora todo el mundo trabaja con IA, y casi siempre solo. Puedes pedirle al agente que te lleve la contraria, y lo hará durante un rato. Insiste y te acabará dando la razón y contradiciendo lo que te decía dos mensajes antes.  
 Los modelos están entrenados para ser complacientes. Tus compañeros no.
 
-Por eso, cuando trabajas con juniors, sigue siendo igual de importante **cómo les enseñas**, aunque sea con Claude Code o Codex delante.  
-La herramienta cambia pero la transferencia de conocimiento no.
+Un junior que trabaja con IA aprende rápido a generar buen código, pero muy despacio a discutir si ese código se va a poder mantener dentro de un año. Por eso sigue siendo igual de importante **cómo le enseñas**, aunque sea con Claude Code o Codex delante: la herramienta cambia, la transferencia de conocimiento no.
 
-Estoy ayudando a un junior a entrar en el mundo del backend y estamos haciendo pairing. Pero no sabía qué era el pairing, así que he escrito esta guía con todas mis notas: una recopilación de muchos artículos, libros y conversaciones. Espero que junto con las sesiones que hacemos, le sirva como un *from 0 to hero*.
+Estoy ayudando a un junior a entrar en el mundo del backend y estamos haciendo pairing. Pero él no sabía qué era el pairing, así que he escrito esta guía con todas mis notas: una recopilación de muchos artículos, libros y conversaciones. Espero que, junto con las sesiones que hacemos, le sirva como un *from 0 to hero*.
 
 Gran parte de lo que he escrito está copiado de [unas *Pairing Guidelines* que escribió Rubén Antón](https://docs.google.com/document/d/1dGyhrW-2ivwi0iVdmwJoi0-mhRtKOMQp5eBSYkUR0Ek/edit) y que hace años me gustaron mucho.
 
@@ -39,7 +38,7 @@ La discusión mientras se escribe el código es lo importante: llegar a un conse
 
 Es una de las doce prácticas de Extreme Programming, y en términos de [*software economics*, de Luis Artola](https://leanpub.com/software-economics), es una de las herramientas de gestión del riesgo más potentes que tenemos: crea opciones, reduce complejidad y sube el bus factor.
 
-Además del código nos llegamos unas cuantas cosas:
+Además del código nos llevamos unas cuantas cosas:
 
 - **Conocimiento repartido**, técnico y de negocio.
 - **Prácticas y valores compartidos**: diseño, testing, pragmatismo, YAGNI, transparencia. Eso se transmite haciendo pairing, no en un documento.
@@ -49,30 +48,30 @@ Además del código nos llegamos unas cuantas cosas:
 
 ## Los dos roles
 
-Los nombres vienen de los rallies. El driver toma la siguiente curva. El navigator (el copiloto) lee la carretera que viene y la canta.  
-Ninguno de los dos gana la carrera solo.
+Los nombres vienen de los rallies. El driver toma la siguiente curva. El navigator (el copiloto) lee la carretera que viene y la canta.
 
 - **Driver**: tiene el teclado. Trabaja en el paso en el que estáis ahora mismo. La sintaxis, la lógica, hacer que este test pase o que este paso funcione.
 - **Navigator**: suelta el teclado. Trabaja un paso por delante. Hacia dónde va esto, qué va a doler dentro de diez minutos, qué habíais acordado hacer después.
 
-Cambiáis de rol todo el rato. Cuatro cosas fáciles en las que os podéis equivocar:
+Cambiáis de rol todo el rato.
 
-- **Ninguno de los dos roles es el del senior.** Es un reparto de tareas, no una jerarquía. Los juniors también navegan.
-- **El navigator no está corrigiendo erratas.** El pairing *es* la review, y por eso te ahorra la review de después: dos personas se pusieron de acuerdo sobre este código mientras se escribía, no dos días más tarde. Pero revisas decisiones, no pulsaciones. Un punto y coma que falta es cosa del compilador.
-- **El driver no es un mecanógrafo.** No estás escribiendo al dictado. Si no entiendes lo que estás tecleando, para y pregunta. Eres tú quien va a tener que explicar este código mañana.
-- **El navigator no está descansando.** No teclear no es mirar. Si te callas durante diez minutos, en la sesión solo hay una persona, no dos.
+## Cuatro cosas fáciles en las que os podéis equivocar
 
-El navigator puede pensar porque está libre del teclado, y esa es toda la razón de que seáis dos.  
-Los dos roles cansan, de formas distintas. Por eso se cambia a menudo.
+- **Ninguno de los dos roles es el del senior.** Los juniors también navegan.
+- **El pairing *es* la review.** Por eso te ahorra la de después: dos personas se pusieron de acuerdo sobre este código mientras se escribía, no dos días más tarde. Pero revisas decisiones, no pulsaciones de teclas. Un punto y coma que falta es cosa del compilador.
+- **Si no lo entiendes, no lo teclees.** No estás escribiendo al dictado. Para y pregunta. Eres tú quien va a tener que explicar este código mañana.
+- **El navigator no está descansando.** Ni está solo mirando la pantalla. Si te callas durante diez minutos, en la sesión solo hay una persona, no dos.
+
+El navigator puede pensar porque está libre del teclado, y el driver avanza porque no tiene que pensar en lo que viene después. Los dos roles cansan de formas distintas, por eso hay que cambiar a menudo.
 
 ## Antes de empezar la sesión es bueno definir lo siguiente
 
 - **Objetivo**: ¿qué significa "hecho"?
 - **Modo**: ¿aprendizaje o entrega ([ver abajo](#modos))?
 - **Estilo**: strong-style, ping-pong o libre ([ver abajo](#estilos)).
-- **Cadencia de cambio**: cada test en verde, o cada 25 minutos.
+- **Cadencia de cambio**: cada test en verde o cada 25 minutos.
 - **Agendas**: ¿cuánto tiempo vamos a hacer pairing de verdad? ¿En qué máquina?
-- **Setup**: en la oficina usamos dos teclados, dos ratones y un ordenador, así nadie tiene que moverse para coger el relevo. En remoto, cualquier editor con colaboración en vivo o una pantalla compartida con control remoto: nosotros usamos [VS Code Live Share](https://visualstudio.microsoft.com/services/live-share/).
+- **Setup**: en la oficina usamos dos teclados, dos ratones y un ordenador, así que nadie tiene que moverse para coger el relevo. En remoto, cualquier editor con colaboración en vivo o una pantalla compartida con control remoto: nosotros usamos [VS Code Live Share](https://visualstudio.microsoft.com/services/live-share/).
 
 ## Estés en el rol que estés
 
@@ -90,49 +89,45 @@ Los dos roles cansan, de formas distintas. Por eso se cambia a menudo.
 
 ## Como navigator
 
-El driver mira el **cómo** y el **qué**. Tú miras el **qué** y el **por qué**.  
-Solo compartís el medio.
+El driver mira el **cómo** y el **qué**. El navigator mira el **qué** y el **por qué**.
 
 <img src="{{ site.baseurl }}/images/2026-08-21-a-pairing-guide-for-onboarding-juniors-en/driver-navigator-what-how-why.png" alt="El driver centrado en el cómo y el qué, el navigator centrado en el qué y el por qué" style="max-height:400px; width:auto; height:auto;"/>
 
 <small>Diagrama basado en <a href="https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming">Effective Navigation in Pair Programming</a> (ThoughtWorks).</small>
 
-- **Mantén la lista de objetivos**: lo que os falta para terminar, desde el objetivo grande hasta el paso de ahora mismo. Cuando el driver cierra uno, tú ya sabes cuál es el siguiente.
+- **Lleva tú la lista de lo que falta**: el objetivo de la sesión, la tarea de ahora y el paso concreto en el que está el driver. Por ejemplo: "que se pueda cancelar un pedido" -> "impedir cancelar los que ya se han enviado" -> "que pase este test". Cuando el driver cierra un paso, tú ya sabes cuál es el siguiente.
 - No entres en modo táctico. Los detalles son del driver.
 - **Apúntalo, no lo digas ahora.** Escribe ideas y obstáculos, y sácalos cuando el objetivo actual esté cerrado. Si el driver está tecleando, no te puede escuchar.
 - **Regla de los 5 segundos**: antes de señalar un error, espera. Puede que ya lo haya visto.
-- **Intención -> Ubicación -> Detalle.** Ir siempre directo al detalle es micromanagement. Para en cuanto pueda seguir solo:
-  - "vamos a extraer el cálculo del descuento"
-  - "ese bloque de `calculateTotal`"
-  - "líneas 20-26, Cmd+Alt+M"
-- Habla en "nosotros", no en "yo" y "tú".
-- Marca el rumbo: baby steps, YAGNI, KISS. El ciclo de TDD es tu responsabilidad: "empecemos con un test".
+- **Di lo mínimo que le permita continuar.** Si con "vamos a extraer el cálculo del descuento" ya se pone a teclear, no le digas dónde está ni cómo buscarlo. Si empiezas con "mira las líneas 20-26 y pulsa Cmd+Alt+M", le estás dictando, no navegando.
+- Habla de "nosotros", no de "yo" y "tú".
+- Marca el rumbo: baby steps, YAGNI, KISS. El ciclo de TDD es tu responsabilidad. Recuérdale: "empecemos con un test".
 - Muchas interrupciones de bajo nivel significan que toca cambiar de rol.
 - Coge papel y lápiz. Pseudocódigo, cajas y flechas. Cuando hacemos pairing en remoto usamos [Miro](https://miro.com/) o [Excalidraw](https://excalidraw.com/).
 
 ## Estilos
 
-- **Ping-pong**: A escribe un test que falla, B lo hace pasar, B escribe el siguiente. El mejor por defecto con TDD: el cambio de rol va incorporado.
-- **Strong-style**: "para que una idea pase de tu cabeza al ordenador tiene que pasar por las manos de otro". Quien tiene la idea *navega*; conduce el otro. Exige un driver que esté cómodo sin entenderlo todo aún. Muy bueno para transferir conocimiento, roza el micromanagement, no abuséis. El éxito es poder dejar de usarlo.
+- **Ping-pong**: escribes un test que falla y pasas el teclado. Tu pareja lo hace pasar, escribe el siguiente test que falla y te lo devuelve. El cambio de rol va incorporado, por eso es el mejor por defecto con TDD.
+- **Strong-style**: la idea es que "para que una idea pase de tu cabeza al ordenador tiene que pasar por las manos de otro". Quien tiene la idea *navega*; conduce el otro. Exige un driver que esté cómodo sin entenderlo todo aún. Muy bueno para transferir conocimiento, roza el micromanagement, no abuséis.
 - **Libre**: el más cómodo y el más fácil de hacer mal.
 
 ## Modos
 
-Acordadlo en voz alta. Si no, uno de los dos está enseñando mientras el otro intenta terminar.
-
 - **Modo aprendizaje**: cambiamos productividad por transferencia de conocimiento. Driver = quien recibe el conocimiento.
 - **Modo entrega**: cambiamos transferencia de conocimiento por productividad. Driver = quien más práctica tiene.
+
+Acordadlo en voz alta. Si no, uno de los dos estará enseñando mientras el otro intenta entregar.
 
 ## Cuándo no hacer pairing
 
 - Tarea trivial o mecánica: cualquiera de los dos podría hacerla solo, y no hay nada que aprender.
-- Demasiadas incógnitas para los dos: haced un spike por separado, acordad antes las preguntas, y compartid los hallazgos.
+- Demasiadas incógnitas para los dos: haced un spike por separado, acordad antes las preguntas y compartid los hallazgos.
 - Alguien necesita tiempo a solas. Hay que dejarle hueco.
-- Seguid sincronizando cuando os separéis. La tarea sigue siendo de los dos.
+- Seguid sincronizando cuando os separéis (por ejemplo, vía Slack). La tarea sigue siendo de los dos.
 
 ## Tiempo
 
-- Pomodoro 25/5, **cambio de rol en el descanso**. Descanso largo cada cuatro.
+- Pomodoro 25/5, **cambio de rol en el descanso**. Descanso largo cada cuatro periodos.
 - **Máximo 6 horas de pairing al día.** Ocho no es sostenible. En remoto es todavía menos: compartir pantalla y llamada todo el día cansa más que estar sentado al lado de alguien, así que 2-4 horas.
 - Rotad parejas para repartir conocimiento, pero no por rotar. Cada rotación cuesta contexto, y el contexto perdido se convierte en retrabajo. Así que rotad de uno en uno: quien se queda pasa lo que no está escrito en ningún sitio.
 - Al final del día, una mini retro de dos minutos. ¿Hemos cambiado de rol lo suficiente? ¿Qué cambiaríamos mañana? Convertidlo en rutina antes de que algo vaya mal.
@@ -145,8 +140,8 @@ Acordadlo en voz alta. Si no, uno de los dos está enseñando mientras el otro i
 - Estar cómodo solo escribiendo, o solo leyendo.
 - No cambiar nunca, no descansar nunca.
 - Cambiar de modo sin decirlo.
-- Un navigator que se calla: normalmente se ha roto la comunicación, no el interés. Probad strong-style.
-- Contestar o mirar Slack en mitad de la sesión.
+- Un navigator callado lleva rato perdido. Preguntadle qué haría él ahora, o pasad a strong-style.
+- Contestar o mirar Slack en mitad de la sesión de pairing.
 
 ## Conclusiones
 
@@ -157,6 +152,7 @@ Si trabajas con un junior, llevar la contraria es justo lo que le tienes que ens
 
 ## Referencias
 
+- [Pairing Guidelines](https://docs.google.com/document/d/1dGyhrW-2ivwi0iVdmwJoi0-mhRtKOMQp5eBSYkUR0Ek/edit) (Rubén Antón. La base de buena parte de esta guía)
 - [Software economics](https://leanpub.com/software-economics) (Luis Artola. El marco de coste/valor/riesgo/deuda, en castellano)
 - [The Costs and Benefits of Pair Programming](https://www.cs.utexas.edu/~ans/classes/cs439/projects/XPSardinia.PDF) (Cockburn & Williams. Cuesta un 15% más de esfuerzo y lo devuelve en menos defectos)
 - [Pair Programming vs. Solo Programming: What Do We Know After 15 Years of Research?](https://ieeexplore.ieee.org/document/7427855/) (meta-análisis)
@@ -167,7 +163,6 @@ Si trabajas con un junior, llevar la contraria es justo lo que le tienes que ens
 - Kent Beck, *XP Explained*
 - [Pair Programming: mi guía práctica](http://juandavidvega.es/2015/11/08/pair-programming-mi-guia-practica/) (Juan David Vega)
 - [Productive pair programming](http://www.carlosble.com/2015/07/productive-pair-programming/) (Carlos Blé)
-- [Pairing Guidelines](https://docs.google.com/document/d/1dGyhrW-2ivwi0iVdmwJoi0-mhRtKOMQp5eBSYkUR0Ek/edit) (Rubén Antón. La base de buena parte de esta guía)
 
 ---
 
