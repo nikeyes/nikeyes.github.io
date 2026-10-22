@@ -5,6 +5,8 @@ categories:
   - aprendizaje
 tags:
   - mejora continua
+lang: es
+ref: cuando-cambiar-de-trabajo
 published: true
 ---
 
