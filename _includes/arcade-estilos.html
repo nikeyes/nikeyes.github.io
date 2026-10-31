@@ -1,0 +1,35 @@
+<div class="arcade-estilos" role="group" aria-label="Estilo de la sección">
+  <span>Estilo:</span>
+  <button type="button" data-estilo="flyer">Flyer de los 90</button>
+  <button type="button" data-estilo="rayas">Rayas de los 80</button>
+  <button type="button" data-estilo="cromos">Álbum de cromos</button>
+  <button type="button" data-estilo="revista">Revista de los 90</button>
+  <button type="button" data-estilo="cuaderno">Cuaderno de los niños</button>
+</div>
+<script>
+(function () {
+  var estiloPorDefecto = 'flyer';
+  var zona = document.currentScript.closest('.arcade-zona');
+  var botones = zona.querySelectorAll('.arcade-estilos button');
+
+  function leerEstiloGuardado() {
+    try { return localStorage.getItem('arcade-estilo'); } catch (e) { return null; }
+  }
+
+  function aplicarEstilo(estilo) {
+    zona.setAttribute('data-estilo', estilo);
+    botones.forEach(function (boton) {
+      boton.setAttribute('aria-pressed', boton.dataset.estilo === estilo);
+    });
+    try { localStorage.setItem('arcade-estilo', estilo); } catch (e) {}
+  }
+
+  var guardado = leerEstiloGuardado();
+  var existe = Array.prototype.some.call(botones, function (boton) { return boton.dataset.estilo === guardado; });
+  aplicarEstilo(existe ? guardado : estiloPorDefecto);
+
+  botones.forEach(function (boton) {
+    boton.addEventListener('click', function () { aplicarEstilo(boton.dataset.estilo); });
+  });
+})();
+</script>

@@ -90,3 +90,15 @@ exclude:
   - CNAME
 
 theme: jekyll-theme-minimal
+
+collections:
+  arcade:
+    output: true
+    permalink: /arcade/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: arcade
+    values:
+      layout: arcade-game

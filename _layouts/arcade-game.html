@@ -1,0 +1,96 @@
+---
+layout: default
+---
+<article class="arcade-post arcade-zona">
+  {% include arcade-estilos.html %}
+
+  <a class="arcade-volver" href="{{ '/arcade/' | relative_url }}">Volver a Arcade</a>
+
+  {% if page.marquesina %}
+  <img class="arcade-post__marquesina" src="{{ page.marquesina | relative_url }}" alt="Marquesina de {{ page.title }}">
+  {% endif %}
+
+  <h1>{% if page.favorito %}<span class="arcade-post__favorito" title="Favorito">★</span> {% endif %}{{ page.title }}</h1>
+  <p class="arcade-post__tipo">{{ page.tipo }}</p>
+
+  <div class="arcade-post__cabecera">
+    {% if page.portada %}
+    <a class="arcade-post__portada arcade-ampliable" href="{{ page.portada | relative_url }}">
+      <img src="{{ page.portada | relative_url }}" alt="Portada de {{ page.title }}">
+    </a>
+    {% endif %}
+
+    <div>
+      <dl class="arcade-post__ficha">
+        <div><dt>Año</dt><dd>{{ page.anio }}</dd></div>
+        <div><dt>Desarrolladora</dt><dd>{{ page.desarrolladora }}</dd></div>
+        <div><dt>Distribuidora</dt><dd>{{ page.distribuidora }}</dd></div>
+        <div><dt>Género</dt><dd>{{ page.genero }}</dd></div>
+        <div><dt>Estado</dt><dd>{{ page.estado }}</dd></div>
+        <div><dt>Puntuación</dt><dd>{{ page.puntuacion | default: "–" }}</dd></div>
+        <div><dt>Emulador</dt><dd>{{ page.emulador | default: "–" }}</dd></div>
+      </dl>
+
+      {% if page.video_pocion_roja %}
+      <a class="arcade-post__video" href="{{ page.video_pocion_roja }}">▶ Ver el vídeo en La Poción Roja</a>
+      {% elsif page.video %}
+      <a class="arcade-post__video" href="{{ page.video }}">▶ Ver un vídeo del juego</a>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if page.imagen %}
+  <a class="arcade-post__pantalla arcade-ampliable" href="{{ page.imagen | relative_url }}">
+    <img src="{{ page.imagen | relative_url }}" alt="Pantalla de juego de {{ page.title }}">
+  </a>
+  {% endif %}
+
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  {% if page.opinion_ninos %}
+  <section class="arcade-post__ninos">
+    <h2>Lo que opinan los niños</h2>
+    <p>{{ page.opinion_ninos }}</p>
+  </section>
+  {% endif %}
+
+  {% if page.galeria.size > 0 %}
+  <section>
+    <h2>Imágenes</h2>
+    <div class="arcade-post__galeria">
+      {% for foto in page.galeria %}
+      <figure>
+        <a class="arcade-ampliable" href="{{ foto.imagen | relative_url }}"><img src="{{ foto.imagen | relative_url }}" alt="{{ foto.tipo }} de {{ page.title }}" loading="lazy"></a>
+        <figcaption>{{ foto.tipo }}</figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <dialog class="arcade-visor" id="arcade-visor" aria-label="Imagen ampliada">
+    <img src="" alt="">
+  </dialog>
+</article>
+
+<script>
+(function () {
+  var visor = document.getElementById('arcade-visor');
+  var imagenAmpliada = visor.querySelector('img');
+  if (!visor.showModal) return;
+
+  document.querySelectorAll('.arcade-ampliable').forEach(function (enlace) {
+    enlace.addEventListener('click', function (evento) {
+      evento.preventDefault();
+      var miniatura = enlace.querySelector('img');
+      imagenAmpliada.src = enlace.href;
+      imagenAmpliada.alt = miniatura.alt;
+      visor.showModal();
+    });
+  });
+
+  visor.addEventListener('click', function () { visor.close(); });
+})();
+</script>
