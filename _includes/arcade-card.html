@@ -5,7 +5,7 @@
    data-genero="{{ juego.genero | escape }}"
    data-estado="{{ juego.estado | escape }}"
    data-favorito="{{ juego.favorito }}">
-  <span class="arcade-card__num">{{ include.numero | prepend: "0" | slice: -2, 2 }}</span>
+  <span class="arcade-card__num">{{ include.numero | prepend: "00" | slice: -3, 3 }}</span>
   <div class="arcade-card__pantalla">
     {% if pantalla %}<img src="{{ pantalla | relative_url }}" alt="" loading="lazy">{% else %}<span class="arcade-card__insert">Insert coin</span>{% endif %}
     {% if juego.favorito %}<span class="arcade-card__favorito" title="Favorito">★</span>{% endif %}

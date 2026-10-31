@@ -1,7 +1,7 @@
 // Sección Arcade
 //
 // Toda la sección vive dentro de .arcade-zona. El selector de estilo pone
-// data-estilo="flyer|rayas|cromos|revista|cuaderno" en ese contenedor.
+// data-estilo="flyer|rayas|cromos|revista|cuaderno|tickets" en ese contenedor.
 // La base usa variables CSS; cada estilo cambia las variables y añade sus adornos.
 
 $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9d3ee 31px, #b9d3ee 32px);
@@ -569,6 +569,130 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
     padding-left: 54px;
     background: linear-gradient(90deg, transparent 38px, #f08a8a 38px, #f08a8a 40px, transparent 40px), $arcade-tramado-cuaderno;
   }
+}
+
+// ------------------------------------------------------------
+// Tickets de feria
+// ------------------------------------------------------------
+
+$arcade-ticket-tinta: #2a1c10;
+$arcade-ticket-sello: rgba(196, 22, 28, .85);
+$arcade-ticket-troquel:
+  radial-gradient(circle 9px at 0 50%, transparent 98%, #000) left / 51% 100% no-repeat,
+  radial-gradient(circle 9px at 100% 50%, transparent 98%, #000) right / 51% 100% no-repeat;
+
+// Lo que va impreso en papel lleva tinta oscura; el resto va sobre el tapete verde
+@mixin arcade-papel-de-ticket {
+  --tinta: #{$arcade-ticket-tinta};
+  --tenue: #5a4632;
+  color: $arcade-ticket-tinta;
+}
+
+.arcade-zona[data-estilo="tickets"] {
+  --fondo: #2f6b4f;
+  --papel: #f6e7c1;
+  --tinta: #f6e7c1;
+  --tenue: #cfe5d6;
+  --acento: #ffd27a;
+  --destacado: #ffd27a;
+  --borde: #{$arcade-ticket-tinta};
+  --barra: transparent;
+  --barra-texto: #{$arcade-ticket-tinta};
+  --fuente-titulo: "Alfa Slab One", Georgia, serif;
+  --fuente-texto: "Courier Prime", "Courier New", monospace;
+
+  background: radial-gradient(rgba(255, 255, 255, .06) 1px, transparent 1px) 0 0 / 6px 6px, #2f6b4f;
+
+  h1, h2, h3 { font-weight: 400; }
+  .arcade__cabecera h1, &.arcade-post h1 { font-size: 46px; text-shadow: 3px 3px 0 #173a2a; }
+  .arcade__filtros { @include arcade-papel-de-ticket; label { color: #cfe5d6; } }
+  .arcade__filtros input, .arcade__filtros select { border-radius: 0; }
+
+  .arcade__grid { gap: 30px 22px; }
+
+  .arcade-card {
+    @include arcade-papel-de-ticket;
+    grid-template-rows: auto auto 1fr auto;
+    padding: 14px 16px 12px;
+    transform: rotate(-1.5deg);
+    -webkit-mask: $arcade-ticket-troquel;
+    mask: $arcade-ticket-troquel;
+    &:nth-child(3n+2) { transform: rotate(1.4deg); background: #f2d6cf; }
+    &:nth-child(3n) { transform: rotate(-.4deg); background: #d9e6f2; }
+    &:hover, &:focus { color: $arcade-ticket-tinta; }
+    &:hover, &:focus-visible { transform: rotate(0) scale(1.03); }
+  }
+  .arcade-card__num {
+    display: block;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px dashed rgba(42, 28, 16, .45);
+    text-align: right;
+    font: 700 11px "Courier Prime", monospace;
+    letter-spacing: .15em;
+    &::before { content: "Nº "; }
+    &::after { content: "ADMIT ONE"; float: left; }
+  }
+  .arcade-card__pantalla { height: 130px; border: 2px solid $arcade-ticket-tinta; }
+  .arcade-card__texto { padding: 10px 0 6px; text-align: center; }
+  .arcade-card__texto h2 { font-size: 20px; line-height: 1.1; color: #8c1c13; }
+  .arcade-card__texto p { font-size: 14px; }
+  .arcade-card__genero { font-weight: 700; font-size: 11px; letter-spacing: .2em; text-transform: uppercase; }
+  .arcade-card__favorito {
+    display: grid;
+    place-items: center;
+    top: 8px; right: 8px;
+    width: 46px; height: 46px;
+    border: 3px solid $arcade-ticket-sello;
+    border-radius: 50%;
+    background: rgba(246, 231, 193, .6);
+    color: $arcade-ticket-sello;
+    transform: rotate(14deg);
+  }
+  .arcade-card__stats {
+    grid-template-columns: 1fr .6fr 1.9fr;
+    border-top: 2px dashed rgba(42, 28, 16, .45);
+    strong { font-weight: 700; font-size: 14px; }
+    span { text-transform: uppercase; letter-spacing: .1em; font-size: 10px; }
+  }
+
+  // Los juegos terminados o en marcha llevan el estado como un sello de tinta
+  // sobre el borde inferior de la pantalla, y el año y la nota ocupan toda la barra
+  .arcade-card[data-estado="Terminado"], .arcade-card[data-estado="Jugando"] {
+    .arcade-card__stats { grid-template-columns: 1fr 1fr; }
+    .arcade-card__stats div:nth-child(3) {
+      position: absolute;
+      top: 156px; left: 50%;
+      padding: 4px 12px;
+      border: 3px solid $arcade-ticket-sello;
+      border-radius: 6px;
+      background: rgba(246, 231, 193, .85);
+      color: $arcade-ticket-sello;
+      transform: translateX(-50%) rotate(-8deg);
+      strong { font: 400 18px/1 "Alfa Slab One", serif; text-transform: uppercase; }
+      span { display: none; }
+    }
+  }
+  .arcade-card[data-estado="Jugando"] .arcade-card__stats div:nth-child(3) { border-color: rgba(30, 70, 160, .85); color: rgba(30, 70, 160, .85); }
+
+  .arcade-post__marquesina, .arcade-post__portada img, .arcade-post__pantalla img {
+    padding: 8px;
+    background: #f6e7c1;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .35);
+  }
+  .arcade-post__portada img { transform: rotate(-1.5deg); }
+  .arcade-post__ficha { @include arcade-papel-de-ticket; border: 0; border-top: 2px dashed rgba(42, 28, 16, .45); border-bottom: 2px dashed rgba(42, 28, 16, .45); }
+  .arcade-post__video {
+    padding: 12px 22px;
+    background: #8c1c13;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    -webkit-mask: $arcade-ticket-troquel;
+    mask: $arcade-ticket-troquel;
+  }
+  .arcade-post__ninos { @include arcade-papel-de-ticket; border-left-color: #8c1c13; h2 { color: $arcade-ticket-tinta; } }
+  .arcade-post__galeria img { border: 6px solid #f6e7c1; }
 }
 
 // Los títulos grandes de cada estilo no caben en un móvil
