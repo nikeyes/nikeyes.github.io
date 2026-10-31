@@ -1,0 +1,89 @@
+---
+layout: default
+title: Arcade
+permalink: /arcade/
+---
+{% assign juegos = site.arcade | sort: "title" %}
+{% assign generos = site.arcade | map: "genero" | compact | uniq | sort %}
+{% assign estados = site.arcade | map: "estado" | compact | uniq | sort %}
+
+<section class="arcade arcade-zona">
+  {% include arcade-estilos.html %}
+
+  <header class="arcade__cabecera">
+    <h1>Arcade</h1>
+    <p>Las recreativas que jugamos en casa: las que nos acabamos y las que abandonamos.</p>
+  </header>
+
+  <div class="arcade__filtros" role="search">
+    <label for="arcade-buscar">Buscar juego, compañía o año</label>
+    <input id="arcade-buscar" type="search" placeholder="Ej.: Capcom, 1991, Tumblepop" autocomplete="off">
+
+    <label for="arcade-genero">Género</label>
+    <select id="arcade-genero">
+      <option value="">Todos</option>
+      {% for genero in generos %}<option value="{{ genero }}">{{ genero }}</option>{% endfor %}
+    </select>
+
+    <label for="arcade-estado">Estado</label>
+    <select id="arcade-estado">
+      <option value="">Todos</option>
+      {% for estado in estados %}<option value="{{ estado }}">{{ estado }}</option>{% endfor %}
+    </select>
+  </div>
+
+  <label class="arcade__favoritos">
+    <input id="arcade-favoritos" type="checkbox"> Solo favoritos
+  </label>
+
+  <p class="arcade__contador" id="arcade-contador" aria-live="polite">{{ juegos.size }} juegos</p>
+
+  <div class="arcade__grid">
+    {% for juego in juegos %}
+      {% include arcade-card.html juego=juego numero=forloop.index %}
+    {% endfor %}
+  </div>
+
+  <p class="arcade__vacio" id="arcade-vacio" hidden>
+    Ningún juego coincide. Prueba con otro nombre o quita algún filtro.
+  </p>
+</section>
+
+<script>
+(function () {
+  var buscar = document.getElementById('arcade-buscar');
+  var genero = document.getElementById('arcade-genero');
+  var estado = document.getElementById('arcade-estado');
+  var soloFavoritos = document.getElementById('arcade-favoritos');
+  var tarjetas = Array.prototype.slice.call(document.querySelectorAll('.arcade-card'));
+  var contador = document.getElementById('arcade-contador');
+  var vacio = document.getElementById('arcade-vacio');
+
+  function normalizar(texto) {
+    return texto.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  }
+
+  function coincide(tarjeta) {
+    return normalizar(tarjeta.dataset.buscar).indexOf(normalizar(buscar.value.trim())) !== -1 &&
+      (!genero.value || tarjeta.dataset.genero === genero.value) &&
+      (!estado.value || tarjeta.dataset.estado === estado.value) &&
+      (!soloFavoritos.checked || tarjeta.dataset.favorito === 'true');
+  }
+
+  function filtrar() {
+    var visibles = 0;
+    tarjetas.forEach(function (tarjeta) {
+      var visible = coincide(tarjeta);
+      tarjeta.hidden = !visible;
+      if (visible) visibles++;
+    });
+    contador.textContent = visibles + (visibles === 1 ? ' juego' : ' juegos');
+    vacio.hidden = visibles !== 0;
+  }
+
+  buscar.addEventListener('input', filtrar);
+  genero.addEventListener('change', filtrar);
+  estado.addEventListener('change', filtrar);
+  soloFavoritos.addEventListener('change', filtrar);
+})();
+</script>

@@ -1,0 +1,24 @@
+{% assign juego = include.juego %}
+{% assign pantalla = juego.imagen | default: juego.portada %}
+<a class="arcade-card" href="{{ juego.url | relative_url }}"
+   data-buscar="{{ juego.title | escape }} {{ juego.desarrolladora | escape }} {{ juego.distribuidora | escape }} {{ juego.genero | escape }} {{ juego.anio }}"
+   data-genero="{{ juego.genero | escape }}"
+   data-estado="{{ juego.estado | escape }}"
+   data-favorito="{{ juego.favorito }}">
+  <span class="arcade-card__num">{{ include.numero | prepend: "0" | slice: -2, 2 }}</span>
+  <div class="arcade-card__pantalla">
+    {% if pantalla %}<img src="{{ pantalla | relative_url }}" alt="" loading="lazy">{% else %}<span class="arcade-card__insert">Insert coin</span>{% endif %}
+    {% if juego.favorito %}<span class="arcade-card__favorito" title="Favorito">★</span>{% endif %}
+    {% if juego.puntuacion %}<span class="arcade-card__nota">{{ juego.puntuacion }}</span>{% endif %}
+  </div>
+  <div class="arcade-card__texto">
+    <span class="arcade-card__genero">{{ juego.genero }}</span>
+    <h2>{{ juego.title }}</h2>
+    <p>{{ juego.tipo }}</p>
+  </div>
+  <div class="arcade-card__stats">
+    <div><strong>{{ juego.anio }}</strong><span>año</span></div>
+    <div><strong>{{ juego.puntuacion | default: "–" }}</strong><span>nota</span></div>
+    <div><strong class="arcade-card__recortado">{{ juego.estado }}</strong><span>estado</span></div>
+  </div>
+</a>
