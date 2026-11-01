@@ -1,36 +1,51 @@
-<div class="arcade-estilos" role="group" aria-label="Estilo de la sección">
-  <span>Estilo:</span>
-  <button type="button" data-estilo="flyer">Flyer de los 90</button>
-  <button type="button" data-estilo="rayas">Rayas de los 80</button>
-  <button type="button" data-estilo="cromos">Álbum de cromos</button>
-  <button type="button" data-estilo="revista">Revista de los 90</button>
-  <button type="button" data-estilo="cuaderno">Cuaderno de los niños</button>
-  <button type="button" data-estilo="tickets">Tickets de feria</button>
-</div>
+<details class="arcade-estilos">
+  <summary title="Cambiar estilo" aria-label="Cambiar estilo">
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0 0 20c1.1 0 2-.9 2-2 0-.5-.2-1-.5-1.3-.3-.4-.5-.8-.5-1.3 0-1.1.9-2 2-2h2.4A4.6 4.6 0 0 0 22 10.8C22 5.9 17.5 2 12 2zM6.5 12a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm3-4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm3 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/></svg>
+  </summary>
+  <div class="arcade-estilos__lista">
+    {% for estilo in site.arcade_estilos %}<button type="button" data-estilo="{{ estilo.id }}">{{ estilo.nombre }}</button>{% endfor %}
+  </div>
+</details>
 <script>
+// Va al principio de la sección para aplicar el estilo guardado antes de que se pinte la página
 (function () {
-  var estiloPorDefecto = 'flyer';
+  var estiloPorDefecto = '{{ site.arcade_estilo }}';
   var zona = document.currentScript.closest('.arcade-zona');
-  var botones = zona.querySelectorAll('.arcade-estilos button');
+  var selector = zona.querySelector('.arcade-estilos');
+  var botones = selector.querySelectorAll('button');
+  var existe = function (estilo) {
+    return Array.prototype.some.call(botones, function (boton) { return boton.dataset.estilo === estilo; });
+  };
 
-  function leerEstiloGuardado() {
-    try { return localStorage.getItem('arcade-estilo'); } catch (e) { return null; }
-  }
-
-  function aplicarEstilo(estilo) {
-    zona.setAttribute('data-estilo', estilo);
+  function marcarElegido() {
     botones.forEach(function (boton) {
-      boton.setAttribute('aria-pressed', boton.dataset.estilo === estilo);
+      boton.setAttribute('aria-pressed', boton.dataset.estilo === zona.getAttribute('data-estilo'));
     });
-    try { localStorage.setItem('arcade-estilo', estilo); } catch (e) {}
   }
 
-  var guardado = leerEstiloGuardado();
-  var existe = Array.prototype.some.call(botones, function (boton) { return boton.dataset.estilo === guardado; });
-  aplicarEstilo(existe ? guardado : estiloPorDefecto);
+  // Elegir el estilo por defecto borra la preferencia para seguir el de _config.yml si cambia
+  function elegir(estilo) {
+    zona.setAttribute('data-estilo', estilo);
+    try {
+      if (estilo === estiloPorDefecto) localStorage.removeItem('arcade-estilo');
+      else localStorage.setItem('arcade-estilo', estilo);
+    } catch (e) {}
+    marcarElegido();
+  }
+
+  try {
+    var guardado = localStorage.getItem('arcade-estilo');
+    if (existe(guardado)) zona.setAttribute('data-estilo', guardado);
+  } catch (e) {}
+  marcarElegido();
 
   botones.forEach(function (boton) {
-    boton.addEventListener('click', function () { aplicarEstilo(boton.dataset.estilo); });
+    boton.addEventListener('click', function () { elegir(boton.dataset.estilo); });
+  });
+
+  // Se cierra al pulsar fuera, para que no tape la cabecera
+  document.addEventListener('click', function (evento) {
+    if (!selector.contains(evento.target)) selector.open = false;
   });
 })();
 </script>

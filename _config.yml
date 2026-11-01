@@ -102,3 +102,19 @@ defaults:
       type: arcade
     values:
       layout: arcade-game
+
+# Estilo de la sección Arcade que ven los lectores
+arcade_estilo: cromos
+arcade_estilos:
+  - id: flyer
+    nombre: Flyer de los 90
+  - id: rayas
+    nombre: Rayas de los 80
+  - id: cromos
+    nombre: Álbum de cromos
+  - id: revista
+    nombre: Revista de los 90
+  - id: cuaderno
+    nombre: Cuaderno de los niños
+  - id: tickets
+    nombre: Tickets de feria

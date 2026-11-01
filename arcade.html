@@ -7,7 +7,7 @@ permalink: /arcade/
 {% assign generos = site.arcade | map: "genero" | compact | uniq | sort %}
 {% assign estados = site.arcade | map: "estado" | compact | uniq | sort %}
 
-<section class="arcade arcade-zona">
+<section class="arcade arcade-zona" data-estilo="{{ site.arcade_estilo }}">
   {% include arcade-estilos.html %}
 
   <header class="arcade__cabecera">

@@ -37,28 +37,53 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   img { max-width: 100%; }
 }
 
-// Selector de estilo
+// Selector de estilo: un icono discreto en la esquina superior derecha
 .arcade-estilos {
+  position: absolute;
+  top: 8px; right: 10px;
+  z-index: 5;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-  margin-bottom: 18px;
-  font: 14px/1.2 "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  flex-direction: column;
+  align-items: flex-end;
+  font: 12px/1.2 "Rubik", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: var(--tenue);
 
-  span { margin-right: 4px; opacity: .8; }
+  summary {
+    display: block;
+    padding: 4px;
+    list-style: none;
+    opacity: .4;
+    cursor: pointer;
+    &::-webkit-details-marker { display: none; }
+    &:hover, &:focus-visible { opacity: 1; }
+    svg { display: block; }
+  }
+  &[open] summary { opacity: 1; }
+}
+
+.arcade-estilos__lista {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 4px;
+  margin-top: 4px;
+  padding: 8px;
+  border-radius: 8px;
+  background: var(--fondo);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, .3);
+  white-space: nowrap;
 
   button {
     font: inherit;
-    padding: 6px 12px;
-    border: 2px solid currentColor;
+    padding: 3px 8px;
+    border: 1px solid currentColor;
     border-radius: 999px;
     background: transparent;
     color: inherit;
     cursor: pointer;
 
     &[aria-pressed="true"] { background: var(--tinta); border-color: var(--tinta); color: var(--fondo); }
-    &:focus-visible { outline: 3px solid var(--acento); outline-offset: 2px; }
+    &:focus-visible { outline: 2px solid var(--acento); outline-offset: 2px; }
   }
 }
 
