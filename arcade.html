@@ -23,33 +23,48 @@ permalink: /arcade/
   </div>
 
   <div class="arcade__filtros" role="search">
-    <label for="arcade-buscar">Buscar juego, compañía o año</label>
-    <input id="arcade-buscar" type="search" placeholder="Ej.: Capcom, 1991, Tumblepop" autocomplete="off">
+    <div class="arcade__filtro arcade__filtro--buscar">
+      <label for="arcade-buscar">Buscar juego, compañía o año</label>
+      <input id="arcade-buscar" type="search" placeholder="Ej.: Capcom, 1991, Tumblepop" autocomplete="off">
+    </div>
 
-    <label for="arcade-genero">Género</label>
-    <select id="arcade-genero">
-      <option value="">Todos</option>
-      {% for genero in generos %}<option value="{{ genero }}">{{ genero }}</option>{% endfor %}
-    </select>
+    <div class="arcade__filtro">
+      <label for="arcade-genero">Género</label>
+      <select id="arcade-genero">
+        <option value="">Todos</option>
+        {% for genero in generos %}<option value="{{ genero }}">{{ genero }}</option>{% endfor %}
+      </select>
+    </div>
 
-    <label for="arcade-estado">Estado</label>
-    <select id="arcade-estado">
-      <option value="">Todos</option>
-      {% for estado in estados %}<option value="{{ estado }}">{{ estado }}</option>{% endfor %}
-    </select>
+    <div class="arcade__filtro">
+      <label for="arcade-estado">Estado</label>
+      <select id="arcade-estado">
+        <option value="">Todos</option>
+        {% for estado in estados %}<option value="{{ estado }}">{{ estado }}</option>{% endfor %}
+      </select>
+    </div>
 
-    <label for="arcade-edad">Edad</label>
-    <select id="arcade-edad">
-      <option value="">Todos</option>
-      <option value="aptos">Aptos</option>
-      <option value="adultos">Adultos</option>
-    </select>
+    <div class="arcade__filtro">
+      <label for="arcade-modo">Cómo jugar</label>
+      <select id="arcade-modo">
+        <option value="">Todos</option>
+        <option value="juntos">Juntos</option>
+        <option value="solo">Solo</option>
+        <option value="contra">Uno contra otro</option>
+      </select>
+    </div>
+
+    <div class="arcade__filtro">
+      <label for="arcade-edad">Edad</label>
+      <select id="arcade-edad">
+        <option value="">Todos</option>
+        <option value="aptos">Aptos</option>
+        <option value="adultos">Adultos</option>
+      </select>
+    </div>
   </div>
 
-  <div class="arcade__casillas">
-    <label><input id="arcade-favoritos" type="checkbox"> Solo favoritos</label>
-    <label><input id="arcade-cooperativo" type="checkbox"> Para jugar juntos</label>
-  </div>
+  <label class="arcade__favoritos"><input id="arcade-favoritos" type="checkbox"> Solo favoritos</label>
 
   <p class="arcade__contador" id="arcade-contador" aria-live="polite">{{ juegos.size }} juegos</p>
 
@@ -72,7 +87,7 @@ permalink: /arcade/
   var estado = document.getElementById('arcade-estado');
   var edad = document.getElementById('arcade-edad');
   var soloFavoritos = document.getElementById('arcade-favoritos');
-  var soloCooperativos = document.getElementById('arcade-cooperativo');
+  var modo = document.getElementById('arcade-modo');
   var tarjetas = Array.prototype.slice.call(document.querySelectorAll('.arcade__album .arcade-card'));
   var contador = document.getElementById('arcade-contador');
   var vacio = document.getElementById('arcade-vacio');
@@ -87,7 +102,9 @@ permalink: /arcade/
       (!estado.value || tarjeta.dataset.estado === estado.value) &&
       (!edad.value || (tarjeta.dataset.adultos === 'true') === (edad.value === 'adultos')) &&
       (!soloFavoritos.checked || tarjeta.dataset.favorito === 'true') &&
-      (!soloCooperativos.checked || tarjeta.dataset.cooperativo === 'true');
+      (modo.value !== 'juntos' || tarjeta.dataset.cooperativo === 'true') &&
+      (modo.value !== 'solo' || tarjeta.dataset.solo === 'true') &&
+      (modo.value !== 'contra' || tarjeta.dataset.contra === 'true');
   }
 
   function filtrar() {
@@ -102,7 +119,7 @@ permalink: /arcade/
   }
 
   buscar.addEventListener('input', filtrar);
-  [genero, estado, edad, soloFavoritos, soloCooperativos].forEach(function (filtro) {
+  [genero, estado, modo, edad, soloFavoritos].forEach(function (filtro) {
     filtro.addEventListener('change', filtrar);
   });
 })();

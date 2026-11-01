@@ -7,6 +7,8 @@
    data-estado="{{ juego.estado | escape }}"
    data-favorito="{{ juego.favorito }}"
    data-cooperativo="{{ familia.cooperativo | default: false }}"
+   data-solo="{% if familia and familia.a_la_vez == false %}true{% else %}false{% endif %}"
+   data-contra="{% if familia.a_la_vez and familia.cooperativo == false %}true{% else %}false{% endif %}"
    data-adultos="{{ familia.adultos | default: false }}">
   <span class="arcade-card__num">{{ include.numero | prepend: "00" | slice: -3, 3 }}</span>
   <div class="arcade-card__pantalla">
