@@ -29,6 +29,12 @@ layout: default
         <div><dt>Estado</dt><dd>{{ page.estado }}</dd></div>
         <div><dt>Puntuación</dt><dd>{{ page.puntuacion | default: "–" }}</dd></div>
         <div><dt>Emulador</dt><dd>{{ page.emulador | default: "–" }}</dd></div>
+        {% assign familia = site.data.arcade_familia[page.slug] %}
+        {% if familia %}
+        <div><dt>Jugadores</dt><dd>{{ familia.jugadores }}{% if familia.jugadores > 1 %}{% if familia.a_la_vez %} a la vez{% else %} por turnos{% endif %}{% endif %}</dd></div>
+        <div><dt>Para jugar juntos</dt><dd>{% if familia.cooperativo %}Sí{% else %}No{% endif %}</dd></div>
+        <div><dt>Edad</dt><dd>{% if familia.adultos %}Adultos{% else %}Apto{% endif %}</dd></div>
+        {% endif %}
       </dl>
 
       {% if page.video_pocion_roja or page.video_pocion_roja_recopilatorio or page.video %}

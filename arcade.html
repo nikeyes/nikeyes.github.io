@@ -15,6 +15,13 @@ permalink: /arcade/
     <p>Las recreativas que jugamos en casa: las que nos acabamos y las que abandonamos.</p>
   </header>
 
+
+  <div class="arcade__sorteo">
+    <button type="button" id="arcade-sortear">¿A qué jugamos hoy?</button>
+    <span>Elige uno sin terminar entre los que muestran los filtros.</span>
+    <div class="arcade__sorteo-resultado" id="arcade-sorteo-resultado" aria-live="polite" hidden></div>
+  </div>
+
   <div class="arcade__filtros" role="search">
     <label for="arcade-buscar">Buscar juego, compañía o año</label>
     <input id="arcade-buscar" type="search" placeholder="Ej.: Capcom, 1991, Tumblepop" autocomplete="off">
@@ -30,15 +37,23 @@ permalink: /arcade/
       <option value="">Todos</option>
       {% for estado in estados %}<option value="{{ estado }}">{{ estado }}</option>{% endfor %}
     </select>
+
+    <label for="arcade-edad">Edad</label>
+    <select id="arcade-edad">
+      <option value="">Todos</option>
+      <option value="aptos">Aptos</option>
+      <option value="adultos">Adultos</option>
+    </select>
   </div>
 
-  <label class="arcade__favoritos">
-    <input id="arcade-favoritos" type="checkbox"> Solo favoritos
-  </label>
+  <div class="arcade__casillas">
+    <label><input id="arcade-favoritos" type="checkbox"> Solo favoritos</label>
+    <label><input id="arcade-cooperativo" type="checkbox"> Para jugar juntos</label>
+  </div>
 
   <p class="arcade__contador" id="arcade-contador" aria-live="polite">{{ juegos.size }} juegos</p>
 
-  <div class="arcade__grid">
+  <div class="arcade__grid arcade__album">
     {% for juego in juegos %}
       {% include arcade-card.html juego=juego numero=forloop.index %}
     {% endfor %}
@@ -47,6 +62,7 @@ permalink: /arcade/
   <p class="arcade__vacio" id="arcade-vacio" hidden>
     Ningún juego coincide. Prueba con otro nombre o quita algún filtro.
   </p>
+
 </section>
 
 <script>
@@ -54,8 +70,10 @@ permalink: /arcade/
   var buscar = document.getElementById('arcade-buscar');
   var genero = document.getElementById('arcade-genero');
   var estado = document.getElementById('arcade-estado');
+  var edad = document.getElementById('arcade-edad');
   var soloFavoritos = document.getElementById('arcade-favoritos');
-  var tarjetas = Array.prototype.slice.call(document.querySelectorAll('.arcade-card'));
+  var soloCooperativos = document.getElementById('arcade-cooperativo');
+  var tarjetas = Array.prototype.slice.call(document.querySelectorAll('.arcade__album .arcade-card'));
   var contador = document.getElementById('arcade-contador');
   var vacio = document.getElementById('arcade-vacio');
 
@@ -67,7 +85,9 @@ permalink: /arcade/
     return normalizar(tarjeta.dataset.buscar).indexOf(normalizar(buscar.value.trim())) !== -1 &&
       (!genero.value || tarjeta.dataset.genero === genero.value) &&
       (!estado.value || tarjeta.dataset.estado === estado.value) &&
-      (!soloFavoritos.checked || tarjeta.dataset.favorito === 'true');
+      (!edad.value || (tarjeta.dataset.adultos === 'true') === (edad.value === 'adultos')) &&
+      (!soloFavoritos.checked || tarjeta.dataset.favorito === 'true') &&
+      (!soloCooperativos.checked || tarjeta.dataset.cooperativo === 'true');
   }
 
   function filtrar() {
@@ -82,8 +102,53 @@ permalink: /arcade/
   }
 
   buscar.addEventListener('input', filtrar);
-  genero.addEventListener('change', filtrar);
-  estado.addEventListener('change', filtrar);
-  soloFavoritos.addEventListener('change', filtrar);
+  [genero, estado, edad, soloFavoritos, soloCooperativos].forEach(function (filtro) {
+    filtro.addEventListener('change', filtrar);
+  });
+})();
+
+// ¿A qué jugamos hoy?: pasan títulos como en una tragaperras y se para en uno sin terminar
+(function () {
+  var boton = document.getElementById('arcade-sortear');
+  var resultado = document.getElementById('arcade-sorteo-resultado');
+  var sinAnimacion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function candidatos() {
+    return Array.prototype.filter.call(document.querySelectorAll('.arcade__album .arcade-card'), function (tarjeta) {
+      return !tarjeta.hidden && tarjeta.dataset.estado !== 'Terminado';
+    });
+  }
+
+  function alAzar(lista) {
+    return lista[Math.floor(Math.random() * lista.length)];
+  }
+
+  function mostrar(tarjeta) {
+    resultado.innerHTML = '';
+    resultado.appendChild(tarjeta.cloneNode(true));
+    boton.disabled = false;
+  }
+
+  boton.addEventListener('click', function () {
+    var lista = candidatos();
+    resultado.hidden = false;
+    if (!lista.length) {
+      resultado.textContent = 'No queda ningún juego sin terminar con estos filtros.';
+      return;
+    }
+    var elegido = alAzar(lista);
+    if (sinAnimacion) return mostrar(elegido);
+
+    boton.disabled = true;
+    var vueltas = 0;
+    var ruleta = setInterval(function () {
+      resultado.innerHTML = '<p class="arcade__sorteo-titulo"></p>';
+      resultado.firstChild.textContent = alAzar(lista).querySelector('h2').textContent;
+      if (++vueltas === 18) {
+        clearInterval(ruleta);
+        mostrar(elegido);
+      }
+    }, 80);
+  });
 })();
 </script>

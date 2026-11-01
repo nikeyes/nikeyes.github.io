@@ -96,7 +96,7 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
 
 .arcade__filtros {
   display: grid;
-  grid-template-columns: 1fr 160px 160px;
+  grid-template-columns: 1fr 140px 140px 140px;
   grid-template-rows: auto auto;
   grid-auto-flow: column;
   gap: 4px 12px;
@@ -121,7 +121,53 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   }
 }
 
-.arcade__favoritos { display: inline-block; font-size: 15px; margin-bottom: 8px; }
+.arcade__casillas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 20px;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+// ¿A qué jugamos hoy?
+.arcade__sorteo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: var(--tenue);
+
+  button {
+    padding: 10px 18px;
+    border: 0;
+    border-radius: 6px;
+    background: var(--acento);
+    color: var(--papel);
+    font: 700 16px var(--fuente-titulo);
+    cursor: pointer;
+
+    &:disabled { opacity: .7; cursor: wait; }
+    &:focus-visible { outline: 3px solid var(--tinta); outline-offset: 2px; }
+  }
+}
+
+.arcade__sorteo-resultado {
+  flex-basis: 100%;
+  max-width: 220px;
+  padding: 6px 0 12px;
+}
+
+.arcade__sorteo-titulo {
+  margin: 0;
+  padding: 18px 12px;
+  border: 2px dashed var(--borde);
+  text-align: center;
+  font: 20px/1.2 var(--fuente-titulo);
+  color: var(--tinta);
+}
+
 .arcade__contador { font-size: 14px; color: var(--tenue); margin: 0 0 18px; }
 .arcade__vacio { padding: 24px; text-align: center; color: var(--tenue); }
 
@@ -181,6 +227,22 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   z-index: 1;
   font-size: 24px;
   line-height: 1;
+}
+
+// Etiqueta de estado sobre la pantalla: los juegos sin jugar no la llevan
+.arcade-card__estado {
+  position: absolute;
+  left: 8px; bottom: 8px;
+  z-index: 1;
+  padding: 3px 9px;
+  border-radius: 999px;
+  color: #fff;
+  font: 700 12px/1.3 "Rubik", "Helvetica Neue", Arial, sans-serif;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+
+  &--terminado { background: #1f9d55; }
+  &--jugando { background: #2f6fd6; }
+  &--abandonado { background: #d23c3c; }
 }
 
 .arcade-card__texto {
@@ -342,7 +404,7 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   .arcade-card__texto h2 { font-weight: 400; font-size: 18px; color: #e61e28; text-shadow: 2px 2px 0 #111; }
   .arcade-card__genero { display: inline-block; background: #111; color: #ffd500; padding: 2px 8px; font-family: "Bungee", sans-serif; font-size: 11px; }
   .arcade-card__favorito { color: #ffd500; -webkit-text-stroke: 1.5px #111; font-size: 30px; }
-  .arcade-card__stats strong { font-family: "Bungee", sans-serif; font-weight: 400; font-size: 13px; }
+  .arcade-card__stats strong { font-family: "Bungee", sans-serif; font-weight: 400; font-size: 12px; }
 
   .arcade-post__marquesina, .arcade-post__portada img, .arcade-post__pantalla img { border: 4px solid #111; box-shadow: 8px 8px 0 #111; }
   .arcade-post__portada img { transform: rotate(-2deg); }
@@ -463,6 +525,7 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   .arcade-post__ficha { border-radius: 12px; }
   .arcade-post__video { border-radius: 999px; }
   .arcade-post__galeria img { border: 6px solid #fff; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, .12); }
+
 }
 
 // ------------------------------------------------------------
@@ -689,7 +752,8 @@ $arcade-ticket-troquel:
 
   // Los juegos terminados o en marcha llevan el estado como un sello de tinta
   // sobre el borde inferior de la pantalla, y el año y la nota ocupan toda la barra
-  .arcade-card[data-estado="Terminado"], .arcade-card[data-estado="Jugando"] {
+  .arcade-card__estado { display: none; }
+  .arcade-card[data-estado="Terminado"], .arcade-card[data-estado="Jugando"], .arcade-card[data-estado="Abandonado"] {
     .arcade-card__stats { grid-template-columns: 1fr 1fr; }
     .arcade-card__stats div:nth-child(3) {
       position: absolute;
@@ -705,6 +769,7 @@ $arcade-ticket-troquel:
     }
   }
   .arcade-card[data-estado="Jugando"] .arcade-card__stats div:nth-child(3) { border-color: rgba(30, 70, 160, .85); color: rgba(30, 70, 160, .85); }
+  .arcade-card[data-estado="Abandonado"] .arcade-card__stats div:nth-child(3) { border-color: rgba(30, 30, 30, .8); color: rgba(30, 30, 30, .8); }
 
   .arcade-post__marquesina, .arcade-post__portada img, .arcade-post__pantalla img {
     padding: 8px;

@@ -1,0 +1,1392 @@
+# Datos para elegir juego en familia. Jugadores y modo vienen de Arcade Database.
+# adultos: solo juegos de violencia o contenido sexual muy explícitos.
+"1942":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"ab-cop":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"adventure-island":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"aero-fighters-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"aero-fighters":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"after-burner":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"air-buster":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"alex-kidd":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"alien-storm":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"alien-vs-predator":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"aliens":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"alligator-hunt":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"altered-beast":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"arabian-fight":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"arabian-magic":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"arkanoid":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"art-of-fighting":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"asterix":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"asteroids":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"astyanax":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"bang-bead":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"battle-circuit":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"battletoads":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"bay-route":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"berzerk":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"bionic-commando":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"black-tiger":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"blazing-star":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"block-hole":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"blood-bros":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"blues-journey":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"bomb-jack":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"bomberman":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"bonanza-brothers":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"boogie-wings":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"brave-firefighters":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"break-thru":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"breakout":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"bubble-bobble":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"bubble-memories":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"bucky-ohare":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"cabal":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"cadillacs-and-dinosaurs":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"captain-america-and-the-avengers":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"captain-commando":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"carrier-air-wing":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"castlevania-symphony-of-the-night":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"centipede":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"commando":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"contra":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"crazy-taxi":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"crime-city":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"cruisn-usa":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"crystal-of-rings":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"dance-dance-revolution":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"daytona-usa":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"defender":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"demolition-derby":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"demon-front":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"devastators":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"diet-go-go":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"dig-dug":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"dolphin-blue":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"donkey-kong-jr":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"donkey-kong":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"double-dragon-ii":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"double-dragon":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"dragon-ball-z-2-super-battle":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"dragon-breed":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"dragons-lair":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"dungeon-magic-light-bringer":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"dungeons-and-dragons-shadow-over-mystara":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"dyna-gear":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"e-swat-cyber-police":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"eightman":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"elevator-action-returns":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"elevator-action":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"exvania":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"fatal-fury":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"final-fight":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"forgotten-worlds":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"frogger":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"funky-jet":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"gaia-crusaders":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"galaga":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"galaxian":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"gals-panic":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: true
+"gauntlet":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"gem-fighter-puzzle-fighter":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"ghosts-n-goblins":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"ghouls-and-ghosts":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"gi-joe":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"golden-axe-the-revenge-of-death-adder":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"golden-axe":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"gradius":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"green-beret":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"gun-fight":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"gun-smoke":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"gunbarich":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"gunbird":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"gyruss":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"hammerin-harry":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"hangzo":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"hard-head":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"haunted-castle-castlevania":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"hook":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"ikaruga":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"image-fight":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"in-the-hunt":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"initial-d-arcade-stage":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"joe-and-mac-caveman-ninja":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"joe-and-mac-returns":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"joust":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"killer-instinct":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"knights-of-the-round":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"kung-fu-master":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"labyrinth-runner":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"manx-tt":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"marble-madness":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"mario-bros":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"mega-man-the-power-battle":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"mega-twins":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"mercs":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"metal-slug":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"metamorphic-force":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"michael-jacksons-moonwalker":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"mortal-kombat":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: true
+"mystic-riders":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"mystic-warriors":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"nam-1975":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"nba-jam":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"neo-drift-out":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"neo-turf-masters":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"night-driver":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"night-slashers":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"nightmare-in-the-dark":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"ninja-baseball-bat-man":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"ninja-gaiden":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"ninja-kid-ii":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"ninja-kids":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"ninja-spirit":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"numan-athletics-2":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"numan-athletics":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"ocean-hunter":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"operation-thunderbolt":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"operation-wolf":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"out-run":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"pac-man":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"pang":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"paperboy":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"pinball-action":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"pirates":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"pitfall":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"pole-position":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"police-trainer":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"pong":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"power-drift":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"power-spikes":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"prehistoric-isle-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"pretty-soldier-sailor-moon":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"psycho-soldier":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"puyo-puyo":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"puzzle-and-action-tant-r":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"puzzle-bobble":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"q-bert":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"r-360":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"r-type":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"radikal-bikers":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"rage-of-the-dragons":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"raiden-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"rainbow-islands":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"rambo-iii":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"rampage":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"rastan-saga":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"red-earth":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"ridge-racer":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"riding-fight":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"ring-of-destruction-slam-masters-ii":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"robocop-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"robocop":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"run-and-gun":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"rygar":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"samurai-shodown-ii":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"samurai-shodown":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"scramble":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"sega-rally":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"sengoku":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"shadow-dancer":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"shinobi":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"shock-troopers":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"silent-scope":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"slap-shot":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"sly-spy":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"smash-tv":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"snow-bros-2":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"snow-bros":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"soccer-brawl":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"sonic":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"soul-calibur":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"soul-edge":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"space-harrier":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"space-invaders":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"spider-man":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"spin-master":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"splatterhouse":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: true
+"spy-hunter":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"star-force":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"star-wars-racer":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"street-fighter-ii":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"street-hoop":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"strider-2":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"strider":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"strikesback":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"sunset-riders":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"super-hang-on":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"super-off-road":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"super-sidekicks-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"super-sidekicks":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"super-sprint":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"super-zaxxon":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"superman":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"surprise-attack":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"tank-force":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"tapper":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"teenage-mutant-ninja-turtles":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"tekken-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"tempest":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"terminator-2-judgment-day":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"terra-force":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"tetris":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"the-house-of-the-dead":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: true
+"the-king-of-dragons":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"the-king-of-fighters-98":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"the-last-blade-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"the-lost-world-jurassic-park":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"the-new-zealand-story":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"the-outfoxies":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"the-punisher":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"the-simpsons":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"thrash-rally":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"three-wonders":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"thunder-cross-ii":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"thunder-fox":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"thunder-hoop-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"tiger-road":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"time-crisis":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"toki":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"top-hunter":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"track-and-field":
+  jugadores: 4
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"tron":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"tumblepop":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"turbo":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"twinbee":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"un-squadron":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"vendetta":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"viewpoint":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"vigilante":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"violent-storm":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"virtua-cop":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"virtua-fighter":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"virtua-racing":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"virtua-striker-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"virtua-tennis":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"warrior-blade":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"warriors-of-fate":
+  jugadores: 3
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"wild-riders":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"wild-west-cow-boys-of-moo-mesa-cowboys-of-moo-mesa":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"willow":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"windjammers":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"winning-run":
+  jugadores: 1
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"wizard-fire-dark-seal-2":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"wonder-boy":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"world-rally-championship":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: false
+  adultos: false
+"world-rally":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"wwf":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"x-men":
+  jugadores: 4
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
+"xevious":
+  jugadores: 2
+  a_la_vez: false
+  cooperativo: false
+  adultos: false
+"zupapa":
+  jugadores: 2
+  a_la_vez: true
+  cooperativo: true
+  adultos: false
