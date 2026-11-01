@@ -220,6 +220,22 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   line-height: 1;
 }
 
+// Círculo de +18 en los juegos para adultos
+.arcade-card__adultos {
+  position: absolute;
+  right: 8px; bottom: 8px;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 40px; height: 40px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #d32f2f;
+  color: #fff;
+  font: 800 14px/1 "Rubik", "Helvetica Neue", Arial, sans-serif;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
+}
+
 // Etiqueta de estado sobre la pantalla: los juegos sin jugar no la llevan
 .arcade-card__estado {
   position: absolute;
@@ -574,6 +590,7 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   .arcade-card__texto h2 { font-weight: 400; font-size: 26px; line-height: 1; text-transform: uppercase; }
   .arcade-card__genero { font-weight: 800; text-transform: uppercase; color: var(--color-seccion); }
   .arcade-card__favorito { left: 8px; right: auto; color: #ffd400; -webkit-text-stroke: 1.5px #111; font-size: 28px; }
+  .arcade-card__adultos { top: 8px; bottom: auto; }
   .arcade-card__stats { border-top: 2px solid #111; strong { font: 18px "Anton", sans-serif; } span { text-transform: uppercase; font-weight: 800; font-size: 10px; color: #666; } }
 
   &.arcade-post h1 { font-weight: 400; font-size: 52px; text-transform: uppercase; color: #e30613; text-shadow: 3px 3px 0 #ffd400; }
@@ -719,6 +736,7 @@ $arcade-ticket-troquel:
     &::after { content: "ADMIT ONE"; float: left; }
   }
   .arcade-card__pantalla { height: 130px; border: 2px solid $arcade-ticket-tinta; }
+  .arcade-card__adultos { top: 8px; left: 8px; right: auto; bottom: auto; }
   .arcade-card__texto { padding: 10px 0 6px; text-align: center; }
   .arcade-card__texto h2 { font-size: 20px; line-height: 1.1; color: #8c1c13; }
   .arcade-card__texto p { font-size: 14px; }

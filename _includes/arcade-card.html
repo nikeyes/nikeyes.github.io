@@ -19,6 +19,7 @@
       {% when "Abandonado" %}<span class="arcade-card__estado arcade-card__estado--abandonado">✕ Abandonado</span>
     {% endcase %}
     {% if juego.favorito %}<span class="arcade-card__favorito" title="Favorito">★</span>{% endif %}
+    {% if familia.adultos %}<span class="arcade-card__adultos" title="Para adultos">+18</span>{% endif %}
     {% if juego.puntuacion %}<span class="arcade-card__nota">{{ juego.puntuacion }}</span>{% endif %}
   </div>
   <div class="arcade-card__texto">
