@@ -14,7 +14,8 @@ portada: /images/arcade/michael-jacksons-moonwalker/flyer.jpg
 imagen: /images/arcade/michael-jacksons-moonwalker/gameplay.png
 marquesina: /images/arcade/michael-jacksons-moonwalker/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Kq9vvkQUAa0
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=zxlMEcn4h7I&t=441s
+video: https://www.youtube.com/watch?v=YgsnffYz5Jk
 galeria:
   - imagen: /images/arcade/michael-jacksons-moonwalker/titulo.png
     tipo: Pantalla de título

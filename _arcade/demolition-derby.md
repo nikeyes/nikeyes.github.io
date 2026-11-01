@@ -14,7 +14,8 @@ portada: /images/arcade/demolition-derby/flyer.jpg
 imagen: /images/arcade/demolition-derby/gameplay.png
 marquesina: /images/arcade/demolition-derby/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=oF-BLTg-p_8
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=J20hmJjlOvY
 galeria:
   - imagen: /images/arcade/demolition-derby/titulo.png
     tipo: Pantalla de título

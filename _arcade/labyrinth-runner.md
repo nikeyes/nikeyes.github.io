@@ -14,7 +14,8 @@ portada:
 imagen: /images/arcade/labyrinth-runner/gameplay.png
 marquesina:
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=eaeekKi-fLc
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=lRKnSlji6Xw
 galeria:
   - imagen: /images/arcade/labyrinth-runner/titulo.png
     tipo: Pantalla de título

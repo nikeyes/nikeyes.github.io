@@ -14,6 +14,7 @@ portada: /images/arcade/rampage/flyer.jpg
 imagen: /images/arcade/rampage/gameplay.png
 marquesina: /images/arcade/rampage/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=2wcXZ3dkN3w
 galeria:
   - imagen: /images/arcade/rampage/titulo.png

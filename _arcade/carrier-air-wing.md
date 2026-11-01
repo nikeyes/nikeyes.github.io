@@ -14,7 +14,8 @@ portada: /images/arcade/carrier-air-wing/flyer.jpg
 imagen: /images/arcade/carrier-air-wing/gameplay.png
 marquesina: /images/arcade/carrier-air-wing/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=ZR7y0obW07s
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=3OKD2hjr00A
 galeria:
   - imagen: /images/arcade/carrier-air-wing/titulo.png
     tipo: Pantalla de título

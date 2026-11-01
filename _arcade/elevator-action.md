@@ -14,7 +14,8 @@ portada: /images/arcade/elevator-action/flyer.jpg
 imagen: /images/arcade/elevator-action/gameplay.png
 marquesina: /images/arcade/elevator-action/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=ArhbuoshaT4
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=GuGGq6rlVSE
 galeria:
   - imagen: /images/arcade/elevator-action/titulo.png
     tipo: Pantalla de título

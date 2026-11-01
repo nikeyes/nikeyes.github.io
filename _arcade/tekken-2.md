@@ -14,7 +14,8 @@ portada: /images/arcade/tekken-2/flyer.jpg
 imagen: /images/arcade/tekken-2/gameplay.png
 marquesina: /images/arcade/tekken-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=ZW7Ao6p0m5c
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=xRDMZPfvzNY
 galeria:
   - imagen: /images/arcade/tekken-2/titulo.png
     tipo: Pantalla de título

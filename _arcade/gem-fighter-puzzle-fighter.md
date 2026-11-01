@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/gem-fighter-puzzle-fighter/flyer.jpg
 imagen: /images/arcade/gem-fighter-puzzle-fighter/gameplay.png
 marquesina: /images/arcade/gem-fighter-puzzle-fighter/marquesina.jpg
-video_pocion_roja:
-video: https://www.youtube.com/watch?v=cqlXqk0qKDA
+video_pocion_roja: https://www.youtube.com/watch?v=iw5nMXbW_nk
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=QvK_G1jSR6U
 galeria:
   - imagen: /images/arcade/gem-fighter-puzzle-fighter/titulo.png
     tipo: Pantalla de título

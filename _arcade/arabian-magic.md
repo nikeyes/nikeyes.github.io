@@ -14,7 +14,8 @@ portada: /images/arcade/arabian-magic/flyer.jpg
 imagen: /images/arcade/arabian-magic/gameplay.png
 marquesina: /images/arcade/arabian-magic/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Nln1zazcgmU
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=GjwjYkbLx8Q
 galeria:
   - imagen: /images/arcade/arabian-magic/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/the-punisher/flyer.jpg
 imagen: /images/arcade/the-punisher/gameplay.png
 marquesina: /images/arcade/the-punisher/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=FsD3RG0iyfw
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=0DFdB_S89sA&t=919s
+video: https://www.youtube.com/watch?v=_AmsHo_1wBc
 galeria:
   - imagen: /images/arcade/the-punisher/titulo.png
     tipo: Pantalla de título

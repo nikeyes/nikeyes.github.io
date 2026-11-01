@@ -14,7 +14,8 @@ portada: /images/arcade/sly-spy/flyer.jpg
 imagen: /images/arcade/sly-spy/gameplay.png
 marquesina: /images/arcade/sly-spy/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=hTSSU0oDjPk
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=KZBMFEuSXSM
 galeria:
   - imagen: /images/arcade/sly-spy/titulo.png
     tipo: Pantalla de título

@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada:
 imagen: /images/arcade/hard-head/gameplay.png
-marquesina:
+marquesina: /images/arcade/hard-head/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=nq74DGoflYQ
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=176V8WUTuhw
 galeria:
   - imagen: /images/arcade/hard-head/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/gyruss/flyer.jpg
 imagen: /images/arcade/gyruss/gameplay.png
 marquesina: /images/arcade/gyruss/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=61vXY6UK0ko
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=aaW-wN2O0wU
 galeria:
   - imagen: /images/arcade/gyruss/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/black-tiger/flyer.jpg
 imagen: /images/arcade/black-tiger/gameplay.png
 marquesina: /images/arcade/black-tiger/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=NgjYzBKIrQo
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=mWTA22AWlvw&t=342s
+video: https://www.youtube.com/watch?v=dZ3POz5lEqU
 galeria:
   - imagen: /images/arcade/black-tiger/titulo.png
     tipo: Pantalla de título

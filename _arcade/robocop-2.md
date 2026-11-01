@@ -14,7 +14,8 @@ portada: /images/arcade/robocop-2/flyer.jpg
 imagen: /images/arcade/robocop-2/gameplay.png
 marquesina: /images/arcade/robocop-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=S9OpziqjTwk
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=JCMizeLWk-k&t=54s
+video: https://www.youtube.com/watch?v=8gbyxT3LE84
 galeria:
   - imagen: /images/arcade/robocop-2/titulo.png
     tipo: Pantalla de título

@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/street-hoop/flyer.jpg
 imagen: /images/arcade/street-hoop/gameplay.png
 marquesina: /images/arcade/street-hoop/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1896s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1896s
+video: https://www.youtube.com/watch?v=C8iQjsn8GlI
 galeria:
   - imagen: /images/arcade/street-hoop/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/top-hunter/flyer.jpg
 imagen: /images/arcade/top-hunter/gameplay.png
 marquesina: /images/arcade/top-hunter/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=XYGhADkIIlQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=161s
+video: https://www.youtube.com/watch?v=YTBgUt3nSKM
 galeria:
   - imagen: /images/arcade/top-hunter/titulo.png
     tipo: Pantalla de título

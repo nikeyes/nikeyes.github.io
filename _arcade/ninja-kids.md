@@ -14,7 +14,8 @@ portada: /images/arcade/ninja-kids/flyer.jpg
 imagen: /images/arcade/ninja-kids/gameplay.png
 marquesina: /images/arcade/ninja-kids/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=NTb0aCZeDRo
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=eKILegPmzDk
 galeria:
   - imagen: /images/arcade/ninja-kids/titulo.png
     tipo: Pantalla de título

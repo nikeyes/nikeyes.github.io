@@ -14,7 +14,8 @@ portada: /images/arcade/sengoku/flyer.jpg
 imagen: /images/arcade/sengoku/gameplay.png
 marquesina: /images/arcade/sengoku/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=JEn41pq5aCY
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=XqHE0-lLbeE
 galeria:
   - imagen: /images/arcade/sengoku/titulo.png
     tipo: Pantalla de título

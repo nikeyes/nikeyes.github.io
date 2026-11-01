@@ -14,7 +14,8 @@ portada: /images/arcade/aero-fighters-2/flyer.jpg
 imagen: /images/arcade/aero-fighters-2/gameplay.png
 marquesina: /images/arcade/aero-fighters-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=K5XOtKH3J3E
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=5806s
+video: https://www.youtube.com/watch?v=ShqtN3sZIH0
 galeria:
   - imagen: /images/arcade/aero-fighters-2/titulo.png
     tipo: Pantalla de título

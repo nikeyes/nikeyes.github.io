@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/battle-circuit/flyer.jpg
 imagen: /images/arcade/battle-circuit/gameplay.png
 marquesina: /images/arcade/battle-circuit/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3864s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3864s
+video: https://www.youtube.com/watch?v=GN2P-nwI3Rw
 galeria:
   - imagen: /images/arcade/battle-circuit/titulo.png
     tipo: Pantalla de título

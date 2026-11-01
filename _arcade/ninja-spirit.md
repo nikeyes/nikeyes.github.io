@@ -14,7 +14,8 @@ portada: /images/arcade/ninja-spirit/flyer.jpg
 imagen: /images/arcade/ninja-spirit/gameplay.png
 marquesina: /images/arcade/ninja-spirit/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Xz-MfV4yirI
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=E_71jMXPV84
 galeria:
   - imagen: /images/arcade/ninja-spirit/titulo.png
     tipo: Pantalla de título

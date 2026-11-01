@@ -14,7 +14,8 @@ portada: /images/arcade/double-dragon-ii/flyer.jpg
 imagen: /images/arcade/double-dragon-ii/gameplay.png
 marquesina: /images/arcade/double-dragon-ii/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=9-5K7pOQzGc
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=uO4L_t286_Y
 galeria:
   - imagen: /images/arcade/double-dragon-ii/titulo.png
     tipo: Pantalla de título

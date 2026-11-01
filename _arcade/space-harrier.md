@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/space-harrier/flyer.jpg
 imagen: /images/arcade/space-harrier/gameplay.png
 marquesina: /images/arcade/space-harrier/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3314s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3314s
+video: https://www.youtube.com/watch?v=nlE4pJACnkw
 galeria:
   - imagen: /images/arcade/space-harrier/titulo.png
     tipo: Pantalla de título

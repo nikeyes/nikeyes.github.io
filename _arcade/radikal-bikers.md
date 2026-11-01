@@ -14,7 +14,8 @@ portada: /images/arcade/radikal-bikers/flyer.jpg
 imagen: /images/arcade/radikal-bikers/gameplay.png
 marquesina: /images/arcade/radikal-bikers/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Njrj17W1QwQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=zxlMEcn4h7I&t=390s
+video: https://www.youtube.com/watch?v=Gl5PEq3XUds
 galeria:
   - imagen: /images/arcade/radikal-bikers/titulo.png
     tipo: Pantalla de título

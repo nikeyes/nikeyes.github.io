@@ -14,7 +14,8 @@ portada: /images/arcade/gradius/flyer.jpg
 imagen: /images/arcade/gradius/gameplay.png
 marquesina: /images/arcade/gradius/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=6Y9qhGdNrQw
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=VHxv5IF7hwc
 galeria:
   - imagen: /images/arcade/gradius/titulo.png
     tipo: Pantalla de título

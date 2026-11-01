@@ -14,7 +14,8 @@ portada: /images/arcade/pitfall/flyer.jpg
 imagen: /images/arcade/pitfall/gameplay.png
 marquesina: /images/arcade/pitfall/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=CPdlovHdLLU
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=dlsw5M0ZtAY
 galeria:
   - imagen: /images/arcade/pitfall/titulo.png
     tipo: Pantalla de título

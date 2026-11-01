@@ -14,6 +14,7 @@ portada: /images/arcade/strider-2/flyer.jpg
 imagen: /images/arcade/strider-2/gameplay.png
 marquesina: /images/arcade/strider-2/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=zxlMEcn4h7I&t=179s
 video: https://www.youtube.com/watch?v=qxnBS4a4UEA
 galeria:
   - imagen: /images/arcade/strider-2/titulo.png

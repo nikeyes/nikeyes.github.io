@@ -14,6 +14,7 @@ portada: /images/arcade/puzzle-and-action-tant-r/flyer.jpg
 imagen: /images/arcade/puzzle-and-action-tant-r/gameplay.png
 marquesina:
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=tJ_CCAj8esA
 galeria:
   - imagen: /images/arcade/puzzle-and-action-tant-r/titulo.png

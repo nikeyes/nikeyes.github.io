@@ -14,7 +14,8 @@ portada: /images/arcade/joe-and-mac-returns/flyer.jpg
 imagen: /images/arcade/joe-and-mac-returns/gameplay.png
 marquesina:
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=VZRZe4HWwBI
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=jgcxSLsaWK8
 galeria:
   - imagen: /images/arcade/joe-and-mac-returns/titulo.png
     tipo: Pantalla de título

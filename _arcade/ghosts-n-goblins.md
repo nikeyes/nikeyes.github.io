@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/ghosts-n-goblins/flyer.jpg
 imagen: /images/arcade/ghosts-n-goblins/gameplay.png
 marquesina: /images/arcade/ghosts-n-goblins/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=117s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=117s
+video: https://www.youtube.com/watch?v=I1tlRHhiws0
 galeria:
   - imagen: /images/arcade/ghosts-n-goblins/titulo.png
     tipo: Pantalla de título

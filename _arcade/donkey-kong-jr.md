@@ -14,7 +14,8 @@ portada: /images/arcade/donkey-kong-jr/flyer.jpg
 imagen: /images/arcade/donkey-kong-jr/gameplay.png
 marquesina: /images/arcade/donkey-kong-jr/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=v9yfoHrUzzc
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=kUPUe5BAKe8
 galeria:
   - imagen: /images/arcade/donkey-kong-jr/titulo.png
     tipo: Pantalla de título

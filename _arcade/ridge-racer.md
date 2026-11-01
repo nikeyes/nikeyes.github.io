@@ -12,12 +12,15 @@ emulador: MAME
 opinion_ninos:
 portada:
 imagen: /images/arcade/ridge-racer/gameplay.png
-marquesina:
+marquesina: /images/arcade/ridge-racer/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=C3ZfuVKoOKk
 galeria:
   - imagen: /images/arcade/ridge-racer/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/ridge-racer/mueble.jpg
+    tipo: Mueble
 ---
 
 Juego de carreras de Namco con gráficos poligonales con texturas, algo muy nuevo en 1993. Se juega con volante, acelerador y freno, y se puede competir contra coches de la máquina o intentar mejorar el propio récord en contrarreloj.

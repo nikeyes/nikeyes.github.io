@@ -14,7 +14,8 @@ portada: /images/arcade/dolphin-blue/flyer.jpg
 imagen: /images/arcade/dolphin-blue/gameplay.png
 marquesina: /images/arcade/dolphin-blue/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=KznA3J94uSY
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=GRznvsias9w&t=3883s
+video: https://www.youtube.com/watch?v=YCq8YA89NlI
 galeria:
   - imagen: /images/arcade/dolphin-blue/titulo.png
     tipo: Pantalla de título

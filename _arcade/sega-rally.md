@@ -14,6 +14,7 @@ portada: /images/arcade/sega-rally/flyer.jpg
 imagen: /images/arcade/sega-rally/gameplay.png
 marquesina: /images/arcade/sega-rally/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=LQtYe8zhYB0
 galeria:
   - imagen: /images/arcade/sega-rally/titulo.png

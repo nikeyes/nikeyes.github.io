@@ -12,12 +12,15 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/demon-front/flyer.jpg
 imagen: /images/arcade/demon-front/gameplay.png
-marquesina:
+marquesina: /images/arcade/demon-front/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=VQAcXk8FvTw
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=8dyvo2CTyyA&t=393s
+video: https://www.youtube.com/watch?v=LtdT8hmrwtw
 galeria:
   - imagen: /images/arcade/demon-front/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/demon-front/mueble.jpg
+    tipo: Mueble
 ---
 
 Run and gun de IGS muy parecido a *Metal Slug*. En el planeta Andres, un eclipse de tres meses convierte a casi todos los seres vivos en mutantes, y cuatro supervivientes deciden plantarles cara.

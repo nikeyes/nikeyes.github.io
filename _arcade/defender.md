@@ -14,6 +14,7 @@ portada: /images/arcade/defender/flyer.jpg
 imagen: /images/arcade/defender/gameplay.png
 marquesina: /images/arcade/defender/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=B9TeR9ScibY&t=414s
 video: https://www.youtube.com/watch?v=Dn1RoM1ZQCc
 galeria:
   - imagen: /images/arcade/defender/titulo.png

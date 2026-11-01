@@ -14,6 +14,7 @@ portada: /images/arcade/raiden-2/flyer.jpg
 imagen: /images/arcade/raiden-2/gameplay.png
 marquesina: /images/arcade/raiden-2/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=BKssEdcZVC0
 galeria:
   - imagen: /images/arcade/raiden-2/titulo.png

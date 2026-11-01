@@ -14,6 +14,7 @@ portada: /images/arcade/kung-fu-master/flyer.jpg
 imagen: /images/arcade/kung-fu-master/gameplay.png
 marquesina: /images/arcade/kung-fu-master/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=SdraArUlyX8
 galeria:
   - imagen: /images/arcade/kung-fu-master/titulo.png

@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/vendetta/flyer.jpg
 imagen: /images/arcade/vendetta/gameplay.png
 marquesina: /images/arcade/vendetta/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1714s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1714s
+video: https://www.youtube.com/watch?v=Q0Ln-Y1WLS8
 galeria:
   - imagen: /images/arcade/vendetta/titulo.png
     tipo: Pantalla de título

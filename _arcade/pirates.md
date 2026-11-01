@@ -12,8 +12,9 @@ emulador: MAME
 opinion_ninos:
 portada:
 imagen: /images/arcade/pirates/gameplay.png
-marquesina:
+marquesina: /images/arcade/pirates/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=uzNJUogRJyM
 galeria:
   - imagen: /images/arcade/pirates/titulo.png

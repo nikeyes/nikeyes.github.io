@@ -14,7 +14,8 @@ portada: /images/arcade/mega-man-the-power-battle/flyer.jpg
 imagen: /images/arcade/mega-man-the-power-battle/gameplay.png
 marquesina: /images/arcade/mega-man-the-power-battle/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=U338QQGHDyg
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=mOu2PBzrQh4
 galeria:
   - imagen: /images/arcade/mega-man-the-power-battle/titulo.png
     tipo: Pantalla de título

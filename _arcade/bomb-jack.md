@@ -14,6 +14,7 @@ portada: /images/arcade/bomb-jack/flyer.jpg
 imagen: /images/arcade/bomb-jack/gameplay.png
 marquesina: /images/arcade/bomb-jack/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=XNrLhKGl2IQ
 galeria:
   - imagen: /images/arcade/bomb-jack/titulo.png

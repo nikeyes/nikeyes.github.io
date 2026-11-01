@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/thunder-hoop-2/flyer.jpg
 imagen: /images/arcade/thunder-hoop-2/gameplay.png
-marquesina:
+marquesina: /images/arcade/thunder-hoop-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=hCGy3e-kIRQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=_DkEqHbvqyY&t=98s
+video: https://www.youtube.com/watch?v=K7_JSiZp7VY
 galeria:
   - imagen: /images/arcade/thunder-hoop-2/titulo.png
     tipo: Pantalla de título

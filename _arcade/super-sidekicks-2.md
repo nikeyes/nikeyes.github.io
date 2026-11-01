@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/super-sidekicks-2/flyer.jpg
 imagen: /images/arcade/super-sidekicks-2/gameplay.png
 marquesina: /images/arcade/super-sidekicks-2/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=945s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=945s
+video: https://www.youtube.com/watch?v=ADVkknoZ9kI
 galeria:
   - imagen: /images/arcade/super-sidekicks-2/titulo.png
     tipo: Pantalla de título

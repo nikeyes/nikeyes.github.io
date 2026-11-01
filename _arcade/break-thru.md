@@ -14,7 +14,8 @@ portada: /images/arcade/break-thru/flyer.jpg
 imagen: /images/arcade/break-thru/gameplay.png
 marquesina: /images/arcade/break-thru/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=nwJfa4xsV70
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=2027s
+video: https://www.youtube.com/watch?v=gz5NRold-Rw
 galeria:
   - imagen: /images/arcade/break-thru/titulo.png
     tipo: Pantalla de título

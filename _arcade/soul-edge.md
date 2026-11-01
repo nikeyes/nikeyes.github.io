@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/soul-edge/flyer.jpg
 imagen: /images/arcade/soul-edge/gameplay.png
 marquesina: /images/arcade/soul-edge/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=983s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=983s
+video: https://www.youtube.com/watch?v=TnrymR_85VA
 galeria:
   - imagen: /images/arcade/soul-edge/titulo.png
     tipo: Pantalla de título

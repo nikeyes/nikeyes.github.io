@@ -14,7 +14,8 @@ portada: /images/arcade/world-rally/flyer.jpg
 imagen: /images/arcade/world-rally/gameplay.png
 marquesina: /images/arcade/world-rally/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=hvJmZr0czwE
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=-fonG1bEwsI
 galeria:
   - imagen: /images/arcade/world-rally/titulo.png
     tipo: Pantalla de título

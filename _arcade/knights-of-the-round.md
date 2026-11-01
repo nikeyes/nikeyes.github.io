@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/knights-of-the-round/flyer.jpg
 imagen: /images/arcade/knights-of-the-round/gameplay.png
 marquesina: /images/arcade/knights-of-the-round/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=867s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=867s
+video: https://www.youtube.com/watch?v=QaOdikpH9SU
 galeria:
   - imagen: /images/arcade/knights-of-the-round/titulo.png
     tipo: Pantalla de título

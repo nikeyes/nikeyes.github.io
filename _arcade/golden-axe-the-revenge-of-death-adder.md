@@ -14,7 +14,8 @@ portada: /images/arcade/golden-axe-the-revenge-of-death-adder/flyer.jpg
 imagen: /images/arcade/golden-axe-the-revenge-of-death-adder/gameplay.png
 marquesina: /images/arcade/golden-axe-the-revenge-of-death-adder/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=MaFoh4uxMxU
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=Uzztxn3HLtU&t=301s
+video: https://www.youtube.com/watch?v=hqx6t1CHSb8
 galeria:
   - imagen: /images/arcade/golden-axe-the-revenge-of-death-adder/titulo.png
     tipo: Pantalla de título

@@ -14,6 +14,7 @@ portada: /images/arcade/mario-bros/flyer.jpg
 imagen: /images/arcade/mario-bros/gameplay.png
 marquesina: /images/arcade/mario-bros/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=f3oMp-T8H9k
 galeria:
   - imagen: /images/arcade/mario-bros/titulo.png

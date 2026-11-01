@@ -14,7 +14,8 @@ portada: /images/arcade/virtua-racing/flyer.jpg
 imagen: /images/arcade/virtua-racing/gameplay.png
 marquesina: /images/arcade/virtua-racing/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=sT3-0CKbykM
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=i0HU277a4cE
 galeria:
   - imagen: /images/arcade/virtua-racing/titulo.png
     tipo: Pantalla de título

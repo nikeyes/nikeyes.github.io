@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/bang-bead/flyer.jpg
 imagen: /images/arcade/bang-bead/gameplay.png
 marquesina: /images/arcade/bang-bead/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3829s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3829s
+video: https://www.youtube.com/watch?v=URG2cE0UQRU
 galeria:
   - imagen: /images/arcade/bang-bead/titulo.png
     tipo: Pantalla de título

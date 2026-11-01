@@ -14,7 +14,8 @@ portada: /images/arcade/virtua-striker-2/flyer.jpg
 imagen: /images/arcade/virtua-striker-2/gameplay.png
 marquesina: /images/arcade/virtua-striker-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=t6VtDKg1O98
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=7yxUv5hR6Cw
 galeria:
   - imagen: /images/arcade/virtua-striker-2/titulo.png
     tipo: Pantalla de título

@@ -12,8 +12,9 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/bomberman/flyer.jpg
 imagen: /images/arcade/bomberman/gameplay.png
-marquesina:
+marquesina: /images/arcade/bomberman/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=umvKjLLd2a4
 galeria:
   - imagen: /images/arcade/bomberman/titulo.png

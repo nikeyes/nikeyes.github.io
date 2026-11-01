@@ -14,6 +14,7 @@ portada: /images/arcade/pong/flyer.jpg
 imagen: /images/arcade/pong/gameplay.png
 marquesina: /images/arcade/pong/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=0OCShlHFow8
 galeria:
   - imagen: /images/arcade/pong/titulo.png

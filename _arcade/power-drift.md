@@ -14,7 +14,8 @@ portada: /images/arcade/power-drift/flyer.jpg
 imagen: /images/arcade/power-drift/gameplay.png
 marquesina: /images/arcade/power-drift/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=qYWdhHnCqzM
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=MawyzyYDB0Y
 galeria:
   - imagen: /images/arcade/power-drift/titulo.png
     tipo: Pantalla de título

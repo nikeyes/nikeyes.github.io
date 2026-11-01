@@ -14,7 +14,8 @@ portada: /images/arcade/samurai-shodown-ii/flyer.jpg
 imagen: /images/arcade/samurai-shodown-ii/gameplay.png
 marquesina: /images/arcade/samurai-shodown-ii/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=UQq2NrnDhFw
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=6185s
+video: https://www.youtube.com/watch?v=iBUrFkNjL9M
 galeria:
   - imagen: /images/arcade/samurai-shodown-ii/titulo.png
     tipo: Pantalla de título

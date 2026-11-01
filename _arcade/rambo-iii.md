@@ -14,7 +14,8 @@ portada: /images/arcade/rambo-iii/flyer.jpg
 imagen: /images/arcade/rambo-iii/gameplay.png
 marquesina: /images/arcade/rambo-iii/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=C_U9VIGoz3s
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=GRznvsias9w&t=3995s
+video: https://www.youtube.com/watch?v=xhCOswY7BLs
 galeria:
   - imagen: /images/arcade/rambo-iii/titulo.png
     tipo: Pantalla de título

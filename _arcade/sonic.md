@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/sonic/flyer.jpg
 imagen: /images/arcade/sonic/gameplay.png
-marquesina:
+marquesina: /images/arcade/sonic/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Nfgj8L4WQ8w
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=C9rwrNAMjw4&t=100s
+video: https://www.youtube.com/watch?v=kQ7kr2Qbg9s
 galeria:
   - imagen: /images/arcade/sonic/titulo.png
     tipo: Pantalla de título

@@ -14,6 +14,7 @@ portada: /images/arcade/night-driver/flyer.jpg
 imagen: /images/arcade/night-driver/gameplay.png
 marquesina: /images/arcade/night-driver/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=B9TeR9ScibY&t=121s
 video: https://www.youtube.com/watch?v=MgVT3z63sUE
 galeria:
   - imagen: /images/arcade/night-driver/titulo.png

@@ -14,6 +14,7 @@ portada: /images/arcade/xevious/flyer.jpg
 imagen: /images/arcade/xevious/gameplay.png
 marquesina: /images/arcade/xevious/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=lB1cGSNE1sE
 galeria:
   - imagen: /images/arcade/xevious/titulo.png

@@ -14,7 +14,8 @@ portada: /images/arcade/gunbird/flyer.jpg
 imagen: /images/arcade/gunbird/gameplay.png
 marquesina: /images/arcade/gunbird/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=L_QqpLggJYU
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=QXlfRVcsfoU
 galeria:
   - imagen: /images/arcade/gunbird/titulo.png
     tipo: Pantalla de título

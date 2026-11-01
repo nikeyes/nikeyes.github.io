@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/block-hole/flyer.jpg
 imagen: /images/arcade/block-hole/gameplay.png
-marquesina:
+marquesina: /images/arcade/block-hole/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=o51_3E8_LiI
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=aM24zrxoZGs&t=336s
+video: https://www.youtube.com/watch?v=pBQIdZktyus
 galeria:
   - imagen: /images/arcade/block-hole/titulo.png
     tipo: Pantalla de título

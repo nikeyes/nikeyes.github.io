@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/the-new-zealand-story/flyer.jpg
 imagen: /images/arcade/the-new-zealand-story/gameplay.png
 marquesina: /images/arcade/the-new-zealand-story/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1105s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1105s
+video: https://www.youtube.com/watch?v=XyATwPvas1Y
 galeria:
   - imagen: /images/arcade/the-new-zealand-story/titulo.png
     tipo: Pantalla de título

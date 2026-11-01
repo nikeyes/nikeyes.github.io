@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/gals-panic/flyer.jpg
 imagen: /images/arcade/gals-panic/gameplay.png
 marquesina: /images/arcade/gals-panic/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2434s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2434s
+video: https://www.youtube.com/watch?v=fj064GOEC1M
 galeria:
   - imagen: /images/arcade/gals-panic/titulo.png
     tipo: Pantalla de título

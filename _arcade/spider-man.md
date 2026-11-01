@@ -14,6 +14,7 @@ portada: /images/arcade/spider-man/flyer.jpg
 imagen: /images/arcade/spider-man/gameplay.png
 marquesina: /images/arcade/spider-man/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=XlWs2Cw9RFM
 galeria:
   - imagen: /images/arcade/spider-man/titulo.png

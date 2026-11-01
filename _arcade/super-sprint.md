@@ -14,6 +14,7 @@ portada: /images/arcade/super-sprint/flyer.jpg
 imagen: /images/arcade/super-sprint/gameplay.png
 marquesina: /images/arcade/super-sprint/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=vt-uP2hkenI
 galeria:
   - imagen: /images/arcade/super-sprint/titulo.png

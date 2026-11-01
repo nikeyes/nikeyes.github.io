@@ -14,6 +14,7 @@ portada: /images/arcade/pang/flyer.jpg
 imagen: /images/arcade/pang/gameplay.png
 marquesina: /images/arcade/pang/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=_NYkdezxfKE
 galeria:
   - imagen: /images/arcade/pang/titulo.png

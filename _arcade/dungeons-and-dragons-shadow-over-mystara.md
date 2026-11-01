@@ -14,7 +14,8 @@ portada: /images/arcade/dungeons-and-dragons-shadow-over-mystara/flyer.jpg
 imagen: /images/arcade/dungeons-and-dragons-shadow-over-mystara/gameplay.png
 marquesina: /images/arcade/dungeons-and-dragons-shadow-over-mystara/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=6aKuQujcoMM
-video:
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=-9dkKevxXuM
 galeria:
   - imagen: /images/arcade/dungeons-and-dragons-shadow-over-mystara/titulo.png
     tipo: Pantalla de título

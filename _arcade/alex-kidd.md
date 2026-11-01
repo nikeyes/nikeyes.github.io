@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/alex-kidd/flyer.jpg
 imagen: /images/arcade/alex-kidd/gameplay.png
-marquesina:
+marquesina: /images/arcade/alex-kidd/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=PhKcRG_ocP0
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=9Ej77zfKmJU
 galeria:
   - imagen: /images/arcade/alex-kidd/titulo.png
     tipo: Pantalla de título

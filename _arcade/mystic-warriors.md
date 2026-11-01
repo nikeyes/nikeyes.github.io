@@ -14,7 +14,8 @@ portada: /images/arcade/mystic-warriors/flyer.jpg
 imagen: /images/arcade/mystic-warriors/gameplay.png
 marquesina: /images/arcade/mystic-warriors/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=1xQxnHVXLp0
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=1691s
+video: https://www.youtube.com/watch?v=k9H9NTGE-so
 galeria:
   - imagen: /images/arcade/mystic-warriors/titulo.png
     tipo: Pantalla de título

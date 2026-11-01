@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/three-wonders/flyer.jpg
 imagen: /images/arcade/three-wonders/gameplay.png
 marquesina: /images/arcade/three-wonders/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2319s
-video:
+video_pocion_roja: https://www.youtube.com/watch?v=eA0vocV5NGQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2319s
+video: https://www.youtube.com/watch?v=rL8Waxc-HKc
 galeria:
   - imagen: /images/arcade/three-wonders/titulo.png
     tipo: Pantalla de título

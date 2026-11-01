@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/air-buster/flyer.jpg
 imagen: /images/arcade/air-buster/gameplay.png
 marquesina: /images/arcade/air-buster/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=YXmRLFUQe-0&t=600s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=YXmRLFUQe-0&t=600s
+video: https://www.youtube.com/watch?v=nPS9aKa-CDQ
 galeria:
   - imagen: /images/arcade/air-buster/titulo.png
     tipo: Pantalla de título

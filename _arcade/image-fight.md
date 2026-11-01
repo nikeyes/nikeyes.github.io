@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/image-fight/flyer.jpg
 imagen: /images/arcade/image-fight/gameplay.png
-marquesina:
+marquesina: /images/arcade/image-fight/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=nn1N_HYr_8g
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=h4FhQXjdFYI
 galeria:
   - imagen: /images/arcade/image-fight/titulo.png
     tipo: Pantalla de título

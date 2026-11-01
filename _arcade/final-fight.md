@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/final-fight/flyer.jpg
 imagen: /images/arcade/final-fight/gameplay.png
 marquesina: /images/arcade/final-fight/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=393s
-video:
+video_pocion_roja: https://www.youtube.com/watch?v=7p1K8pWGIA4
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=393s
+video: https://www.youtube.com/watch?v=Kak43IyfI-U
 galeria:
   - imagen: /images/arcade/final-fight/titulo.png
     tipo: Pantalla de título

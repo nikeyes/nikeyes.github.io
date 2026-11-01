@@ -14,6 +14,7 @@ portada: /images/arcade/world-rally-championship/flyer.jpg
 imagen: /images/arcade/world-rally-championship/gameplay.png
 marquesina:
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=DqBOPCV9h0Q
 galeria:
   - imagen: /images/arcade/world-rally-championship/titulo.png

@@ -14,7 +14,8 @@ portada: /images/arcade/green-beret/flyer.jpg
 imagen: /images/arcade/green-beret/gameplay.png
 marquesina: /images/arcade/green-beret/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=mxLnK6panOI
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=PYLNEhEm6Wo
 galeria:
   - imagen: /images/arcade/green-beret/titulo.png
     tipo: Pantalla de título

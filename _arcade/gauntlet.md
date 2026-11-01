@@ -14,6 +14,7 @@ portada: /images/arcade/gauntlet/flyer.jpg
 imagen: /images/arcade/gauntlet/gameplay.png
 marquesina: /images/arcade/gauntlet/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=ByrGHUyYyw8
 galeria:
   - imagen: /images/arcade/gauntlet/titulo.png

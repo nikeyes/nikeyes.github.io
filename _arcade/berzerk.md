@@ -14,7 +14,8 @@ portada: /images/arcade/berzerk/flyer.jpg
 imagen: /images/arcade/berzerk/gameplay.png
 marquesina: /images/arcade/berzerk/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Ijj0v8PexpA
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=ClQzA96A90Y
 galeria:
   - imagen: /images/arcade/berzerk/titulo.png
     tipo: Pantalla de título

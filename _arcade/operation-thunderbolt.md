@@ -14,6 +14,7 @@ portada: /images/arcade/operation-thunderbolt/flyer.jpg
 imagen: /images/arcade/operation-thunderbolt/gameplay.png
 marquesina: /images/arcade/operation-thunderbolt/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=sinS-Q_tsws
 galeria:
   - imagen: /images/arcade/operation-thunderbolt/titulo.png

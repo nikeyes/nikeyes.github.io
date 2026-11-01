@@ -14,6 +14,7 @@ portada: /images/arcade/arkanoid/flyer.jpg
 imagen: /images/arcade/arkanoid/gameplay.png
 marquesina: /images/arcade/arkanoid/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=0AVHfgCMIQ8
 galeria:
   - imagen: /images/arcade/arkanoid/titulo.png

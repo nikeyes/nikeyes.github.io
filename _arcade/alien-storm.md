@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/alien-storm/flyer.jpg
 imagen: /images/arcade/alien-storm/gameplay.png
 marquesina: /images/arcade/alien-storm/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2036s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2036s
+video: https://www.youtube.com/watch?v=LLIfdHWiiyA
 galeria:
   - imagen: /images/arcade/alien-storm/titulo.png
     tipo: Pantalla de título

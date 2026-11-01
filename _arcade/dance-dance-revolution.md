@@ -12,12 +12,15 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/dance-dance-revolution/flyer.jpg
 imagen: /images/arcade/dance-dance-revolution/gameplay.png
-marquesina:
+marquesina: /images/arcade/dance-dance-revolution/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=v9iTfP9wao0
 galeria:
   - imagen: /images/arcade/dance-dance-revolution/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/dance-dance-revolution/mueble.jpg
+    tipo: Mueble
 ---
 
 Juego musical de Konami que se juega con los pies. La máquina tiene una plataforma con cuatro flechas (arriba, abajo, izquierda y derecha) y hay que pisarlas al ritmo de la canción.

@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/tiger-road/flyer.jpg
 imagen: /images/arcade/tiger-road/gameplay.png
 marquesina: /images/arcade/tiger-road/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1261s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1261s
+video: https://www.youtube.com/watch?v=V9nASGAHcHs
 galeria:
   - imagen: /images/arcade/tiger-road/titulo.png
     tipo: Pantalla de título

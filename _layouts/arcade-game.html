@@ -31,10 +31,18 @@ layout: default
         <div><dt>Emulador</dt><dd>{{ page.emulador | default: "–" }}</dd></div>
       </dl>
 
-      {% if page.video_pocion_roja %}
-      <a class="arcade-post__video" href="{{ page.video_pocion_roja }}">▶ Ver el vídeo en La Poción Roja</a>
-      {% elsif page.video %}
-      <a class="arcade-post__video" href="{{ page.video }}">▶ Ver un vídeo del juego</a>
+      {% if page.video_pocion_roja or page.video_pocion_roja_recopilatorio or page.video %}
+      <div class="arcade-post__videos">
+        {% if page.video_pocion_roja %}
+        <a class="arcade-post__video" href="{{ page.video_pocion_roja }}">▶ Vídeo de La Poción Roja</a>
+        {% endif %}
+        {% if page.video_pocion_roja_recopilatorio %}
+        <a class="arcade-post__video" href="{{ page.video_pocion_roja_recopilatorio }}">▶ La Poción Roja: recopilatorio</a>
+        {% endif %}
+        {% if page.video %}
+        <a class="arcade-post__video" href="{{ page.video }}">▶ Otro vídeo del juego</a>
+        {% endif %}
+      </div>
       {% endif %}
     </div>
   </div>

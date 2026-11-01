@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/pretty-soldier-sailor-moon/flyer.jpg
 imagen: /images/arcade/pretty-soldier-sailor-moon/gameplay.png
-marquesina:
+marquesina: /images/arcade/pretty-soldier-sailor-moon/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=UVQ62Nw1QSE
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=xaQ-Ms2EtBY
 galeria:
   - imagen: /images/arcade/pretty-soldier-sailor-moon/titulo.png
     tipo: Pantalla de título

@@ -13,11 +13,14 @@ opinion_ninos:
 portada: /images/arcade/arabian-fight/flyer.jpg
 imagen: /images/arcade/arabian-fight/gameplay.png
 marquesina: /images/arcade/arabian-fight/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3400s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3400s
+video: https://www.youtube.com/watch?v=7S5BelEHrFQ
 galeria:
   - imagen: /images/arcade/arabian-fight/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/arabian-fight/mueble.jpg
+    tipo: Mueble
 ---
 
 Beat 'em up de Sega ambientado en un mundo de cuento árabe. Se elige uno de cuatro guerreros para luchar contra hordas de soldados y criaturas mitológicas.

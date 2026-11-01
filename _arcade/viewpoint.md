@@ -14,6 +14,7 @@ portada: /images/arcade/viewpoint/flyer.jpg
 imagen: /images/arcade/viewpoint/gameplay.png
 marquesina: /images/arcade/viewpoint/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=2285s
 video: https://www.youtube.com/watch?v=mFFzbNlvn8U
 galeria:
   - imagen: /images/arcade/viewpoint/titulo.png

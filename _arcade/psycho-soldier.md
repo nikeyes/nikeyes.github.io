@@ -14,7 +14,8 @@ portada: /images/arcade/psycho-soldier/flyer.jpg
 imagen: /images/arcade/psycho-soldier/gameplay.png
 marquesina: /images/arcade/psycho-soldier/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=QjukRuTwDQQ
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=BBEOYMzymwM
 galeria:
   - imagen: /images/arcade/psycho-soldier/titulo.png
     tipo: Pantalla de título

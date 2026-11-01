@@ -14,6 +14,7 @@ portada: /images/arcade/star-force/flyer.jpg
 imagen: /images/arcade/star-force/gameplay.png
 marquesina: /images/arcade/star-force/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=_a55dEPsWME
 galeria:
   - imagen: /images/arcade/star-force/titulo.png

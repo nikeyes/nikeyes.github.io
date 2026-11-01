@@ -14,7 +14,8 @@ portada: /images/arcade/crime-city/flyer.jpg
 imagen: /images/arcade/crime-city/gameplay.png
 marquesina: /images/arcade/crime-city/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=qXBgh47j3WQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=GRznvsias9w&t=3538s
+video: https://www.youtube.com/watch?v=isoWqYDqHyM
 galeria:
   - imagen: /images/arcade/crime-city/titulo.png
     tipo: Pantalla de título

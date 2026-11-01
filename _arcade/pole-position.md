@@ -14,6 +14,7 @@ portada: /images/arcade/pole-position/flyer.jpg
 imagen: /images/arcade/pole-position/gameplay.png
 marquesina: /images/arcade/pole-position/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=raLZTIvCbzU
 galeria:
   - imagen: /images/arcade/pole-position/titulo.png

@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/dungeon-magic-light-bringer/flyer.jpg
 imagen: /images/arcade/dungeon-magic-light-bringer/gameplay.png
 marquesina:
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=vp0E3OTkzdg
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=4731s
+video: https://www.youtube.com/watch?v=FAXawsiQ4Qs
 galeria:
   - imagen: /images/arcade/dungeon-magic-light-bringer/titulo.png
     tipo: Pantalla de título

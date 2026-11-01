@@ -14,6 +14,7 @@ portada: /images/arcade/marble-madness/flyer.jpg
 imagen: /images/arcade/marble-madness/gameplay.png
 marquesina: /images/arcade/marble-madness/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=tqeHDIFmZ9c
 galeria:
   - imagen: /images/arcade/marble-madness/titulo.png

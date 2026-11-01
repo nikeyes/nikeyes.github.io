@@ -14,10 +14,13 @@ portada: /images/arcade/wild-west-cow-boys-of-moo-mesa-cowboys-of-moo-mesa/flyer
 imagen: /images/arcade/wild-west-cow-boys-of-moo-mesa-cowboys-of-moo-mesa/gameplay.png
 marquesina: /images/arcade/wild-west-cow-boys-of-moo-mesa-cowboys-of-moo-mesa/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=ipWubItVIvo
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=UUaGDpmOizE&t=897s
+video: https://www.youtube.com/watch?v=DR0H2i4eCBs
 galeria:
   - imagen: /images/arcade/wild-west-cow-boys-of-moo-mesa-cowboys-of-moo-mesa/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/wild-west-cow-boys-of-moo-mesa-cowboys-of-moo-mesa/mueble.jpg
+    tipo: Mueble
 ---
 
 Juego de Konami basado en la serie de dibujos *Wild West C.O.W.-Boys of Moo Mesa*, protagonizada por vacas y toros vaqueros en un Lejano Oeste de fantasía.

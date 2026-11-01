@@ -12,12 +12,15 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/surprise-attack/flyer.jpg
 imagen: /images/arcade/surprise-attack/gameplay.png
-marquesina:
+marquesina: /images/arcade/surprise-attack/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=yuz8EI_CXuE
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=UUaGDpmOizE&t=140s
+video: https://www.youtube.com/watch?v=ByMiQdMhnIA
 galeria:
   - imagen: /images/arcade/surprise-attack/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/surprise-attack/mueble.jpg
+    tipo: Mueble
 ---
 
 Run and gun de Konami. En el año 2031, el grupo terrorista Black Dawn ocupa una base lunar y una estación espacial y la llena de bombas para atacar la Tierra. Un agente de fuerzas especiales entra a acabar con ellos y desactivarlas.

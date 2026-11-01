@@ -14,7 +14,8 @@ portada: /images/arcade/tron/flyer.jpg
 imagen: /images/arcade/tron/gameplay.png
 marquesina: /images/arcade/tron/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=O-qrbXhW-1c
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=B7Mxadtuy44
 galeria:
   - imagen: /images/arcade/tron/titulo.png
     tipo: Pantalla de título

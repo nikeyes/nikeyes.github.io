@@ -14,7 +14,8 @@ portada: /images/arcade/operation-wolf/flyer.jpg
 imagen: /images/arcade/operation-wolf/gameplay.png
 marquesina: /images/arcade/operation-wolf/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Oux6mZjED94
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=ELWXUe0-7fU&t=405s
+video: https://www.youtube.com/watch?v=KfqVl1k5PUQ
 galeria:
   - imagen: /images/arcade/operation-wolf/titulo.png
     tipo: Pantalla de título

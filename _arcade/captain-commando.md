@@ -14,7 +14,8 @@ portada: /images/arcade/captain-commando/flyer.jpg
 imagen: /images/arcade/captain-commando/gameplay.png
 marquesina: /images/arcade/captain-commando/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=1qsf0fGPOPI
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=254s
+video: https://www.youtube.com/watch?v=2tcbdlsnDDM
 galeria:
   - imagen: /images/arcade/captain-commando/titulo.png
     tipo: Pantalla de título

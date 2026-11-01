@@ -14,7 +14,8 @@ portada: /images/arcade/bay-route/flyer.jpg
 imagen: /images/arcade/bay-route/gameplay.png
 marquesina: /images/arcade/bay-route/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=zrp9h_kTVzU
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=azpyqnzkw8A
 galeria:
   - imagen: /images/arcade/bay-route/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/the-last-blade-2/flyer.jpg
 imagen: /images/arcade/the-last-blade-2/gameplay.png
 marquesina: /images/arcade/the-last-blade-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=welE8CUXyWQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=796s
+video: https://www.youtube.com/watch?v=wsW8XZ0SUKc
 galeria:
   - imagen: /images/arcade/the-last-blade-2/titulo.png
     tipo: Pantalla de título

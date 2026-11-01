@@ -14,7 +14,8 @@ portada: /images/arcade/spin-master/flyer.jpg
 imagen: /images/arcade/spin-master/gameplay.png
 marquesina: /images/arcade/spin-master/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=g4lMCKsS1Nk
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=5747s
+video: https://www.youtube.com/watch?v=byT42_AgKjs
 galeria:
   - imagen: /images/arcade/spin-master/titulo.png
     tipo: Pantalla de título

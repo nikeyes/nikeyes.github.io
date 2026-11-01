@@ -14,7 +14,8 @@ portada: /images/arcade/alien-vs-predator/flyer.jpg
 imagen: /images/arcade/alien-vs-predator/gameplay.png
 marquesina: /images/arcade/alien-vs-predator/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=N_JL-cJugQk
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=9Vunnda7rC4&t=47s
+video: https://www.youtube.com/watch?v=Bv8h8HRSA0s
 galeria:
   - imagen: /images/arcade/alien-vs-predator/titulo.png
     tipo: Pantalla de título

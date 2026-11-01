@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/out-run/flyer.jpg
 imagen: /images/arcade/out-run/gameplay.png
 marquesina: /images/arcade/out-run/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1642s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1642s
+video: https://www.youtube.com/watch?v=84LS9kx1cBQ
 galeria:
   - imagen: /images/arcade/out-run/titulo.png
     tipo: Pantalla de título

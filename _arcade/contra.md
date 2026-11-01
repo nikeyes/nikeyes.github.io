@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/contra/flyer.jpg
 imagen: /images/arcade/contra/gameplay.png
 marquesina: /images/arcade/contra/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=168s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=168s
+video: https://www.youtube.com/watch?v=LCpJ8qGKaDo
 galeria:
   - imagen: /images/arcade/contra/titulo.png
     tipo: Pantalla de título

@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/crystal-of-rings/flyer.jpg
 imagen: /images/arcade/crystal-of-rings/gameplay.png
 marquesina: /images/arcade/crystal-of-rings/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3482s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3482s
+video: https://www.youtube.com/watch?v=0Ogj3HSZ3lA
 galeria:
   - imagen: /images/arcade/crystal-of-rings/titulo.png
     tipo: Pantalla de título

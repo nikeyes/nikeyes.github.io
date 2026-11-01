@@ -12,12 +12,15 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/joe-and-mac-caveman-ninja/flyer.jpg
 imagen: /images/arcade/joe-and-mac-caveman-ninja/gameplay.png
-marquesina:
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2278s
-video:
+marquesina: /images/arcade/joe-and-mac-caveman-ninja/marquesina.jpg
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2278s
+video: https://www.youtube.com/watch?v=60kt7lEbglE
 galeria:
   - imagen: /images/arcade/joe-and-mac-caveman-ninja/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/joe-and-mac-caveman-ninja/mueble.jpg
+    tipo: Mueble
 ---
 
 Unos cavernícolas rivales han asaltado el poblado de Joe y Mac y se han llevado a todas las mujeres. Los dos protagonistas salen a rescatarlas atravesando fases prehistóricas llenas de otros cavernícolas y dinosaurios.

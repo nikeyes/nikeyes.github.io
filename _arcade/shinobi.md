@@ -14,7 +14,8 @@ portada: /images/arcade/shinobi/flyer.jpg
 imagen: /images/arcade/shinobi/gameplay.png
 marquesina: /images/arcade/shinobi/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=oy-TpnlkiN0
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=173s
+video: https://www.youtube.com/watch?v=UlV1CBvosSw
 galeria:
   - imagen: /images/arcade/shinobi/titulo.png
     tipo: Pantalla de título

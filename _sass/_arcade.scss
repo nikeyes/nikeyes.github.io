@@ -253,6 +253,12 @@ $arcade-tramado-cuaderno: repeating-linear-gradient(#fdfcf6 0, #fdfcf6 31px, #b9
   dd { margin: 2px 0 0; font-weight: 600; color: var(--tinta); }
 }
 
+.arcade-post__videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .arcade-post__video {
   display: inline-block;
   padding: 10px 16px;

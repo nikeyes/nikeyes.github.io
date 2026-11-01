@@ -14,6 +14,7 @@ portada: /images/arcade/paperboy/flyer.jpg
 imagen: /images/arcade/paperboy/gameplay.png
 marquesina: /images/arcade/paperboy/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=1tCN5vlHHdc
 galeria:
   - imagen: /images/arcade/paperboy/titulo.png

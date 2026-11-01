@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/dyna-gear/flyer.jpg
 imagen: /images/arcade/dyna-gear/gameplay.png
-marquesina:
+marquesina: /images/arcade/dyna-gear/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=MM4lmhBDFOM
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=pXQZV2Ihxuk
 galeria:
   - imagen: /images/arcade/dyna-gear/titulo.png
     tipo: Pantalla de título

@@ -14,6 +14,7 @@ portada: /images/arcade/soul-calibur/flyer.jpg
 imagen: /images/arcade/soul-calibur/gameplay.png
 marquesina: /images/arcade/soul-calibur/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=IAd7PdO1I9c
 galeria:
   - imagen: /images/arcade/soul-calibur/titulo.png

@@ -14,6 +14,7 @@ portada: /images/arcade/bubble-memories/flyer.jpg
 imagen: /images/arcade/bubble-memories/gameplay.png
 marquesina: /images/arcade/bubble-memories/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=zKS7nXu56CQ
 galeria:
   - imagen: /images/arcade/bubble-memories/titulo.png

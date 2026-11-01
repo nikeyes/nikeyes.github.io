@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/aliens/flyer.jpg
 imagen: /images/arcade/aliens/gameplay.png
 marquesina: /images/arcade/aliens/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2002s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2002s
+video: https://www.youtube.com/watch?v=0ZfDrMVyLGY
 galeria:
   - imagen: /images/arcade/aliens/titulo.png
     tipo: Pantalla de título

@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/thunder-cross-ii/flyer.jpg
 imagen: /images/arcade/thunder-cross-ii/gameplay.png
-marquesina:
+marquesina: /images/arcade/thunder-cross-ii/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=aT4xpPMkF-U
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=RZVNplYOKQA&t=331s
+video: https://www.youtube.com/watch?v=fI283BTO5H4
 galeria:
   - imagen: /images/arcade/thunder-cross-ii/titulo.png
     tipo: Pantalla de título

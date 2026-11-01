@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/dragons-lair/flyer.jpg
 imagen: /images/arcade/dragons-lair/gameplay.png
 marquesina: /images/arcade/dragons-lair/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=503s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=503s
+video: https://www.youtube.com/watch?v=t7dLLOaczRE
 galeria:
   - imagen: /images/arcade/dragons-lair/titulo.png
     tipo: Pantalla de título

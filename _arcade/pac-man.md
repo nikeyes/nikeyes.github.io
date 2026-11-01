@@ -14,6 +14,7 @@ portada: /images/arcade/pac-man/flyer.jpg
 imagen: /images/arcade/pac-man/gameplay.png
 marquesina: /images/arcade/pac-man/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=QtwY7CEDkOI
 galeria:
   - imagen: /images/arcade/pac-man/titulo.png

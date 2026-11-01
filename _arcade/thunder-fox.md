@@ -14,7 +14,8 @@ portada: /images/arcade/thunder-fox/flyer.jpg
 imagen: /images/arcade/thunder-fox/gameplay.png
 marquesina: /images/arcade/thunder-fox/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Xiz7KB3IVFQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=_DkEqHbvqyY&t=227s
+video: https://www.youtube.com/watch?v=YFK5rMNEvrE
 galeria:
   - imagen: /images/arcade/thunder-fox/titulo.png
     tipo: Pantalla de título

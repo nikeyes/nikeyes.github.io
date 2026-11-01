@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/turbo/flyer.jpg
 imagen: /images/arcade/turbo/gameplay.png
 marquesina: /images/arcade/turbo/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3234s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3234s
+video: https://www.youtube.com/watch?v=H-miyT1Vz1w
 galeria:
   - imagen: /images/arcade/turbo/titulo.png
     tipo: Pantalla de título

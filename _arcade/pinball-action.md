@@ -14,7 +14,8 @@ portada: /images/arcade/pinball-action/flyer.jpg
 imagen: /images/arcade/pinball-action/gameplay.png
 marquesina: /images/arcade/pinball-action/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=AZpLO8nvtRg
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=Lyq5IZtgp9w
 galeria:
   - imagen: /images/arcade/pinball-action/titulo.png
     tipo: Pantalla de título

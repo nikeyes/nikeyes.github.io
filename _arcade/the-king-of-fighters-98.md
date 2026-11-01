@@ -14,6 +14,7 @@ portada: /images/arcade/the-king-of-fighters-98/flyer.jpg
 imagen: /images/arcade/the-king-of-fighters-98/gameplay.png
 marquesina: /images/arcade/the-king-of-fighters-98/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=399s
 video: https://www.youtube.com/watch?v=janV7Z6HK6E
 galeria:
   - imagen: /images/arcade/the-king-of-fighters-98/titulo.png

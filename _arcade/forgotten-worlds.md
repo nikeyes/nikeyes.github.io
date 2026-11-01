@@ -14,7 +14,8 @@ portada: /images/arcade/forgotten-worlds/flyer.jpg
 imagen: /images/arcade/forgotten-worlds/gameplay.png
 marquesina: /images/arcade/forgotten-worlds/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=J61rNtIe4MY
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=opdbTScVL3k
 galeria:
   - imagen: /images/arcade/forgotten-worlds/titulo.png
     tipo: Pantalla de título

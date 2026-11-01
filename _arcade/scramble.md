@@ -14,7 +14,8 @@ portada: /images/arcade/scramble/flyer.jpg
 imagen: /images/arcade/scramble/gameplay.png
 marquesina: /images/arcade/scramble/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Zfd6gxCVWF4
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=o23ZznHCX4Y
 galeria:
   - imagen: /images/arcade/scramble/titulo.png
     tipo: Pantalla de título

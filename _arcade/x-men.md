@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/x-men/flyer.jpg
 imagen: /images/arcade/x-men/gameplay.png
 marquesina: /images/arcade/x-men/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4079s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4079s
+video: https://www.youtube.com/watch?v=6vyi_D1jItA
 galeria:
   - imagen: /images/arcade/x-men/titulo.png
     tipo: Pantalla de título

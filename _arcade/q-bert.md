@@ -14,6 +14,7 @@ portada: /images/arcade/q-bert/flyer.jpg
 imagen: /images/arcade/q-bert/gameplay.png
 marquesina: /images/arcade/q-bert/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=9ZvkWJ82dr8
 galeria:
   - imagen: /images/arcade/q-bert/titulo.png

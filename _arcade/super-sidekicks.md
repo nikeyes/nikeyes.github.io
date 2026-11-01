@@ -14,7 +14,8 @@ portada: /images/arcade/super-sidekicks/flyer.jpg
 imagen: /images/arcade/super-sidekicks/gameplay.png
 marquesina: /images/arcade/super-sidekicks/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=I8qZYrMBUVQ
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=N2nHD2z-Nj4
 galeria:
   - imagen: /images/arcade/super-sidekicks/titulo.png
     tipo: Pantalla de título

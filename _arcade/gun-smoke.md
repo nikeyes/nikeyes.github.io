@@ -14,6 +14,7 @@ portada: /images/arcade/gun-smoke/flyer.jpg
 imagen: /images/arcade/gun-smoke/gameplay.png
 marquesina: /images/arcade/gun-smoke/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=d4AXsX7EG8E
 galeria:
   - imagen: /images/arcade/gun-smoke/titulo.png

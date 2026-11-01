@@ -14,7 +14,8 @@ portada: /images/arcade/manx-tt/flyer.jpg
 imagen: /images/arcade/manx-tt/gameplay.png
 marquesina: /images/arcade/manx-tt/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=VhDk2qY4kR0
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=tm2DTcEg79U
 galeria:
   - imagen: /images/arcade/manx-tt/titulo.png
     tipo: Pantalla de título

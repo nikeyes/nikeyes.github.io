@@ -14,7 +14,8 @@ portada: /images/arcade/power-spikes/flyer.jpg
 imagen: /images/arcade/power-spikes/gameplay.png
 marquesina:
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=EiN-ZRThw3s
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=D7kmhnOAO7c
 galeria:
   - imagen: /images/arcade/power-spikes/titulo.png
     tipo: Pantalla de título

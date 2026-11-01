@@ -14,7 +14,8 @@ portada: /images/arcade/asterix/flyer.jpg
 imagen: /images/arcade/asterix/gameplay.png
 marquesina: /images/arcade/asterix/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=QhD1DlP5YL0
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=cxH7Bien9iY
 galeria:
   - imagen: /images/arcade/asterix/titulo.png
     tipo: Pantalla de título

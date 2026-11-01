@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/rastan-saga/flyer.jpg
 imagen: /images/arcade/rastan-saga/gameplay.png
 marquesina: /images/arcade/rastan-saga/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2068s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2068s
+video: https://www.youtube.com/watch?v=YdmXZ2ehGro
 galeria:
   - imagen: /images/arcade/rastan-saga/titulo.png
     tipo: Pantalla de título

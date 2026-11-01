@@ -14,7 +14,8 @@ portada: /images/arcade/neo-turf-masters/flyer.jpg
 imagen: /images/arcade/neo-turf-masters/gameplay.png
 marquesina: /images/arcade/neo-turf-masters/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=_uAPxwI49ic
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=5859s
+video: https://www.youtube.com/watch?v=MCDAceasobM
 galeria:
   - imagen: /images/arcade/neo-turf-masters/titulo.png
     tipo: Pantalla de título

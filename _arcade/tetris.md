@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/tetris/flyer.jpg
 imagen: /images/arcade/tetris/gameplay.png
 marquesina: /images/arcade/tetris/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2592s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2592s
+video: https://www.youtube.com/watch?v=4EpYkRAowI8
 galeria:
   - imagen: /images/arcade/tetris/titulo.png
     tipo: Pantalla de título

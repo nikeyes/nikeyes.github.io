@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/warrior-blade/flyer.jpg
 imagen: /images/arcade/warrior-blade/gameplay.png
-marquesina:
+marquesina: /images/arcade/warrior-blade/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=C7agRQMOR3k
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=Sgj3kAF4_UY&t=45s
+video: https://www.youtube.com/watch?v=6H_Jq3kxsr8
 galeria:
   - imagen: /images/arcade/warrior-blade/titulo.png
     tipo: Pantalla de título

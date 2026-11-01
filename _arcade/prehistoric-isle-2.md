@@ -14,7 +14,8 @@ portada: /images/arcade/prehistoric-isle-2/flyer.jpg
 imagen: /images/arcade/prehistoric-isle-2/gameplay.png
 marquesina: /images/arcade/prehistoric-isle-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=f_FqyCmgSSY
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=936s
+video: https://www.youtube.com/watch?v=U3rIL-MfCrg
 galeria:
   - imagen: /images/arcade/prehistoric-isle-2/titulo.png
     tipo: Pantalla de título

@@ -14,6 +14,7 @@ portada: /images/arcade/ninja-gaiden/flyer.jpg
 imagen: /images/arcade/ninja-gaiden/gameplay.png
 marquesina: /images/arcade/ninja-gaiden/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=Uzztxn3HLtU&t=88s
 video: https://www.youtube.com/watch?v=5XDtuPeoeog
 galeria:
   - imagen: /images/arcade/ninja-gaiden/titulo.png

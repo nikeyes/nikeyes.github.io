@@ -14,7 +14,8 @@ portada: /images/arcade/violent-storm/flyer.jpg
 imagen: /images/arcade/violent-storm/gameplay.png
 marquesina: /images/arcade/violent-storm/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=fJLHXF0SUDw
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=UUaGDpmOizE&t=513s
+video: https://www.youtube.com/watch?v=_O0bwD4_xF0
 galeria:
   - imagen: /images/arcade/violent-storm/titulo.png
     tipo: Pantalla de título

@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/hammerin-harry/flyer.jpg
 imagen: /images/arcade/hammerin-harry/gameplay.png
 marquesina: /images/arcade/hammerin-harry/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1814s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1814s
+video: https://www.youtube.com/watch?v=nH2hvDLEVaE
 galeria:
   - imagen: /images/arcade/hammerin-harry/titulo.png
     tipo: Pantalla de título

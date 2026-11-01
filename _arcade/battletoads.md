@@ -14,7 +14,8 @@ portada: /images/arcade/battletoads/flyer.jpg
 imagen: /images/arcade/battletoads/gameplay.png
 marquesina: /images/arcade/battletoads/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=SXNOtaRArDg
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=U52rvrV6n28&t=124s
+video: https://www.youtube.com/watch?v=L8-pealf3cs
 galeria:
   - imagen: /images/arcade/battletoads/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/frogger/flyer.jpg
 imagen: /images/arcade/frogger/gameplay.png
 marquesina: /images/arcade/frogger/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=5a53Jm3wmTU
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=Ukuw8NuBqZo
 galeria:
   - imagen: /images/arcade/frogger/titulo.png
     tipo: Pantalla de título

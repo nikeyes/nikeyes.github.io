@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/blazing-star/flyer.jpg
 imagen: /images/arcade/blazing-star/gameplay.png
 marquesina: /images/arcade/blazing-star/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1341s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1341s
+video: https://www.youtube.com/watch?v=KBujMI6X3ks
 galeria:
   - imagen: /images/arcade/blazing-star/titulo.png
     tipo: Pantalla de título

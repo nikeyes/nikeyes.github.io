@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/dragon-ball-z-2-super-battle/flyer.jpg
 imagen: /images/arcade/dragon-ball-z-2-super-battle/gameplay.png
-marquesina:
+marquesina: /images/arcade/dragon-ball-z-2-super-battle/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=13-PfBSsOw4
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=8OOC4oNSZh0
 galeria:
   - imagen: /images/arcade/dragon-ball-z-2-super-battle/titulo.png
     tipo: Pantalla de título

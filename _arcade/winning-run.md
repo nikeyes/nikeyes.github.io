@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/winning-run/flyer.jpg
 imagen: /images/arcade/winning-run/gameplay.png
-marquesina:
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3356s
-video:
+marquesina: /images/arcade/winning-run/marquesina.jpg
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=3356s
+video: https://www.youtube.com/watch?v=H9nfE77TGCM
 galeria:
   - imagen: /images/arcade/winning-run/titulo.png
     tipo: Pantalla de título

@@ -14,6 +14,7 @@ portada: /images/arcade/twinbee/flyer.jpg
 imagen: /images/arcade/twinbee/gameplay.png
 marquesina:
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=bnLZ3YTVetg
 galeria:
   - imagen: /images/arcade/twinbee/titulo.png

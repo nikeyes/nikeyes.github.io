@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/mercs/flyer.jpg
 imagen: /images/arcade/mercs/gameplay.png
 marquesina: /images/arcade/mercs/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2192s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2192s
+video: https://www.youtube.com/watch?v=_wqDAVIvhXw
 galeria:
   - imagen: /images/arcade/mercs/titulo.png
     tipo: Pantalla de título

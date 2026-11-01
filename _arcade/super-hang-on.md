@@ -14,7 +14,8 @@ portada: /images/arcade/super-hang-on/flyer.jpg
 imagen: /images/arcade/super-hang-on/gameplay.png
 marquesina: /images/arcade/super-hang-on/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=LO7c4SzC3hE
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=za3ti741CEQ
 galeria:
   - imagen: /images/arcade/super-hang-on/titulo.png
     tipo: Pantalla de título

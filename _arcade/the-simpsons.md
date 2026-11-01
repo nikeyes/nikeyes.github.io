@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/the-simpsons/flyer.jpg
 imagen: /images/arcade/the-simpsons/gameplay.png
 marquesina: /images/arcade/the-simpsons/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1984s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1984s
+video: https://www.youtube.com/watch?v=__XTVHcuhgs
 galeria:
   - imagen: /images/arcade/the-simpsons/titulo.png
     tipo: Pantalla de título

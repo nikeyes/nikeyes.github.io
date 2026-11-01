@@ -14,7 +14,8 @@ portada: /images/arcade/bionic-commando/flyer.jpg
 imagen: /images/arcade/bionic-commando/gameplay.png
 marquesina: /images/arcade/bionic-commando/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=AYp2t9vZmyo
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=m92wty8Zs-k
 galeria:
   - imagen: /images/arcade/bionic-commando/titulo.png
     tipo: Pantalla de título

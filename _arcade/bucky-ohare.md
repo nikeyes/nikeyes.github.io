@@ -14,7 +14,8 @@ portada: /images/arcade/bucky-ohare/flyer.jpg
 imagen: /images/arcade/bucky-ohare/gameplay.png
 marquesina: /images/arcade/bucky-ohare/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=ljq6SQFk7xA
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=3568s
+video: https://www.youtube.com/watch?v=rnpYsjGUBw0
 galeria:
   - imagen: /images/arcade/bucky-ohare/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/e-swat-cyber-police/flyer.jpg
 imagen: /images/arcade/e-swat-cyber-police/gameplay.png
 marquesina: /images/arcade/e-swat-cyber-police/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=YtaUlskIEXU
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=JXpYyXUzvw4
 galeria:
   - imagen: /images/arcade/e-swat-cyber-police/titulo.png
     tipo: Pantalla de título

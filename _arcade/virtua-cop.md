@@ -14,7 +14,8 @@ portada: /images/arcade/virtua-cop/flyer.jpg
 imagen: /images/arcade/virtua-cop/gameplay.png
 marquesina: /images/arcade/virtua-cop/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=UEIz4FQ_Or8
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=8P6rJg5WXsQ
 galeria:
   - imagen: /images/arcade/virtua-cop/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/haunted-castle-castlevania/flyer.jpg
 imagen: /images/arcade/haunted-castle-castlevania/gameplay.png
 marquesina: /images/arcade/haunted-castle-castlevania/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=iOLY0b0BS4w
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=gk-Hz9bNr_4
 galeria:
   - imagen: /images/arcade/haunted-castle-castlevania/titulo.png
     tipo: Pantalla de título

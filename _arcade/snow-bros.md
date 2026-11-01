@@ -14,7 +14,8 @@ portada: /images/arcade/snow-bros/flyer.jpg
 imagen: /images/arcade/snow-bros/gameplay.png
 marquesina: /images/arcade/snow-bros/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=guF-XiGKmOY
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=528s
+video: https://www.youtube.com/watch?v=Vfin6YnzGnc
 galeria:
   - imagen: /images/arcade/snow-bros/titulo.png
     tipo: Pantalla de título

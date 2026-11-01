@@ -14,7 +14,8 @@ portada: /images/arcade/night-slashers/flyer.jpg
 imagen: /images/arcade/night-slashers/gameplay.png
 marquesina: /images/arcade/night-slashers/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=CcxYk_AHINk
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=abA5VIpwlBA
 galeria:
   - imagen: /images/arcade/night-slashers/titulo.png
     tipo: Pantalla de título

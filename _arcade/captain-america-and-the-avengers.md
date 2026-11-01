@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/captain-america-and-the-avengers/flyer.jpg
 imagen: /images/arcade/captain-america-and-the-avengers/gameplay.png
 marquesina: /images/arcade/captain-america-and-the-avengers/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=627s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=627s
+video: https://www.youtube.com/watch?v=Hgau3EduQaI
 galeria:
   - imagen: /images/arcade/captain-america-and-the-avengers/titulo.png
     tipo: Pantalla de título

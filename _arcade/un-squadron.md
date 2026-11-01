@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/un-squadron/flyer.jpg
 imagen: /images/arcade/un-squadron/gameplay.png
 marquesina: /images/arcade/un-squadron/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=64s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=64s
+video: https://www.youtube.com/watch?v=dWjVj0yB7eo
 galeria:
   - imagen: /images/arcade/un-squadron/titulo.png
     tipo: Pantalla de título

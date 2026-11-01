@@ -14,7 +14,8 @@ portada: /images/arcade/ring-of-destruction-slam-masters-ii/flyer.jpg
 imagen: /images/arcade/ring-of-destruction-slam-masters-ii/gameplay.png
 marquesina:
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=xsXZr_7uhCU
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4640s
+video: https://www.youtube.com/watch?v=qFcTH7JrGmk
 galeria:
   - imagen: /images/arcade/ring-of-destruction-slam-masters-ii/titulo.png
     tipo: Pantalla de título

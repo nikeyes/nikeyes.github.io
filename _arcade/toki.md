@@ -14,7 +14,8 @@ portada: /images/arcade/toki/flyer.jpg
 imagen: /images/arcade/toki/gameplay.png
 marquesina: /images/arcade/toki/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=Kfyw3B0oaRA
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=78s
+video: https://www.youtube.com/watch?v=MUnUixYkMT8
 galeria:
   - imagen: /images/arcade/toki/titulo.png
     tipo: Pantalla de título

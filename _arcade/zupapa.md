@@ -14,7 +14,8 @@ portada: /images/arcade/zupapa/flyer.jpg
 imagen: /images/arcade/zupapa/gameplay.png
 marquesina: /images/arcade/zupapa/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=X5Is7RO_pIM
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=1588s
+video: https://www.youtube.com/watch?v=fame5F_8n7s
 galeria:
   - imagen: /images/arcade/zupapa/titulo.png
     tipo: Pantalla de título

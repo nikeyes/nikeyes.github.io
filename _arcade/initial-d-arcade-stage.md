@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/initial-d-arcade-stage/flyer.jpg
 imagen: /images/arcade/initial-d-arcade-stage/gameplay.png
-marquesina:
+marquesina: /images/arcade/initial-d-arcade-stage/marquesina.jpg
 video_pocion_roja:
-video:
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=-lEeXG39utc
 galeria:
   - imagen: /images/arcade/initial-d-arcade-stage/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/tumblepop/flyer.jpg
 imagen: /images/arcade/tumblepop/gameplay.png
 marquesina: /images/arcade/tumblepop/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=aaPx7VIc4tg
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=1414s
+video: https://www.youtube.com/watch?v=-P6TuIO-SJY
 galeria:
   - imagen: /images/arcade/tumblepop/titulo.png
     tipo: Pantalla de título

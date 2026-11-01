@@ -14,7 +14,8 @@ portada: /images/arcade/the-house-of-the-dead/flyer.jpg
 imagen: /images/arcade/the-house-of-the-dead/gameplay.png
 marquesina: /images/arcade/the-house-of-the-dead/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=NzCB0mkJNbA
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=ELWXUe0-7fU&t=195s
+video: https://www.youtube.com/watch?v=_Ffk6pOrRX4
 galeria:
   - imagen: /images/arcade/the-house-of-the-dead/titulo.png
     tipo: Pantalla de título

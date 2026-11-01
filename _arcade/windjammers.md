@@ -14,7 +14,8 @@ portada: /images/arcade/windjammers/flyer.jpg
 imagen: /images/arcade/windjammers/gameplay.png
 marquesina: /images/arcade/windjammers/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=FTD16fSa0yY
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=5397s
+video: https://www.youtube.com/watch?v=L7sMGbZJG3k
 galeria:
   - imagen: /images/arcade/windjammers/titulo.png
     tipo: Pantalla de título

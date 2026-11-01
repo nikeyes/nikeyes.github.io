@@ -14,7 +14,8 @@ portada: /images/arcade/ab-cop/flyer.jpg
 imagen: /images/arcade/ab-cop/gameplay.png
 marquesina: /images/arcade/ab-cop/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Ln0jXfwUDYA
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=I1I4cuYU27o
 galeria:
   - imagen: /images/arcade/ab-cop/titulo.png
     tipo: Pantalla de título

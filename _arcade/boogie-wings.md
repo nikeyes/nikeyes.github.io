@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/boogie-wings/flyer.jpg
 imagen: /images/arcade/boogie-wings/gameplay.png
-marquesina:
+marquesina: /images/arcade/boogie-wings/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=S_lmwTVCbEY
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=bSuGyS4n1I8
 galeria:
   - imagen: /images/arcade/boogie-wings/titulo.png
     tipo: Pantalla de título

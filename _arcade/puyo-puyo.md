@@ -12,8 +12,9 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/puyo-puyo/flyer.jpg
 imagen: /images/arcade/puyo-puyo/gameplay.png
-marquesina:
+marquesina: /images/arcade/puyo-puyo/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=rTWaw4rMdFI
 galeria:
   - imagen: /images/arcade/puyo-puyo/titulo.png

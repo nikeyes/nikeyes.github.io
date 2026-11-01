@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/track-and-field/flyer.jpg
 imagen: /images/arcade/track-and-field/gameplay.png
 marquesina: /images/arcade/track-and-field/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2393s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2393s
+video: https://www.youtube.com/watch?v=-ruBpjl6f3U
 galeria:
   - imagen: /images/arcade/track-and-field/titulo.png
     tipo: Pantalla de título

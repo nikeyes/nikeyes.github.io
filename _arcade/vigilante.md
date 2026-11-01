@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/vigilante/flyer.jpg
 imagen: /images/arcade/vigilante/gameplay.png
 marquesina: /images/arcade/vigilante/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1378s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1378s
+video: https://www.youtube.com/watch?v=Mlhw1E6h-MI
 galeria:
   - imagen: /images/arcade/vigilante/titulo.png
     tipo: Pantalla de título

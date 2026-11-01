@@ -10,10 +10,11 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/gunbarich/flyer.jpg
 imagen: /images/arcade/gunbarich/gameplay.png
-marquesina:
+marquesina: /images/arcade/gunbarich/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=ocjD0ct3dpM
 galeria:
   - imagen: /images/arcade/gunbarich/titulo.png

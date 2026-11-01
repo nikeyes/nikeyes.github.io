@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/time-crisis/flyer.jpg
 imagen: /images/arcade/time-crisis/gameplay.png
 marquesina: /images/arcade/time-crisis/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2366s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2366s
+video: https://www.youtube.com/watch?v=Jdj12Qgn_fI
 galeria:
   - imagen: /images/arcade/time-crisis/titulo.png
     tipo: Pantalla de título

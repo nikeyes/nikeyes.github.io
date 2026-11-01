@@ -14,6 +14,7 @@ portada: /images/arcade/gun-fight/flyer.jpg
 imagen: /images/arcade/gun-fight/gameplay.png
 marquesina: /images/arcade/gun-fight/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=3sA0C_X2V0E
 galeria:
   - imagen: /images/arcade/gun-fight/titulo.png

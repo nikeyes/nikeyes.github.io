@@ -14,7 +14,8 @@ portada: /images/arcade/red-earth/flyer.jpg
 imagen: /images/arcade/red-earth/gameplay.png
 marquesina: /images/arcade/red-earth/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=j-6QI4zl5Uc
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=3078s
+video: https://www.youtube.com/watch?v=UqdvN52iCF4
 galeria:
   - imagen: /images/arcade/red-earth/titulo.png
     tipo: Pantalla de título

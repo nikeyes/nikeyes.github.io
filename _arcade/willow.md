@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/willow/flyer.jpg
 imagen: /images/arcade/willow/gameplay.png
 marquesina: /images/arcade/willow/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=224s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=224s
+video: https://www.youtube.com/watch?v=ffXtKbU7SYc
 galeria:
   - imagen: /images/arcade/willow/titulo.png
     tipo: Pantalla de título

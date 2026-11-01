@@ -14,7 +14,8 @@ portada: /images/arcade/super-zaxxon/flyer.jpg
 imagen: /images/arcade/super-zaxxon/gameplay.png
 marquesina: /images/arcade/super-zaxxon/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=fhXLIKLnW_o
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=NpTM4lRPQCE
 galeria:
   - imagen: /images/arcade/super-zaxxon/titulo.png
     tipo: Pantalla de título

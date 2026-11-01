@@ -14,7 +14,8 @@ portada: /images/arcade/mystic-riders/flyer.jpg
 imagen: /images/arcade/mystic-riders/gameplay.png
 marquesina: /images/arcade/mystic-riders/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=LjQUtugi0GI
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=VXLeIvO4Go0
 galeria:
   - imagen: /images/arcade/mystic-riders/titulo.png
     tipo: Pantalla de título

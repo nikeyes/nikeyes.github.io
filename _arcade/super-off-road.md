@@ -14,6 +14,7 @@ portada: /images/arcade/super-off-road/flyer.jpg
 imagen: /images/arcade/super-off-road/gameplay.png
 marquesina: /images/arcade/super-off-road/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=jFCOGGCVq94
 galeria:
   - imagen: /images/arcade/super-off-road/titulo.png

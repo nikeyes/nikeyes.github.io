@@ -13,11 +13,14 @@ opinion_ninos:
 portada: /images/arcade/the-king-of-dragons/flyer.jpg
 imagen: /images/arcade/the-king-of-dragons/gameplay.png
 marquesina: /images/arcade/the-king-of-dragons/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=668s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=668s
+video: https://www.youtube.com/watch?v=CAOSeqIu9Nc
 galeria:
   - imagen: /images/arcade/the-king-of-dragons/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/the-king-of-dragons/mueble.jpg
+    tipo: Mueble
 ---
 
 Beat 'em up de fantasía medieval en el que un grupo de héroes se enfrenta al dragón Gildiss y a su ejército de monstruos.

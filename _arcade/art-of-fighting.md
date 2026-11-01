@@ -14,7 +14,8 @@ portada: /images/arcade/art-of-fighting/flyer.jpg
 imagen: /images/arcade/art-of-fighting/gameplay.png
 marquesina: /images/arcade/art-of-fighting/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=rnZqS8Vb6A4
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=3409s
+video: https://www.youtube.com/watch?v=O6XTQbdqCKo
 galeria:
   - imagen: /images/arcade/art-of-fighting/titulo.png
     tipo: Pantalla de título

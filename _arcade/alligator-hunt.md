@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/alligator-hunt/flyer.jpg
 imagen: /images/arcade/alligator-hunt/gameplay.png
-marquesina:
+marquesina: /images/arcade/alligator-hunt/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=aKWeHH3OgZI
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=3865s
+video: https://www.youtube.com/watch?v=YImcOPdbc7M
 galeria:
   - imagen: /images/arcade/alligator-hunt/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/cadillacs-and-dinosaurs/flyer.jpg
 imagen: /images/arcade/cadillacs-and-dinosaurs/gameplay.png
 marquesina: /images/arcade/cadillacs-and-dinosaurs/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=HeFUmkfS_9A
-video:
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=ahdzVNnuTTs
 galeria:
   - imagen: /images/arcade/cadillacs-and-dinosaurs/titulo.png
     tipo: Pantalla de título

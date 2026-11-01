@@ -14,10 +14,13 @@ portada: /images/arcade/warriors-of-fate/flyer.jpg
 imagen: /images/arcade/warriors-of-fate/gameplay.png
 marquesina: /images/arcade/warriors-of-fate/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=NtXgEV-4HSQ
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=QF0_HCqN4o4
 galeria:
   - imagen: /images/arcade/warriors-of-fate/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/warriors-of-fate/mueble.jpg
+    tipo: Mueble
 ---
 
 Beat 'em up de Capcom basado en el manga *Tenchi wo Kurau*, inspirado a su vez en los Tres Reinos de la antigua China. Los jugadores son generales que luchan contra los ejércitos enemigos.

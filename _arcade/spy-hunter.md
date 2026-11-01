@@ -14,6 +14,7 @@ portada: /images/arcade/spy-hunter/flyer.jpg
 imagen: /images/arcade/spy-hunter/gameplay.png
 marquesina: /images/arcade/spy-hunter/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=YXsglpAG5zw
 galeria:
   - imagen: /images/arcade/spy-hunter/titulo.png

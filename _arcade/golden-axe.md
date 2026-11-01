@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/golden-axe/flyer.jpg
 imagen: /images/arcade/golden-axe/gameplay.png
 marquesina: /images/arcade/golden-axe/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1031s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1031s
+video: https://www.youtube.com/watch?v=earaCnLVL98
 galeria:
   - imagen: /images/arcade/golden-axe/titulo.png
     tipo: Pantalla de título

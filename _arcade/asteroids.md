@@ -14,6 +14,7 @@ portada: /images/arcade/asteroids/flyer.jpg
 imagen: /images/arcade/asteroids/gameplay.png
 marquesina: /images/arcade/asteroids/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=MsWWn7M4GXc
 galeria:
   - imagen: /images/arcade/asteroids/titulo.png

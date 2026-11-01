@@ -14,6 +14,7 @@ portada: /images/arcade/terminator-2-judgment-day/flyer.jpg
 imagen: /images/arcade/terminator-2-judgment-day/gameplay.png
 marquesina: /images/arcade/terminator-2-judgment-day/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=GGSUVZNDkxU
 galeria:
   - imagen: /images/arcade/terminator-2-judgment-day/titulo.png

@@ -14,7 +14,8 @@ portada: /images/arcade/elevator-action-returns/flyer.jpg
 imagen: /images/arcade/elevator-action-returns/gameplay.png
 marquesina: /images/arcade/elevator-action-returns/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=PMdNfl6m4Yc
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=U52rvrV6n28&t=398s
+video: https://www.youtube.com/watch?v=c_kS3H088HY
 galeria:
   - imagen: /images/arcade/elevator-action-returns/titulo.png
     tipo: Pantalla de título

@@ -13,11 +13,14 @@ opinion_ninos:
 portada: /images/arcade/ninja-baseball-bat-man/flyer.jpg
 imagen: /images/arcade/ninja-baseball-bat-man/gameplay.png
 marquesina: /images/arcade/ninja-baseball-bat-man/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4305s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4305s
+video: https://www.youtube.com/watch?v=IJfO8Tdi5iw
 galeria:
   - imagen: /images/arcade/ninja-baseball-bat-man/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/ninja-baseball-bat-man/mueble.jpg
+    tipo: Mueble
 ---
 
 Beat 'em up de Irem con un planteamiento muy loco: cuatro ninjas robot vestidos de jugadores de béisbol recorren Estados Unidos para recuperar unas reliquias del béisbol robadas por una banda de villanos.

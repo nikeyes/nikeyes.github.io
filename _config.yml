@@ -87,6 +87,7 @@ exclude:
   - Makefile
   - LICENSE
   - README.md
+  - _arcade/README.md
   - CNAME
 
 theme: jekyll-theme-minimal

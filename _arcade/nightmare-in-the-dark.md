@@ -14,6 +14,7 @@ portada: /images/arcade/nightmare-in-the-dark/flyer.jpg
 imagen: /images/arcade/nightmare-in-the-dark/gameplay.png
 marquesina: /images/arcade/nightmare-in-the-dark/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=2640s
 video: https://www.youtube.com/watch?v=vQgkakfPwNE
 galeria:
   - imagen: /images/arcade/nightmare-in-the-dark/titulo.png

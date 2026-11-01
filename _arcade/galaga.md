@@ -14,7 +14,8 @@ portada: /images/arcade/galaga/flyer.jpg
 imagen: /images/arcade/galaga/gameplay.png
 marquesina: /images/arcade/galaga/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=R5C4LRO2_p8
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=uRfVhHkorGg
 galeria:
   - imagen: /images/arcade/galaga/titulo.png
     tipo: Pantalla de título

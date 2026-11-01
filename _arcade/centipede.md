@@ -14,6 +14,7 @@ portada: /images/arcade/centipede/flyer.jpg
 imagen: /images/arcade/centipede/gameplay.png
 marquesina: /images/arcade/centipede/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=lmD-RfClpzc
 galeria:
   - imagen: /images/arcade/centipede/titulo.png

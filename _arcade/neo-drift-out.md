@@ -14,7 +14,8 @@ portada: /images/arcade/neo-drift-out/flyer.jpg
 imagen: /images/arcade/neo-drift-out/gameplay.png
 marquesina: /images/arcade/neo-drift-out/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=IasVg9hKpEM
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=6025s
+video: https://www.youtube.com/watch?v=YUlOs2beOm4
 galeria:
   - imagen: /images/arcade/neo-drift-out/titulo.png
     tipo: Pantalla de título

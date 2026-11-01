@@ -14,7 +14,8 @@ portada: /images/arcade/shock-troopers/flyer.jpg
 imagen: /images/arcade/shock-troopers/gameplay.png
 marquesina: /images/arcade/shock-troopers/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=IbF2Q3nFO20
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=70s
+video: https://www.youtube.com/watch?v=6XfF2eJ4Z94
 galeria:
   - imagen: /images/arcade/shock-troopers/titulo.png
     tipo: Pantalla de título

@@ -14,6 +14,7 @@ portada: /images/arcade/silent-scope/flyer.jpg
 imagen: /images/arcade/silent-scope/gameplay.png
 marquesina: /images/arcade/silent-scope/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=slXq62ZoWrs
 galeria:
   - imagen: /images/arcade/silent-scope/titulo.png

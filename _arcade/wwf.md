@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/wwf/flyer.jpg
 imagen: /images/arcade/wwf/gameplay.png
 marquesina: /images/arcade/wwf/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=780s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=780s
+video: https://www.youtube.com/watch?v=TWer_0rsCzQ
 galeria:
   - imagen: /images/arcade/wwf/titulo.png
     tipo: Pantalla de título

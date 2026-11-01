@@ -14,7 +14,8 @@ portada: /images/arcade/superman/flyer.jpg
 imagen: /images/arcade/superman/gameplay.png
 marquesina: /images/arcade/superman/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=f3KsTZbnIJA
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=GRznvsias9w&t=3668s
+video: https://www.youtube.com/watch?v=SPhp8EQ__dU
 galeria:
   - imagen: /images/arcade/superman/titulo.png
     tipo: Pantalla de título

@@ -10,10 +10,11 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/tank-force/flyer.jpg
 imagen: /images/arcade/tank-force/gameplay.png
 marquesina: /images/arcade/tank-force/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=A8e60AF4sCI
 galeria:
   - imagen: /images/arcade/tank-force/titulo.png

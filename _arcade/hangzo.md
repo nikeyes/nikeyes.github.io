@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada:
 imagen: /images/arcade/hangzo/gameplay.png
-marquesina:
+marquesina: /images/arcade/hangzo/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=F6u9Oazc6-o
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=E0mv7GMvM00
 galeria:
   - imagen: /images/arcade/hangzo/titulo.png
     tipo: Pantalla de título

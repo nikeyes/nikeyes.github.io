@@ -14,6 +14,7 @@ portada: /images/arcade/ikaruga/flyer.jpg
 imagen: /images/arcade/ikaruga/gameplay.png
 marquesina: /images/arcade/ikaruga/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=mSjY7mWGZJE
 galeria:
   - imagen: /images/arcade/ikaruga/titulo.png

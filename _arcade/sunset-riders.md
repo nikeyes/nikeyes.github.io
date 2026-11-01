@@ -14,7 +14,8 @@ portada: /images/arcade/sunset-riders/flyer.jpg
 imagen: /images/arcade/sunset-riders/gameplay.png
 marquesina: /images/arcade/sunset-riders/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=9yBiV95fOHk
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=426s
+video: https://www.youtube.com/watch?v=yTesnsO8dCw
 galeria:
   - imagen: /images/arcade/sunset-riders/titulo.png
     tipo: Pantalla de título

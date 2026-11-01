@@ -14,7 +14,8 @@ portada: /images/arcade/dragon-breed/flyer.jpg
 imagen: /images/arcade/dragon-breed/gameplay.png
 marquesina: /images/arcade/dragon-breed/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=T5ErPhTHR7o
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=2500s
+video: https://www.youtube.com/watch?v=-HaibPRPYJo
 galeria:
   - imagen: /images/arcade/dragon-breed/titulo.png
     tipo: Pantalla de título

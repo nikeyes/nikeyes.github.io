@@ -14,7 +14,8 @@ portada: /images/arcade/eightman/flyer.jpg
 imagen: /images/arcade/eightman/gameplay.png
 marquesina: /images/arcade/eightman/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=cV9Uh_-g8jA
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4559s
+video: https://www.youtube.com/watch?v=rsmHGKNgPrA
 galeria:
   - imagen: /images/arcade/eightman/titulo.png
     tipo: Pantalla de título

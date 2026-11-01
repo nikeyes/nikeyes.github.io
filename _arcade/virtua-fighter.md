@@ -14,6 +14,7 @@ portada: /images/arcade/virtua-fighter/flyer.jpg
 imagen: /images/arcade/virtua-fighter/gameplay.png
 marquesina: /images/arcade/virtua-fighter/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=Le5_VAZjPPg
 galeria:
   - imagen: /images/arcade/virtua-fighter/titulo.png

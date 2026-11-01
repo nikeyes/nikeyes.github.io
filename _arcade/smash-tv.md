@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/smash-tv/flyer.jpg
 imagen: /images/arcade/smash-tv/gameplay.png
 marquesina: /images/arcade/smash-tv/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2161s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2161s
+video: https://www.youtube.com/watch?v=47g2BaVwaow
 galeria:
   - imagen: /images/arcade/smash-tv/titulo.png
     tipo: Pantalla de título

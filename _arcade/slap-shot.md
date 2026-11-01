@@ -14,7 +14,8 @@ portada: /images/arcade/slap-shot/flyer.jpg
 imagen: /images/arcade/slap-shot/gameplay.png
 marquesina: /images/arcade/slap-shot/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=WgcMprAICTE
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=2fKe79-N8zU
 galeria:
   - imagen: /images/arcade/slap-shot/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/gi-joe/flyer.jpg
 imagen: /images/arcade/gi-joe/gameplay.png
 marquesina: /images/arcade/gi-joe/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=avVQCV8ok6c
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=eQfehVKf4DY&t=62s
+video: https://www.youtube.com/watch?v=TXvmoESh90A
 galeria:
   - imagen: /images/arcade/gi-joe/titulo.png
     tipo: Pantalla de título

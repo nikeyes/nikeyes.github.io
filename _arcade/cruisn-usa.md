@@ -14,6 +14,7 @@ portada: /images/arcade/cruisn-usa/flyer.jpg
 imagen: /images/arcade/cruisn-usa/gameplay.png
 marquesina: /images/arcade/cruisn-usa/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=-dzEtm3x4E4
 galeria:
   - imagen: /images/arcade/cruisn-usa/titulo.png

@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/metal-slug/flyer.jpg
 imagen: /images/arcade/metal-slug/gameplay.png
 marquesina: /images/arcade/metal-slug/marquesina.jpg
-video_pocion_roja:
-video: https://www.youtube.com/watch?v=Qu5OEWVnVXU
+video_pocion_roja: https://www.youtube.com/watch?v=NPvA4qS9rQo
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=303s
+video: https://www.youtube.com/watch?v=OQususuR-XA
 galeria:
   - imagen: /images/arcade/metal-slug/titulo.png
     tipo: Pantalla de título

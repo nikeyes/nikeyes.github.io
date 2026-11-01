@@ -14,6 +14,7 @@ portada: /images/arcade/devastators/flyer.jpg
 imagen: /images/arcade/devastators/gameplay.png
 marquesina: /images/arcade/devastators/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=GRznvsias9w&t=2425s
 video: https://www.youtube.com/watch?v=9_SP2FbZ8Hg
 galeria:
   - imagen: /images/arcade/devastators/titulo.png

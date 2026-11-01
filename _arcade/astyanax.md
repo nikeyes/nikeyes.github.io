@@ -14,7 +14,8 @@ portada: /images/arcade/astyanax/flyer.jpg
 imagen: /images/arcade/astyanax/gameplay.png
 marquesina: /images/arcade/astyanax/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=Qg2-LSdntbo
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=GRznvsias9w&t=3325s
+video: https://www.youtube.com/watch?v=8iCN17OO_VM
 galeria:
   - imagen: /images/arcade/astyanax/titulo.png
     tipo: Pantalla de título

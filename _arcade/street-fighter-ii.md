@@ -14,7 +14,8 @@ portada: /images/arcade/street-fighter-ii/flyer.jpg
 imagen: /images/arcade/street-fighter-ii/gameplay.png
 marquesina: /images/arcade/street-fighter-ii/marquesina.jpg
 video_pocion_roja: https://www.youtube.com/watch?v=6XtYd2ZPZkU
-video:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=598s
+video: https://www.youtube.com/watch?v=DOstKou2heo
 galeria:
   - imagen: /images/arcade/street-fighter-ii/titulo.png
     tipo: Pantalla de título

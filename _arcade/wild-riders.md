@@ -14,7 +14,8 @@ portada: /images/arcade/wild-riders/flyer.jpg
 imagen: /images/arcade/wild-riders/gameplay.png
 marquesina: /images/arcade/wild-riders/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=lFWTHTN6ngg
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=vadc67v1JOE
 galeria:
   - imagen: /images/arcade/wild-riders/titulo.png
     tipo: Pantalla de título

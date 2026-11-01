@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/funky-jet/flyer.jpg
 imagen: /images/arcade/funky-jet/gameplay.png
-marquesina:
+marquesina: /images/arcade/funky-jet/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=cmcOjBgR2Wo
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=2286s
+video: https://www.youtube.com/watch?v=3uM69Qnz_tk
 galeria:
   - imagen: /images/arcade/funky-jet/titulo.png
     tipo: Pantalla de título

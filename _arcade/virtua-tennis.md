@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/virtua-tennis/flyer.jpg
 imagen: /images/arcade/virtua-tennis/gameplay.png
 marquesina: /images/arcade/virtua-tennis/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=LkVdQ3fLhgk
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=QozX4b_tgbo
 galeria:
   - imagen: /images/arcade/virtua-tennis/titulo.png
     tipo: Pantalla de título

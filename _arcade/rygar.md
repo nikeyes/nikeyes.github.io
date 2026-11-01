@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/rygar/flyer.jpg
 imagen: /images/arcade/rygar/gameplay.png
 marquesina: /images/arcade/rygar/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2107s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=2107s
+video: https://www.youtube.com/watch?v=j5OgUwkD-s8
 galeria:
   - imagen: /images/arcade/rygar/titulo.png
     tipo: Pantalla de título

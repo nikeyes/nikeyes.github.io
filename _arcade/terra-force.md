@@ -14,7 +14,8 @@ portada: /images/arcade/terra-force/flyer.jpg
 imagen: /images/arcade/terra-force/gameplay.png
 marquesina: /images/arcade/terra-force/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=R4dL73Wzbos
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=2146s
+video: https://www.youtube.com/watch?v=ZPrh2XrwD3c
 galeria:
   - imagen: /images/arcade/terra-force/titulo.png
     tipo: Pantalla de título

@@ -14,6 +14,7 @@ portada: /images/arcade/daytona-usa/flyer.jpg
 imagen: /images/arcade/daytona-usa/gameplay.png
 marquesina: /images/arcade/daytona-usa/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=X1V_2pvlAiE
 galeria:
   - imagen: /images/arcade/daytona-usa/titulo.png

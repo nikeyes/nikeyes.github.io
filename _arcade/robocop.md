@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/robocop/flyer.jpg
 imagen: /images/arcade/robocop/gameplay.png
 marquesina: /images/arcade/robocop/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1923s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1923s
+video: https://www.youtube.com/watch?v=yIi2Qt7l854
 galeria:
   - imagen: /images/arcade/robocop/titulo.png
     tipo: Pantalla de título

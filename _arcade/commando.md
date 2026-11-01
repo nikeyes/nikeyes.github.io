@@ -14,7 +14,8 @@ portada: /images/arcade/commando/flyer.jpg
 imagen: /images/arcade/commando/gameplay.png
 marquesina: /images/arcade/commando/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=JoH01ohNySw
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=Bh7OuDzxOuU
 galeria:
   - imagen: /images/arcade/commando/titulo.png
     tipo: Pantalla de título

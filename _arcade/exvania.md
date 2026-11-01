@@ -10,10 +10,11 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/exvania/flyer.jpg
 imagen: /images/arcade/exvania/gameplay.png
-marquesina:
+marquesina: /images/arcade/exvania/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=aM24zrxoZGs&t=370s
 video: https://www.youtube.com/watch?v=vVx-7JSQnfk
 galeria:
   - imagen: /images/arcade/exvania/titulo.png

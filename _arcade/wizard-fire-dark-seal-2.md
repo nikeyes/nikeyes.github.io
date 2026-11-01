@@ -10,14 +10,17 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/wizard-fire-dark-seal-2/flyer.jpg
 imagen: /images/arcade/wizard-fire-dark-seal-2/gameplay.png
 marquesina: /images/arcade/wizard-fire-dark-seal-2/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=BB5IAoc__Bk
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=UUaGDpmOizE&t=638s
+video: https://www.youtube.com/watch?v=3rEWWhNJPS4
 galeria:
   - imagen: /images/arcade/wizard-fire-dark-seal-2/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/wizard-fire-dark-seal-2/mueble.jpg
+    tipo: Mueble
 ---
 
 Continuación de *Gate of Doom* (*Dark Seal* en Japón), conocido en Japón como *Dark Seal II*. Es un beat 'em up de fantasía medieval con vista isométrica.

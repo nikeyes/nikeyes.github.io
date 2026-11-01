@@ -14,7 +14,8 @@ portada: /images/arcade/after-burner/flyer.jpg
 imagen: /images/arcade/after-burner/gameplay.png
 marquesina: /images/arcade/after-burner/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=JdiGgMWftSw
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=g1mGzGqxr0o
 galeria:
   - imagen: /images/arcade/after-burner/titulo.png
     tipo: Pantalla de título

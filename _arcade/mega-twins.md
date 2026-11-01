@@ -13,11 +13,14 @@ opinion_ninos:
 portada: /images/arcade/mega-twins/flyer.jpg
 imagen: /images/arcade/mega-twins/gameplay.png
 marquesina: /images/arcade/mega-twins/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4429s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4429s
+video: https://www.youtube.com/watch?v=_NTPp0UOfwU
 galeria:
   - imagen: /images/arcade/mega-twins/titulo.png
     tipo: Pantalla de título
+  - imagen: /images/arcade/mega-twins/mueble.jpg
+    tipo: Mueble
 ---
 
 Plataformas de Capcom con estética simpática, conocido en Japón como *Chiki Chiki Boys*. Un monstruo ha arrasado un reino y los dos príncipes gemelos salen a recuperarlo.

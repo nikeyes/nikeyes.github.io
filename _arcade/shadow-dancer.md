@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/shadow-dancer/flyer.jpg
 imagen: /images/arcade/shadow-dancer/gameplay.png
 marquesina: /images/arcade/shadow-dancer/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1221s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1221s
+video: https://www.youtube.com/watch?v=XniRxSRL4gk
 galeria:
   - imagen: /images/arcade/shadow-dancer/titulo.png
     tipo: Pantalla de título

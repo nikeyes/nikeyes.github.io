@@ -14,6 +14,7 @@ portada: /images/arcade/space-invaders/flyer.jpg
 imagen: /images/arcade/space-invaders/gameplay.png
 marquesina: /images/arcade/space-invaders/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=_77fSEMNMew
 galeria:
   - imagen: /images/arcade/space-invaders/titulo.png

@@ -14,7 +14,8 @@ portada: /images/arcade/rage-of-the-dragons/flyer.jpg
 imagen: /images/arcade/rage-of-the-dragons/gameplay.png
 marquesina: /images/arcade/rage-of-the-dragons/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=SDhJcav3WY4
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=2153s
+video: https://www.youtube.com/watch?v=-4gUj1JwN74
 galeria:
   - imagen: /images/arcade/rage-of-the-dragons/titulo.png
     tipo: Pantalla de título

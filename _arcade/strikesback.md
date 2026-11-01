@@ -14,6 +14,7 @@ portada: /images/arcade/strikesback/flyer.jpg
 imagen: /images/arcade/strikesback/gameplay.png
 marquesina: /images/arcade/strikesback/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=su2rgMJjGbA
 galeria:
   - imagen: /images/arcade/strikesback/titulo.png

@@ -14,7 +14,8 @@ portada: /images/arcade/blues-journey/flyer.jpg
 imagen: /images/arcade/blues-journey/gameplay.png
 marquesina: /images/arcade/blues-journey/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=xrQ7prBcIUw
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=e11_Ln5nNgg&t=3145s
+video: https://www.youtube.com/watch?v=n45WuUJbrWc
 galeria:
   - imagen: /images/arcade/blues-journey/titulo.png
     tipo: Pantalla de título

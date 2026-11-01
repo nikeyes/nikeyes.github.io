@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/blood-bros/flyer.jpg
 imagen: /images/arcade/blood-bros/gameplay.png
 marquesina: /images/arcade/blood-bros/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1947s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1947s
+video: https://www.youtube.com/watch?v=DJPDoJAkJng
 galeria:
   - imagen: /images/arcade/blood-bros/titulo.png
     tipo: Pantalla de título

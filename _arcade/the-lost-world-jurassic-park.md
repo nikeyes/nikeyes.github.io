@@ -14,6 +14,7 @@ portada: /images/arcade/the-lost-world-jurassic-park/flyer.jpg
 imagen: /images/arcade/the-lost-world-jurassic-park/gameplay.png
 marquesina: /images/arcade/the-lost-world-jurassic-park/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=ELWXUe0-7fU&t=504s
 video: https://www.youtube.com/watch?v=E4WNMVpBwn4
 galeria:
   - imagen: /images/arcade/the-lost-world-jurassic-park/titulo.png

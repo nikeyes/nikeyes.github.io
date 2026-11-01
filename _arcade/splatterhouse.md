@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/splatterhouse/flyer.jpg
 imagen: /images/arcade/splatterhouse/gameplay.png
 marquesina: /images/arcade/splatterhouse/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=818s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=818s
+video: https://www.youtube.com/watch?v=a5khNpmq4SA
 galeria:
   - imagen: /images/arcade/splatterhouse/titulo.png
     tipo: Pantalla de título

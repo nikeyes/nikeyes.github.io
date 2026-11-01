@@ -14,6 +14,7 @@ portada: /images/arcade/tapper/flyer.jpg
 imagen: /images/arcade/tapper/gameplay.png
 marquesina: /images/arcade/tapper/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=yfgMmLYxlIc
 galeria:
   - imagen: /images/arcade/tapper/titulo.png

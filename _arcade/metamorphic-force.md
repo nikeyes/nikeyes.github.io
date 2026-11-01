@@ -14,7 +14,8 @@ portada: /images/arcade/metamorphic-force/flyer.jpg
 imagen: /images/arcade/metamorphic-force/gameplay.png
 marquesina: /images/arcade/metamorphic-force/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=j9zpC32CUKU
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=ynGUyNUrilI
 galeria:
   - imagen: /images/arcade/metamorphic-force/titulo.png
     tipo: Pantalla de título

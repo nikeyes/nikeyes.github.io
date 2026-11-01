@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/gaia-crusaders/flyer.jpg
 imagen: /images/arcade/gaia-crusaders/gameplay.png
-marquesina:
+marquesina: /images/arcade/gaia-crusaders/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=ZgpRz1TYud0
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=5233s
+video: https://www.youtube.com/watch?v=gUm3an_pFl8
 galeria:
   - imagen: /images/arcade/gaia-crusaders/titulo.png
     tipo: Pantalla de título

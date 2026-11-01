@@ -14,7 +14,8 @@ portada: /images/arcade/in-the-hunt/flyer.jpg
 imagen: /images/arcade/in-the-hunt/gameplay.png
 marquesina: /images/arcade/in-the-hunt/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=YapKrpQdbLk
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=hEqOouT40oI
 galeria:
   - imagen: /images/arcade/in-the-hunt/titulo.png
     tipo: Pantalla de título

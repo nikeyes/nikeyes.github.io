@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/fatal-fury/flyer.jpg
 imagen: /images/arcade/fatal-fury/gameplay.png
 marquesina: /images/arcade/fatal-fury/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=749s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=749s
+video: https://www.youtube.com/watch?v=EI0sNaDkpxs
 galeria:
   - imagen: /images/arcade/fatal-fury/titulo.png
     tipo: Pantalla de título

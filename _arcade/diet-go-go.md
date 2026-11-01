@@ -10,11 +10,12 @@ favorito: false
 puntuacion:
 emulador: MAME
 opinion_ninos:
-portada:
+portada: /images/arcade/diet-go-go/flyer.jpg
 imagen: /images/arcade/diet-go-go/gameplay.png
 marquesina: /images/arcade/diet-go-go/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=c4OEuhiOIrQ
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=9Vunnda7rC4&t=513s
+video: https://www.youtube.com/watch?v=qWyROl-psAE
 galeria:
   - imagen: /images/arcade/diet-go-go/titulo.png
     tipo: Pantalla de título

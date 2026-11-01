@@ -14,7 +14,8 @@ portada: /images/arcade/galaxian/flyer.jpg
 imagen: /images/arcade/galaxian/gameplay.png
 marquesina: /images/arcade/galaxian/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=oT4V-50o8xM
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=B9TeR9ScibY&t=222s
+video: https://www.youtube.com/watch?v=n2mZgWPUFTU
 galeria:
   - imagen: /images/arcade/galaxian/titulo.png
     tipo: Pantalla de título

@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/the-outfoxies/flyer.jpg
 imagen: /images/arcade/the-outfoxies/gameplay.png
-marquesina:
+marquesina: /images/arcade/the-outfoxies/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=RTJqWbNoYDw
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=OXLvq7gHF40&t=3702s
+video: https://www.youtube.com/watch?v=QlWgyKNnjj8
 galeria:
   - imagen: /images/arcade/the-outfoxies/titulo.png
     tipo: Pantalla de título

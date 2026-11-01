@@ -14,6 +14,7 @@ portada: /images/arcade/police-trainer/flyer.jpg
 imagen: /images/arcade/police-trainer/gameplay.png
 marquesina: /images/arcade/police-trainer/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=nIQNiNdq8Pc
 galeria:
   - imagen: /images/arcade/police-trainer/titulo.png

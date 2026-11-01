@@ -14,7 +14,8 @@ portada: /images/arcade/hook/flyer.jpg
 imagen: /images/arcade/hook/gameplay.png
 marquesina: /images/arcade/hook/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=s2gzXrFHYqI
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=4fltu_IlG3g
 galeria:
   - imagen: /images/arcade/hook/titulo.png
     tipo: Pantalla de título

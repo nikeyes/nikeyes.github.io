@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/altered-beast/flyer.jpg
 imagen: /images/arcade/altered-beast/gameplay.png
 marquesina: /images/arcade/altered-beast/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=559s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=559s
+video: https://www.youtube.com/watch?v=8nvY9MjqNAM
 galeria:
   - imagen: /images/arcade/altered-beast/titulo.png
     tipo: Pantalla de título

@@ -14,7 +14,8 @@ portada: /images/arcade/thrash-rally/flyer.jpg
 imagen: /images/arcade/thrash-rally/gameplay.png
 marquesina: /images/arcade/thrash-rally/marquesina.jpg
 video_pocion_roja:
-video: https://www.youtube.com/watch?v=8S_sKM-DOXo
+video_pocion_roja_recopilatorio:
+video: https://www.youtube.com/watch?v=MND3TZB-0wc
 galeria:
   - imagen: /images/arcade/thrash-rally/titulo.png
     tipo: Pantalla de título

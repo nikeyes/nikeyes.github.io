@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/soccer-brawl/flyer.jpg
 imagen: /images/arcade/soccer-brawl/gameplay.png
 marquesina: /images/arcade/soccer-brawl/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1446s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=1446s
+video: https://www.youtube.com/watch?v=gFx1AiB0IsA
 galeria:
   - imagen: /images/arcade/soccer-brawl/titulo.png
     tipo: Pantalla de título

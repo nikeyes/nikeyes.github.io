@@ -13,8 +13,9 @@ opinion_ninos:
 portada: /images/arcade/bubble-bobble/flyer.jpg
 imagen: /images/arcade/bubble-bobble/gameplay.png
 marquesina: /images/arcade/bubble-bobble/marquesina.jpg
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=277s
-video:
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=277s
+video: https://www.youtube.com/watch?v=otTYTJvZf14
 galeria:
   - imagen: /images/arcade/bubble-bobble/titulo.png
     tipo: Pantalla de título

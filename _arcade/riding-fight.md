@@ -12,9 +12,10 @@ emulador: MAME
 opinion_ninos:
 portada: /images/arcade/riding-fight/flyer.jpg
 imagen: /images/arcade/riding-fight/gameplay.png
-marquesina:
-video_pocion_roja: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4935s
-video:
+marquesina: /images/arcade/riding-fight/marquesina.jpg
+video_pocion_roja:
+video_pocion_roja_recopilatorio: https://www.youtube.com/watch?v=KYjb9Zefmsc&t=4935s
+video: https://www.youtube.com/watch?v=pYHo_oECb84
 galeria:
   - imagen: /images/arcade/riding-fight/titulo.png
     tipo: Pantalla de título

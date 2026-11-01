@@ -14,6 +14,7 @@ portada: /images/arcade/brave-firefighters/flyer.jpg
 imagen: /images/arcade/brave-firefighters/gameplay.png
 marquesina: /images/arcade/brave-firefighters/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=CJZJ539PK5k
 galeria:
   - imagen: /images/arcade/brave-firefighters/titulo.png

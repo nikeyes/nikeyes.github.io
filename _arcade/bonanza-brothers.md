@@ -14,6 +14,7 @@ portada: /images/arcade/bonanza-brothers/flyer.jpg
 imagen: /images/arcade/bonanza-brothers/gameplay.png
 marquesina: /images/arcade/bonanza-brothers/marquesina.jpg
 video_pocion_roja:
+video_pocion_roja_recopilatorio:
 video: https://www.youtube.com/watch?v=n87J66NEWTE
 galeria:
   - imagen: /images/arcade/bonanza-brothers/titulo.png
